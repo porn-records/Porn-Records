@@ -65,8 +65,10 @@ When you are done with your contribution, you will save the the file in
 a new branch. Don't forget to make a full reference to the Maniphest
 issue in your commit message as:
 
-  1. T$ID
-  2. https://www.mypdns.org/T$ID
+  1. T`$ID`
+  2. https://www.mypdns.org/T`$ID`
+
+Replace the `$ID` with the issue id from <https://www.mypdns.org/maniphest/>
 
 ![new commit](https://user-images.githubusercontent.com/44526987/68994730-a380f980-0886-11ea-84a6-7a921902de98.png)
 
@@ -94,7 +96,7 @@ is. You can set this globally or pr git. Do a search on
 [duckduckgo](https://duckduckgo.com) to figure out the current way.
 
 ## Encoding when writing files/lines
-  - All files most end with a newline (\n)(LF) UTF-8.
+  - All files most end with a newline `\n`(LF) UTF-8.
   - All files have to be in universal UTF-8 style without BOM
   - Any files or file location containing `_windows_` in it's files must
     be encoded in `ISO-8859-1 Latin1` and newlines *most* end in (CRLF)
@@ -105,7 +107,7 @@ is. You can set this globally or pr git. Do a search on
 
 Revision date: 04. September 2020.
 
-Last edited by: https://www.mypdns.org/p/Spirillen/
+Last edited by: https://www.mypdns.org/p/Spirillen/  
 Approved by: https://www.mypdns.org/p/Spirillen/
 
 Version: rPD 1.0-alpha

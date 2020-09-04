@@ -3,9 +3,14 @@
 
 # Porn Domains
 
-This is an endeavor to find all porn domains and compile them into a fully
-DNS Firewall compliant RPZ formatted zone under the
-[adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud).
+This is an endeavour to find all porn domains and list them in the shortest as
+possible format it can be done. This means we are not generating any pre-
+configured output zone files in this project, we are simply only storing,
+and verifying the availability's of the records.
+
+We do however serve a fully DNS RPZ Firewall zone from
+[adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud)
+purely based of the records from this repository.
 
 ### DNS zones
 If you are so lucky that you have updated your system to use a DNS resolver
@@ -16,42 +21,12 @@ zone files for Unbound, dnsmasq and regular RPZ supported resolvers.
 Please read this wiki
 https://www.mypdns.org/w/performance_test_of_hosts_file_vs_dns-recursors/
 
-### RPZ
-You'll find the RPZ formatted file in the [dns_zones/](dns_zones/) folder as
-`pornhosts.mypdns.cloud.rpz`
-
-The syntax used for is to provide a `NXDOMAIN` response
-
-Ex.
-
-```python
-example.com		CNAME	.
-*.example.com	CNAME	.
-```
-
-### Unbound
-The Unbound formatted file is generated with the `always_nxdomain` syntax.
-
-Ex.
-
-```python
-local-zone: "example.com" always_nxdomain
-```
-
-The file is found under the [dns_zones/](dns_zones/) as
-`pornhosts.mypdns.cloud.zone`
-
-### dnsmasq
-The dnsmasq formatted file is located in the [dns_zones/](dns_zones/)
-folder as `dnsmasq`
-
 ### hosts file Location
 You can see the full matrix for hosts file locations here:
 <https://www.mypdns.org/w/dnshosts/#location-in-the-file-system>
 
-
 ## Safe search enabled
-Additionally, there is a new hosts file which will force Safe Search in the
+Additionally, there is a new source file which will enforce Safe Search in the
 safer and privacy enhanged [duckduckgo](https://safe.duckduckgo.com).
 
 For unsafe search portals, we have added `Bing` and `Google`
@@ -61,5 +36,68 @@ However it has not been tested yet as both are blocked privately for
 [SpyWare](https://www.mypdns.org/w/spyware/) issues with both domains in
 question. It can be found [here](SafeSearch/hosts)
 
+## Submit
+
+This is where you contributes with new domains matching any of these sub
+files.
+
+```
+submit_here/
+├── domains.list
+├── hosts.txt
+├── mobile.txt
+├── README.md
+├── rpz-ip
+├── snuff.txt
+├── strict_adult.txt
+├── whitelist.txt
+├── wildcard.list
+└── wildcard.rpz-nsdname
+```
+
+
+| File | Contents / Category |
+| :---: | :----------------: |
+| `domains.list` | This file is only for domains that do can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.|
+| `hosts.txt` | Domain who solely serves Porno in hosts file formatted files requirement. This list is unrelated to `domains.list` and only supplementary to hosts files generation, such as `lang.$domain.TLD` or `cdn.$domain.TLD` |
+| `mobile.txt` | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list` |
+| `README.md` | This File |
+| `rpz-ip` | To block any porn hosted over [ip addresses](https://www.mypdns.org/w/rpz_record_types/#the-quot-response-ip-address), yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley: |
+| `snuff.txt` | Snuff Porno (No wildcard this far as the zone is way to small for that) These records will be part of the [adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud) RPZ Firewall zone |
+| `strict_adult.txt` | This is the VERY strict list containing domain with a mixed content like ex. `4chan.org` or `fastpic.ru`. It will later be served as [strict.adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#strict.adult-mypdns-cloud) RPZ Firewall zone |
+| `wildcard.list` | Domain who solely serves Porno in wildcard formats used for proper [DNS recursors](https://www.mypdns.org/w/dnsresolver/) that understand [DNS RPZ](https://www.mypdns.org/w/rpz/) |
+| `wildcard.rpz-nsdname` | This file will blacklist all DNS AUTH servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire quit a bit, as ex. all `.xxx`domains is served from the same root server :smiley: |
+| `whitelist.txt` | The locally hosted list for domains that never should be put into any of the above categories or lists |
+
+## Combining the lists
+
+### DNS RPZ Firewall
+If you like the rest of the world who knows just a bit about
+[DNS](https://www.mypdns.org/w/dns/) and how a OS (Operating System) is
+doing it's queries over the network protocols, you have of curse updated
+your local network with a
+[DNS resolver](https://www.mypdns.org/w/dnsresolver/) that do support
+the [Response Policy zones](https://www.mypdns.org/w/rpz/) in full, such
+as the [PowerDNS Recursor](https://www.mypdns.org/source/pdns-recursor/)
+or [ICS Bind9+](https://www.mypdns.org/source/dns-rpz-integration/browse/master/Bind_9/).
+
+In this case you'll only need to combine the following files, preferred
+by [The "NXDOMAIN" Action](https://www.mypdns.org/w/rpz_record_types/#the-quot-nxdomain-quot-action):
+
+  - `domains.list`
+  - `snuff.txt`
+  - `strict_adult.txt` (Optional as this is tight ass blocking)
+  - `wildcard.list`
+  - `wildcard.rpz-nsdname`
+
+### Hosts files
+If you are stocked on the very weird and extremely outdated way of
+blocking DNS queries with a [hosts](https://www.mypdns.org/w/dnshosts/)
+file. You'll need to combine all the above files into a flat `hosts`
+file with the exception of `README.md`, `rpz-ip` and
+`wildcard.rpz-nsdname`, however, this //WILL// gives you to many records,
+as not necessary all domains are served over both `www.$domain.tld` and
+`$domain.tld` equally, you will however be covered in full.
+ 
 ## Contributing
 Any helpful [contributions](CONTRIBUTING.md) are appreciated
