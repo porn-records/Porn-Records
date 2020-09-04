@@ -61,5 +61,5 @@ git:
   depth: 2
 
 script:
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travisPrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travisDataTesting.sh"; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
