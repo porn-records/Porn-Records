@@ -19,7 +19,7 @@ submit_here/
 
 
 | File | Contents / Category |
-| :---: | :----------------: |
+| --- | ---------------- |
 | `domains.list` | This file is only for domains that do can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.|
 | `hosts.txt` | Domain who solely serves Porno in hosts file formatted files requirement. This list is unrelated to `domains.list` and only supplementary to hosts files generation, such as `lang.$domain.TLD` or `cdn.$domain.TLD` |
 | `mobile.txt` | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list` |
