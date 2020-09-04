@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3edd253ce42f4f0d8f51fbf81095090d)](https://app.codacy.com/gh/mypdns/porn-domains?utm_source=github.com&utm_medium=referral&utm_content=mypdns/porn-domains&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b46b76e27740bb9eb3770dc6b004a2)](https://app.codacy.com/gh/mypdns/porn-domains?utm_source=github.com&utm_medium=referral&utm_content=mypdns/porn-domains&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/mypdns/porn-domains.svg?branch=master)](https://travis-ci.com/mypdns/porn-domains)
 
