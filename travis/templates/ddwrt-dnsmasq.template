@@ -1,0 +1,25 @@
+# Porn Safe for DnsMasq driven DNS-recursors.
+# This includes DD-WRT Routers with DNSMasq.
+
+# You are allowed to use this file on the following terms of condition:
+#
+# Copyright: https://www.mypdns.org/
+# Content: https://gitlab.com/spirillen
+# Source: https://github.com/Import-External-Sources/pornhosts
+# License: https://www.mypdns.org/wiki/License
+# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+#
+# License in short:
+# You are free to copy and distribute this file for non-commercial uses,
+# as long the original URL and attribution is included.
+#
+# Please forward any additions, corrections or comments by logging an 
+# issue at https://github.com/mypdns/matrix/issues
+#
+# You should be able to include this file by placing it inside /etc/dnsmasq.d
+# According to http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
+# The optimal way to block suckers isn't to use address=/example.net/ 
+# but server=/example.net/ as the address directive will be overruled 
+# by DHCP and /etc/hosts. Read more at:
+# https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/dnsmasq/issues/1
+

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: My Privacy DNS Community Support
+    url: https://www.mypdns.org/ponder/
+    about: Please ask and answer questions here in our Q & A.
+  - name: Report any kind of Adult contents here
+    url: https://www.mypdns.org/maniphest/task/edit/form/2/
+    about: Please report adult contents here.
+  - name: Blocking Adult related contents with DNS Firewall through RPZ zone
+    url: https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud
+    about: Please read intro for all our Response Policy Zones for DNS Firewalls

@@ -1,0 +1,40 @@
+# Clefspeare13 pornhostss
+# This is a custom hosts file with all the porn sites I could find.
+#
+# Domains with no duplicates. Note that www.* versions of domains and
+# regular versions of the domain are resolved separately and must therefore 
+# both be present.
+#
+# Project home page:
+# https://github.com/Import-External-Sources/pornhosts
+#
+# Fetch the latest version of this file:
+# https://raw.githubusercontent.com/Import-External-Sources/pornhosts/master/download_here/0.0.0.0/hosts
+# https://raw.githubusercontent.com/Import-External-Sources/pornhosts/master/download_here/127.0.0.1/hosts
+#
+# With Safe search enabled
+# https://raw.githubusercontent.com/Import-External-Sources/pornhosts/master/download_here/safesearch/0.0.0.0/hosts
+# https://raw.githubusercontent.com/Import-External-Sources/pornhosts/master/download_here/safesearch/127.0.0.1/hosts
+#
+# License:
+# MIT (https://github.com/Import-External-Sources/pornhosts/blob/master/LICENSE)
+#
+# Contributions by:
+# @Spirillen: https://github.com/spirillen
+# Niclas (@Clefspeare13): https://github.com/Clefspeare13
+# Further changes and contributors maintained in the commit history at
+# https://github.com/Import-External-Sources/pornhosts/commits/master
+#
+# Contribute:
+# Create an issue at https://github.com/Clefspeare13/pornhosts/issues
+#
+
+# localhost
+127.0.0.1 local
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+255.255.255.255 broadcasthost
+::1 localhost
+fe80::1%lo0 localhost
+
+

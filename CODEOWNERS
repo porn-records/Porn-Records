@@ -1,0 +1,13 @@
+CONTRIBUTING.md @spirillen
+.gitattributes @spirillen
+remove_duplicate_lines.py @Clefspeare13 @spirillen
+README.md @Clefspeare13 @spirillen
+add-ip-address.py @Clefspeare13 @spirillen
+127.0.0.1/hosts @Clefspeare13 @spirillen
+LICENSE @Clefspeare13 @spirillen
+Mobile/hosts @Clefspeare13 @spirillen
+0.0.0.0/hosts @Clefspeare13 @spirillen
+SafeSearch/hosts @Clefspeare13 @spirillen
+.travis.yml @spirillen
+
+* @spirillen
