@@ -41,7 +41,7 @@ question. It can be found [here](SafeSearch/hosts)
 This is where you contributes with new domains matching any of these sub
 files.
 
-```
+```shell
 submit_here/
 ├── domains.list
 ├── hosts.txt
@@ -84,11 +84,11 @@ or [ICS Bind9+](https://www.mypdns.org/source/dns-rpz-integration/browse/master/
 In this case you'll only need to combine the following files, preferred
 by [The "NXDOMAIN" Action](https://www.mypdns.org/w/rpz_record_types/#the-quot-nxdomain-quot-action):
 
-  - `domains.list`
-  - `snuff.txt`
-  - `strict_adult.txt` (Optional as this is tight ass blocking)
-  - `wildcard.list`
-  - `wildcard.rpz-nsdname`
+ - `domains.list`
+ - `snuff.txt`
+ - `strict_adult.txt` (Optional as this is tight ass blocking)
+ - `wildcard.list`
+ - `wildcard.rpz-nsdname`
 
 ### Hosts files
 If you are stocked on the very weird and extremely outdated way of
