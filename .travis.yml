@@ -39,7 +39,7 @@ addons:
 
 install:
   #- sudo bash "${TRAVIS_BUILD_DIR}/travissetup_recursor.sh"
-  - wget -q 'https://github.com/dns-test/script-hub/blob/master/recursor/setup_recursor.sh' -O "$HOME/setup_recursor.sh" && gosu bash "$HOME/setup_recursor.sh"
+  - wget -q 'https://github.com/dns-test/script-hub/blob/master/recursor/setup_recursor.sh' -O "$HOME/setup_recursor.sh" && sudo bash "$HOME/setup_recursor.sh"
   - export PATH="${HOME}/miniconda/bin:${PATH}"
   - if [[ "${TRAVIS_OS_NAME}" == "osx" ]]; then wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh; else wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh; fi
   - bash miniconda.sh -b -p ${HOME}/miniconda
