@@ -1,5 +1,4 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3edd253ce42f4f0d8f51fbf81095090d)](https://app.codacy.com/gh/mypdns/porn-domains?utm_source=github.com&utm_medium=referral&utm_content=mypdns/porn-domains&utm_campaign=Badge_Grade_Dashboard)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b46b76e27740bb9eb3770dc6b004a2)](https://app.codacy.com/gh/mypdns/porn-domains?utm_source=github.com&utm_medium=referral&utm_content=mypdns/porn-domains&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/mypdns/porn-domains.svg?branch=master)](https://travis-ci.com/mypdns/porn-domains)
 
 # Porn Domains
@@ -19,7 +18,8 @@ rather than abusing your disk-IO with the `hosts` file, we also generate a few
 zone files for Unbound, dnsmasq and regular RPZ supported resolvers.
 
 *Note*: If you'll read more about why you should switch to a local DNS resolver,
-Please read this [wiki](https://www.mypdns.org/w/performance_test_of_hosts_file_vs_dns-recursors/)
+Please read this
+[wiki](https://www.mypdns.org/w/performance_test_of_hosts_file_vs_dns-recursors/)
 
 ### hosts file Location
 You can see the full matrix for hosts file locations here:
