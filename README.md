@@ -12,7 +12,7 @@ We do however serve a fully DNS RPZ Firewall zone from
 [adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud)
 purely based of the records from this repository.
 
-### DNS zones
+## DNS zones
 If you are so lucky that you have updated your system to use a DNS resolver
 rather than abusing your disk-IO with the `hosts` file, we also generate a few
 zone files for Unbound, dnsmasq and regular RPZ supported resolvers.
@@ -25,7 +25,7 @@ Please read this
 You can see the full matrix for hosts file locations here:
 <https://www.mypdns.org/w/dnshosts/#location-in-the-file-system>
 
-## Safe search enabled
+### Safe search enabled
 Additionally, there is a new source file which will enforce Safe Search in the
 safer and privacy enhanged [duckduckgo](https://safe.duckduckgo.com).
 
