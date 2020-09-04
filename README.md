@@ -55,9 +55,8 @@ submit_here/
 └── wildcard.rpz-nsdname
 ```
 
-
 | File | Contents / Category |
-| --- | ---------------- |
+| ---- | ------------------- |
 | `domains.list` | This file is only for domains that do can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.|
 | `hosts.txt` | Domain who solely serves Porno in hosts file formatted files requirement. This list is unrelated to `domains.list` and only supplementary to hosts files generation, such as `lang.$domain.TLD` or `cdn.$domain.TLD` |
 | `mobile.txt` | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list` |
@@ -84,11 +83,11 @@ or [ICS Bind9+](https://www.mypdns.org/source/dns-rpz-integration/browse/master/
 In this case you'll only need to combine the following files, preferred
 by [The "NXDOMAIN" Action](https://www.mypdns.org/w/rpz_record_types/#the-quot-nxdomain-quot-action):
 
- - `domains.list`
- - `snuff.txt`
- - `strict_adult.txt` (Optional as this is tight ass blocking)
- - `wildcard.list`
- - `wildcard.rpz-nsdname`
+  - `domains.list`
+  - `snuff.txt`
+  - `strict_adult.txt` (Optional as this is tight ass blocking)
+  - `wildcard.list`
+  - `wildcard.rpz-nsdname`
 
 ### Hosts files
 If you are stocked on the very weird and extremely outdated way of
