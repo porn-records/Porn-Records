@@ -42,7 +42,7 @@ This is where you contributes with new domains matching any of these sub
 files.
 
 ```
-lang=shell
+lang=shell, name=submit_here, lines=10
 submit_here/
 ├── domains.list
 ├── hosts.txt
