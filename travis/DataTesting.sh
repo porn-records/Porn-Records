@@ -2,7 +2,7 @@
 
 version="$(date +%Y.%m).${TRAVIS_BUILD_NUMBER}"
 
-testFile="https://raw.githubusercontent.com/mypdns/porn-domains/.pyfunceble/domains.txt"
+testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/.pyfunceble/domains.txt"
 #testFile="https://raw.githubusercontent.com/PyFunceble/ci_test/master/test.list"
 
 RunFunceble () {
