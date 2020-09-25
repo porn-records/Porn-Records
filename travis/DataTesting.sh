@@ -27,67 +27,67 @@ do
 case $TRAVIS_JOB_NAME in
 
 	"Testing: adult.hosts.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/hosts.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
  break
  ;;
 
 	"Testing: adult.mobile.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/mobile.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/mobile.list"
  break
  ;;
 
 	"Testing: adult.rpz-ip")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/domains.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/domains.list"
  break
  ;;
 
 	"Testing: adult.snuff.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/snuff.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/snuff.list"
  break
  ;;
 
 	"Testing: adult.white.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/white.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/white.list"
  break
  ;;
 
 	"Testing: adult.wildcard.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/wildcard.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/wildcard.list"
  break
  ;;
 
 	"Testing: adult.wildcard.rpz-nsdname")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname"
  break
  ;;
 
 	"Testing: strict.domains.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/strict.adult.mypdns.cloud/domains.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/domains.list"
  break
  ;;
 
 	"Testing: strict.hosts.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/strict.adult.mypdns.cloud/hosts.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/hosts.list"
  break
  ;;
 
 	"Testing: strict.rpz-ip")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/strict.adult.mypdns.cloud/rpz-ip"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/rpz-ip"
  break
  ;;
 
 	"Testing: strict.white.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/strict.adult.mypdns.cloud/white.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/white.list"
  break
  ;;
 
 	"Testing: strict.wildcard.list")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/strict.adult.mypdns.cloud/wildcard.list"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/wildcard.list"
  break
  ;;
 
 	"Testing: strict.wildcard.rpz-nsdname")
- RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/master/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname"
+ RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname"
  break
  ;;
 
