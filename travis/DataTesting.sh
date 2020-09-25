@@ -17,7 +17,7 @@ RunPyFunceble () {
       --ci-distribution-branch "${TRAVIS_BRANCH}" \
       --commit-autosave-message "${version} [Auto Saved]" \
       --commit-results-message "${version}" \
-      -f "${0}"
+      -f "${testFile}"
 
 }
 
@@ -28,14 +28,9 @@ do
 case "${TRAVIS_JOB_NAME}" in
 
  'Testing: adult.hosts.list')
-	 #export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
+	 export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
 	 
-	 echo "URI: https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
-	 
-	 echo "script0 ${0}"
-	 echo ""
-	 echo "script1 ${1}"
-	 
+	 echo "testfile ${testFile}"
 	 RunPyFunceble https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list
  break
  ;;
