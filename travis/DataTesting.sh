@@ -28,79 +28,79 @@ do
 case $TRAVIS_JOB_NAME in
 
 	"Testing: adult.hosts.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: adult.mobile.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/mobile.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/mobile.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: adult.rpz-ip")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/domains.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/domains.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: adult.snuff.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/snuff.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/snuff.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: adult.white.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/white.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/white.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: adult.wildcard.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/wildcard.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/wildcard.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: adult.wildcard.rpz-nsdname")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname"
  RunPyFunceble
  break
  ;;
 
 	"Testing: strict.domains.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/domains.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/domains.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: strict.hosts.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/hosts.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/hosts.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: strict.rpz-ip")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/rpz-ip"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/rpz-ip"
  RunPyFunceble
  break
  ;;
 
 	"Testing: strict.white.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/white.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/white.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: strict.wildcard.list")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/wildcard.list"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/wildcard.list"
  RunPyFunceble
  break
  ;;
 
 	"Testing: strict.wildcard.rpz-nsdname")
- testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname"
+ export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname"
  RunPyFunceble
  break
  ;;
