@@ -27,12 +27,12 @@ while true
 do
 case "${TRAVIS_JOB_NAME}" in
 
-	"Testing: adult.hosts.list")
- export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
- 
- echo "URI: $testfile"
- 
- RunPyFunceble
+ 'Testing: adult.hosts.list')
+	 export testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/${TRAVIS_BRANCH}/submit_here/adult.mypdns.cloud/hosts.list"
+	 
+	 echo "URI: $testfile"
+	 
+	 RunPyFunceble
  break
  ;;
 
