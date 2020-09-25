@@ -20,45 +20,55 @@ RunFunceble () {
 
 }
 
+printf "\n\tTravis reposlug is:\n\t%s\n\t" "${TRAVIS_REPO_SLUG}"
+
 while true
 do
 case $TRAVIS_JOB_NAME in
+	printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
 	"Testing: adult.hosts.list")
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/hosts.list"
  break
  ;;
 
 	"Testing: adult.mobile.list")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/mobile.list"
  break
  ;;
 
 	"Testing: adult.rpz-ip")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/domains.list"
  break
  ;;
 
 	"Testing: adult.snuff.list")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/snuff.list"
  break
  ;;
 
 	"Testing: adult.white.list")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/white.list"
  break
  ;;
 
 	"Testing: adult.wildcard.list")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/wildcard.list"
  break
  ;;
 
 	"Testing: adult.wildcard.rpz-nsdname")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname"
  break
  ;;
 
 	"Testing: strict.domains.list")
+ printf "\n\tTesting job:\n\t%s" "${TRAVIS_REPO_SLUG}"
  RunFunceble -f "https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/submit_here/strict.adult.mypdns.cloud/domains.list"
  break
  ;;
