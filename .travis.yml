@@ -1,4 +1,5 @@
-dist: bionic
+os: linux
+dist: focal
 
 language: generic
 
@@ -26,7 +27,7 @@ env:
   - PYFUNCEBLE_DB_PORT="${DB_PORT}"
   #- PYFUNCEBLE_DEBUG: true
   #- PYFUNCEBLE_DEBUG_ON_SCREEN: true
-  - PYTHON_VERSION: 3.8.5
+  - PYTHON_VERSION: 3.9.0
 
 addons:
   #mariadb: '10.5'
