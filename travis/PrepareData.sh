@@ -9,10 +9,10 @@ strict_dir="submit_here/strict.adult.mypdns.cloud"
 domains="${git_dir}/${adult_dir}/domains.list"
 hosts="${git_dir}/${adult_dir}/hosts.list"
 mobile="${git_dir}/${adult_dir}/mobile.list"
-rpz-ip="${git_dir}/${adult_dir}/rpz-ip"
+rpzIp="${git_dir}/${adult_dir}/rpz-ip"
 snuff="${git_dir}/${adult_dir}/snuff.list"
 wildcard="${git_dir}/${adult_dir}/wildcard.list"
-rpz-nsdname="${git_dir}/${adult_dir}/wildcard.rpz-nsdname"
+rpzNsdname="${git_dir}/${adult_dir}/wildcard.rpz-nsdname"
 
 strict_adult="${git_dir}/${strict_dir}/wildcard.list"
 
@@ -32,7 +32,7 @@ WhiteList="${git_dir}/submit_here/whitelist.list"
 #    | awk '{ printf("ALL %s\n",tolower($1)) }' >> "${WhiteList}"
 #    sort -u -f "${WhiteList}" -o "${WhiteList}"
 #}
-getWhiteList
+#getWhiteList
 
 # **************************************************************
 # Prepare test file for dns-test repo's
@@ -50,8 +50,8 @@ PrepareLists () {
     cat "${mobile}" >> "${testFile}"
     sort -u -f "${mobile}" -o "${mobile}"
 
-    cat "${rpz-ip}" >> "${testFile}"
-    sort -u -f "${rpz-ip}" -o "${rpz-ip}"
+    cat "${rpzIp}" >> "${testFile}"
+    sort -u -f "${rpzIp}" -o "${rpzIp}"
 
     cat "${strict_adult}" >> "${testFile}"
     sort -u -f "${strict_adult}" -o "${strict_adult}"
@@ -59,8 +59,8 @@ PrepareLists () {
     cat "${wildcard}" >> "${testFile}"
     sort -u -f "${wildcard}" -o "${wildcard}"
 
-    cat "${rpz-nsdname}" >> "${testFile}"
-    sort -u -f "${rpz-nsdname}" -o "${rpz-nsdname}"
+    cat "${rpzNsdname}" >> "${testFile}"
+    sort -u -f "${rpzNsdname}" -o "${rpzNsdname}"
 
     cat "${snuff}" >> "${testFile}"
     sort -u -f "${snuff}" -o "${snuff}"
@@ -82,6 +82,7 @@ head "${testFile}"
 WhiteListing () {
 if [[ "$(git log -1 | tail -1 | xargs)" =~ "ci skip" ]]
 then
+    echo "Running WhiteListing"
     hash uhb_whitelist
     mv "${testFile}" "${testFile}.tmp.txt"
     uhb_whitelist -wc -m -w ${WhiteList} \
