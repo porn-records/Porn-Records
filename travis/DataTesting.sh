@@ -2,6 +2,8 @@
 
 version="$(date +%Y.%m).${TRAVIS_BUILD_NUMBER}"
 
+git_dir="$(git rev-parse --show-toplevel)"
+
 testFile="${git_dir}/.pyfunceble/domains.txt"
 
 #testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/.pyfunceble/domains.txt"
