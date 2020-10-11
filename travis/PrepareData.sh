@@ -3,14 +3,17 @@
 # We use git dir to make it CI independent
 git_dir="$(git rev-parse --show-toplevel)"
 
-hosts="${git_dir}/submit_here/hosts.list"
-snuff="${git_dir}/submit_here/snuff.list"
-domains="${git_dir}/submit_here/domains.list"
-mobile="${git_dir}/submit_here/mobile.list"
-rpz-ip="${git_dir}/submit_here/rpz-ip"
-strict_adult="${git_dir}/submit_here/strict_adult.list"
-wildcard="${git_dir}/submit_here/wildcard.list"
-rpz-nsdname="${git_dir}/submit_here/wildcard.rpz-nsdname"
+adult_dir="submit_here/adult.mypdns.cloud"
+strict_dir="submit_here/strict.adult.mypdns.cloud"
+
+hosts="${git_dir}/${adult_dir}/hosts.list"
+snuff="${git_dir}/${adult_dir}/snuff.list"
+domains="${git_dir}/${adult_dir}/domains.list"
+mobile="${git_dir}/${adult_dir}/mobile.list"
+rpz-ip="${git_dir}/${adult_dir}/rpz-ip"
+strict_adult="${git_dir}/${strict_dir}/strict_adult.list"
+wildcard="${git_dir}/${adult_dir}/wildcard.list"
+rpz-nsdname="${git_dir}/${adult_dir}/wildcard.rpz-nsdname"
 
 testFile="${git_dir}/.pyfunceble/domains.txt"
 
@@ -21,13 +24,13 @@ WhiteList="${git_dir}/submit_here/whitelist.list"
 # When this feature request have been merged we can skip this script block
 # https://github.com/Ultimate-Hosts-Blacklist/whitelist/issues/150
 
-getWhiteList () {
-    wget -qO- 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/domains.list' \
-    | awk '{ printf("%s\n",tolower($1)) }' >> "${WhiteList}"
-    wget -qO- 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/wildcard.list' \
-    | awk '{ printf("ALL %s\n",tolower($1)) }' >> "${WhiteList}"
-    sort -u -f "${WhiteList}" -o "${WhiteList}"
-}
+#getWhiteList () {
+#    wget -qO- 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/domains.list' \
+#    | awk '{ printf("%s\n",tolower($1)) }' >> "${WhiteList}"
+#    wget -qO- 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/wildcard.list' \
+#    | awk '{ printf("ALL %s\n",tolower($1)) }' >> "${WhiteList}"
+#    sort -u -f "${WhiteList}" -o "${WhiteList}"
+#}
 getWhiteList
 
 # **************************************************************
@@ -80,8 +83,10 @@ if [[ "$(git log -1 | tail -1 | xargs)" =~ "ci skip" ]]
 then
     hash uhb_whitelist
     mv "${testFile}" "${testFile}.tmp.txt"
-    uhb_whitelist -wc -m -w "${WhiteList}" -f "${testfile}.tmp.txt" \
-      -o "${testFile}"
+    uhb_whitelist -wc -m \
+      -w 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/domains.list' \
+      --all 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/wildcard.list'
+      -f "${testfile}" -o "${testFile}"
 fi
 }
 WhiteListing
