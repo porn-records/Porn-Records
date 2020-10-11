@@ -6,14 +6,15 @@ git_dir="$(git rev-parse --show-toplevel)"
 adult_dir="submit_here/adult.mypdns.cloud"
 strict_dir="submit_here/strict.adult.mypdns.cloud"
 
-hosts="${git_dir}/${adult_dir}/hosts.list"
-snuff="${git_dir}/${adult_dir}/snuff.list"
 domains="${git_dir}/${adult_dir}/domains.list"
+hosts="${git_dir}/${adult_dir}/hosts.list"
 mobile="${git_dir}/${adult_dir}/mobile.list"
 rpz-ip="${git_dir}/${adult_dir}/rpz-ip"
-strict_adult="${git_dir}/${strict_dir}/strict_adult.list"
+snuff="${git_dir}/${adult_dir}/snuff.list"
 wildcard="${git_dir}/${adult_dir}/wildcard.list"
 rpz-nsdname="${git_dir}/${adult_dir}/wildcard.rpz-nsdname"
+
+strict_adult="${git_dir}/${strict_dir}/wildcard.list"
 
 testFile="${git_dir}/.pyfunceble/domains.txt"
 
@@ -83,7 +84,7 @@ if [[ "$(git log -1 | tail -1 | xargs)" =~ "ci skip" ]]
 then
     hash uhb_whitelist
     mv "${testFile}" "${testFile}.tmp.txt"
-    uhb_whitelist -wc -m \
+    uhb_whitelist -wc -m -w ${WhiteList} \
       -w 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/domains.list' \
       --all 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/wildcard.list'
       -f "${testfile}" -o "${testFile}"
