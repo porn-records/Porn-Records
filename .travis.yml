@@ -70,7 +70,97 @@ jobs:
       name: "Testing: all records"
       script:
         - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
-	- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    - language: generic
+      os: linux
+      dist: focal
+      name: "Testing: adult.hosts.list"
+      script:
+        - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: adult.mobile.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: adult.rpz-ip"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: adult.snuff.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: adult.white.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: adult.wildcard.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: adult.wildcard.rpz-nsdname"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: strict.domains.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: strict.hosts.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: strict.rpz-ip"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: strict.white.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: strict.wildcard.list"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+    #- language: generic
+      #os: linux
+      #dist: focal
+      #name: "Testing: strict.wildcard.rpz-nsdname"
+      #script:
+        #- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
+        #- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
 
 
 #script:
