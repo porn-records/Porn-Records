@@ -22,8 +22,7 @@ RunPyFunceble () {
       -f "${testFile}"
 
 }
-
-printf "\n\tTravis reposlug is:\n\t%s\n\t" "${TRAVIS_REPO_SLUG}"
+RunPyFunceble
 
 exit ${?}
 
