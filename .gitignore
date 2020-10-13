@@ -8,3 +8,7 @@ active_domains/db_types/
 local_scripts/
 dir_structure.json
 output/
+
+
+# Dev scripts
+travis/record-test.py
