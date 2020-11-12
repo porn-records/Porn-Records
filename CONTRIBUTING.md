@@ -26,13 +26,13 @@ The workflow is a bit clumsy, but the most reliable and fail-safe.
    to be able to historically trace why you have committed the records.
     
 3. You open a PR (Pull (Merge) Request) where you'll add your contribution
-   (This is the _when_ we did the block)
+   (This is the //when// we did the block)
 
 4. You add the new hosts entry in the top of the list, then it is easier
    to find.  
    The code will make it appear in alphanumeric order
 
-5. Follow the [New commit](#new-commit) guide
+5. Follow the [[ #new-commit | New commit ]] guide
 
 
 ### Github
@@ -41,10 +41,10 @@ The workflow is a bit clumsy, but the most reliable and fail-safe.
 The workflow is a bit clumsy, but the most reliable and fail-safe.
  1. You add an issue with you question, feature request or contribution
     via [this form](https://www.mypdns.org/maniphest/task/edit/form/2/)
-    (This is the history of _why_ to block forum)
+    (This is the history of //why// to block forum)
 
  2. You open a MR (Merge Request) where you'll add your contribution
-    (This is the _when_ we did the block)
+    (This is the //when// we did the block)
 
  3. Add your new domain record(s) to suitable file in the `submit_here/`
     folder on [GitHub](https://github.com/mypdns/porn-domains/submit_here/).
