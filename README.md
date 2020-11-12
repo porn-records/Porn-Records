@@ -58,21 +58,21 @@ submit_here/
 
 | File | Contents / Category |
 | ---- | ------------------- |
-| `domains.list` | This file is only for domains that do can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.|
-| `hosts.txt` | Domain who solely serves Porno in hosts file formatted files requirement. This list is unrelated to `domains.list` and only supplementary to hosts files generation, such as `lang.$domain.TLD` or `cdn.$domain.TLD` |
+| `domains.list` | This file is only for domains that can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.|
+| `hosts.txt` | Domain who solely serves Porno in hosts file formatted requirements. This list is unrelated to `domains.list` and only supplementary to hosts files generation, such as `lang.$domain.TLD` or `cdn.$domain.TLD` |
 | `mobile.txt` | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list` |
 | `README.md` | This File |
-| `rpz-ip` | To block any porn hosted over [ip addresses](https://www.mypdns.org/w/rpz_record_types/#the-quot-response-ip-address), yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley: |
+| `rpz-ip` | To block any [#NSFW](https://www.mypdns.org/tag/adult_contents_blocking/) hosted over [ip addresses](https://www.mypdns.org/w/rpz_record_types/#the-quot-response-ip-address), yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley: |
 | `snuff.list` | Snuff Porno (No wildcard this far as the zone is way to small for that) These records will be part of the [adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud) RPZ Firewall zone |
-| `strict_adult.list` | This is the VERY strict list containing domain with a mixed content like ex. `4chan.org` or `fastpic.ru`. It will later be served as [strict.adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#strict.adult-mypdns-cloud) RPZ Firewall zone |
-| `wildcard.list` | Domain who solely serves Porno in wildcard formats used for proper [DNS recursors](https://www.mypdns.org/w/dnsresolver/) that understand [DNS RPZ](https://www.mypdns.org/w/rpz/) |
-| `wildcard.rpz-nsdname` | This file will blacklist all DNS AUTH servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire quit a bit, as ex. all `.xxx`domains is served from the same root server :smiley: |
+| `strict_adult.list` | This is the VERY strict list containing domain with a mixed content like ex. `4chan.org` or `fastpic.ru`. It have been lunched as [strict.adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#strict.adult-mypdns-cloud) RPZ Firewall zone |
+| `wildcard.list` | Domain who solely serves Porno and therfor can be in wildcard formats used by proper [DNS recursors](https://www.mypdns.org/w/dnsresolver/) that in full supports [DNS RPZ](https://www.mypdns.org/w/rpz/) |
+| `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire number of entries quit a bit, as ex. all `.xxx`domains is served from the same root server :smiley: |
 | `whitelist.list` | The locally hosted list for domains that never should be put into any of the above categories or lists |
 
 ## Combining the lists
 
 ### DNS RPZ Firewall
-If you like the rest of the world who knows just a bit about
+If you, like the rest of the world, who knows just a bit about
 [DNS](https://www.mypdns.org/w/dns/) and how a OS (Operating System) is
 doing it's queries over the network protocols, you have of curse updated
 your local network with a
@@ -87,7 +87,8 @@ by [The "NXDOMAIN" Action](https://www.mypdns.org/w/rpz_record_types/#the-quot-n
   - `domains.list`
   - `rpz-ip`
   - `snuff.list`
-  - `strict_adult.list` (Optional as this is tight ass blocking)
+  - `strict_adult.list` (Optional as this is tight blocking and
+    contains a lot of SFW domains)
   - `wildcard.list`
   - `wildcard.rpz-nsdname`
 
@@ -101,4 +102,4 @@ as not necessary all domains are served over both `www.$domain.tld` and
 `$domain.tld` equally, you will however be covered in full.
  
 ## Contributing
-Any helpful [contributions](https://www.mypdns.org/source/PornDomains/browse/master/CONTRIBUTING.md) are appreciated
+Any helpful [contributions](https://www.mypdns.org/source/PornRecords/browse/master/CONTRIBUTING.md) are appreciated.
