@@ -79,8 +79,6 @@ Next you'll be taken to the `Open a pull request`
 
 ![Open a pull request](https://user-images.githubusercontent.com/44526987/68994731-a4199000-0886-11ea-8158-1cd2b0a4a271.png)
 
-<img src="https://user-images.githubusercontent.com/44526987/68994731-a4199000-0886-11ea-8158-1cd2b0a4a271.png" width="90%"></img>
-
 And if everything is filled out, you just hit the `Create pull request`
 and you are done.
 
