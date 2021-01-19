@@ -11,8 +11,8 @@ on:
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
-  #GIT_NAME: "${{ secrets.GITHUB_ACTOR }}"
-  #GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+  GIT_NAME: "${{ secrets.GITHUB_ACTOR }}"
+  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
   PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
   PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
   GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
@@ -36,9 +36,6 @@ jobs:
         name: Clone repository
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: git-bash
-        uses: pkg-src/github-action-git-bash@v1.1
 
       - name: Set up Python ${{ matrix.python_version }}
         uses: actions/setup-python@v2
