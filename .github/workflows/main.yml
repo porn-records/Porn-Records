@@ -36,9 +36,6 @@ jobs:
         name: Clone repository
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: false
-          fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Set up Python ${{ matrix.python_version }}
         uses: actions/setup-python@v2
