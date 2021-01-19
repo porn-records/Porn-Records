@@ -37,6 +37,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: actions/github-action-git-bash@v1.1
+        name: git-bash
 
       - name: Set up Python ${{ matrix.python_version }}
         uses: actions/setup-python@v2
@@ -51,9 +53,6 @@ jobs:
       - name: Get PyFunceble version
         run: |
           PyFunceble --version
-
-      - name: git-bash
-        uses: pkg-src/github-action-git-bash@v1.1
 
       - name: Run Whitelist
         run: |
