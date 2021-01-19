@@ -12,6 +12,7 @@ output/
 
 # Dev scripts
 travis/record-test.py
+.github/workflows/scheduler.yml
 
 # Visual Basic Code
 .vscode/**

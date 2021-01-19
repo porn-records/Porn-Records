@@ -80,7 +80,7 @@ head "${testFile}"
 # ***********************************
 
 WhiteListing () {
-if [[ "$(git log -1 | tail -1 | xargs)" =~ "ci skip" ]]
+if [[ "$(git log -1 | tail -1 | xargs)" =~ "GHA skip" ]]
 then
     echo "Running WhiteListing"
     hash uhb_whitelist
