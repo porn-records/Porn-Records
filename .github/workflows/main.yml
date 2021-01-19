@@ -47,9 +47,6 @@ jobs:
       - name: Install PyFunceble
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
-
-      - name: Install ultimate-hosts-blacklist-whitelist-dev
-        run: |
           pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
 
       - name: Get PyFunceble version
@@ -59,7 +56,6 @@ jobs:
       - name: Run Whitelist
         run: |
           bash "${{ github.workspace }}/travis/PrepareData.sh"
-          bash "${{ github.workspace }}/travis/DataTesting.sh"
 
       - name: Run Data testing
         run: |
