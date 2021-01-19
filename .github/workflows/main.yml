@@ -18,8 +18,8 @@ PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
 GITHUB_TOKEN: "${{ secrets.BOT_REPO_PAT }}"
 
 jobs:
-single:
-    name: Run PyFunceble with a single domain
+test_and_push:
+    name: Run PyFunceble against the files and push result to repository
     runs-on: "${{ matrix.os }}"
 
     strategy:
@@ -44,6 +44,9 @@ single:
     - name: Install dependencies
         run: |
         pip install --no-cache-dir --pre PyFunceble-dev
+    
+    -name: Install UHBW
+        run: |
         pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
 
     - name: Get PyFunceble version
@@ -57,38 +60,3 @@ single:
     - name: Run PyFunceble
         run: |
         bash "${{ github.workspace }}/travis/DataTesting.sh"
-
-file_and_push:
-    name: Run PyFunceble against a file and push result to repository
-    runs-on: "${{ matrix.os }}"
-
-    strategy:
-    fail-fast: false
-    matrix:
-        python_version:
-        - "3.9.1"
-        os:
-        - ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-        name: Clone repository
-        with:
-        token: "${{ secrets.BOT_REPO_PAT }}"
-
-    - name: Set up Python ${{ matrix.python_version }}
-        uses: actions/setup-python@v2
-        with:
-        python-version: ${{ matrix.python_version }}
-
-    - name: Install dependencies
-        run: |
-        pip install --pre PyFunceble-dev
-
-    - name: Get PyFunceble version
-        run: |
-        PyFunceble --version
-
-    - name: Run PyFunceble
-        run: |
-        PyFunceble -a --ci --logging-level critical -f test.list
