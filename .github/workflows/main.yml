@@ -28,7 +28,7 @@ jobs:
           python_version:
             - "3.9.1"
           os:
-            - ubuntu-latest
+            - ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v2
@@ -57,9 +57,6 @@ jobs:
       - name: Run Whitelist
         run: |
           bash "${{ github.workspace }}/travis/PrepareData.sh"
-
-      - name: Run PyFunceble
-        run: |
           bash "${{ github.workspace }}/travis/DataTesting.sh"
 
       - name: Create local change
