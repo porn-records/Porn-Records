@@ -107,4 +107,4 @@ exit ${?}
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://github.com/mypdns/matrix/issues
+# issue at https://www.mypdns.org/maniphest/

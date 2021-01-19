@@ -14,7 +14,7 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an 
-# issue at https://github.com/mypdns/matrix/issues
+# issue at https://www.mypdns.org/maniphest/
 #
 # You should be able to include this file by placing it inside /etc/dnsmasq.d
 # According to http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
