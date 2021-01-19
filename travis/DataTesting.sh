@@ -17,7 +17,7 @@ RunPyFunceble () {
 
     pyfunceble --ci -q -h -ex --hierarchical \
       --share-logs --http --dots \
-      --autosave-minutes 15 --ci-branch "record-testing" \
+      --autosave-minutes 15 --ci-branch "issue2" \
       --ci-distribution-branch "master" \
       --ci-commit-message "${version} [Auto Saved]" \
       --ci-end-commit-message "${version}" \
