@@ -1,34 +1,34 @@
 name: PyFunceble CI tests
 on:
-push:
-    branches:
-    - "master"
-pull_request:
-    branches:
-    - "master"
-schedule:
-    - cron: "0 * * * *"
+  push:
+      branches:
+      - "master"
+  pull_request:
+      branches:
+      - "master"
+  schedule:
+      - cron: "0 * * * *"
 
 env:
-PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
-GIT_NAME: "${{ secrets.GIT_BOT_NAME }}"
-GIT_EMAIL: "${{ secrets.GIT_BOT_EMAIL }}"
-PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
-PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
-GITHUB_TOKEN: "${{ secrets.BOT_REPO_PAT }}"
+  PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
+  GIT_NAME: "${{ secrets.GIT_BOT_NAME }}"
+  GIT_EMAIL: "${{ secrets.GIT_BOT_EMAIL }}"
+  PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
+  PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
+  GITHUB_TOKEN: "${{ secrets.BOT_REPO_PAT }}"
 
 jobs:
-test_and_push:
+  test_and_push:
     name: Run PyFunceble against the files and push result to repository
     runs-on: "${{ matrix.os }}"
 
     strategy:
-    fail-fast: false
-    matrix:
-        python_version:
-          - "3.9.1"
-        os:
-          - ubuntu-latest
+      fail-fast: false
+      matrix:
+          python_version:
+            - "3.9.1"
+          os:
+            - ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -41,22 +41,22 @@ test_and_push:
         with:
           python-version: ${{ matrix.python_version }}
 
-      - name: Install dependencies
+      - name: Install PyFunceble
         run: |
-        pip install --no-cache-dir --pre PyFunceble-dev
-    
-    -name: Install UHBW
-        run: |
-        pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
+          pip install --no-cache-dir --pre PyFunceble-dev
 
-    - name: Get PyFunceble version
+      - name: Install ultimate-hosts-blacklist-whitelist-dev
         run: |
-        PyFunceble --version
+          pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
 
-    - name: Run Whitelist
+      - name: Get PyFunceble version
         run: |
-        bash "${{ github.workspace }}/travis/PrepareData.sh"
+          PyFunceble --version
 
-    - name: Run PyFunceble
+      - name: Run Whitelist
         run: |
-        bash "${{ github.workspace }}/travis/DataTesting.sh"
+          bash "${{ github.workspace }}/travis/PrepareData.sh"
+
+      - name: Run PyFunceble
+        run: |
+          bash "${{ github.workspace }}/travis/DataTesting.sh"
