@@ -15,12 +15,12 @@ RunPyFunceble () {
 
     printf "\n\tYou are running with RunFunceble\n\n"
 
-    pyfunceble --ci -q -h -ex --plain --dns 127.0.0.1:5300 --hierarchical \
-      -db --database-type mariadb --share-logs --http --idna --dots \
+    pyfunceble --ci -q -h -ex --hierarchical \
+      --share-logs --http --dots \
       --autosave-minutes 15 --ci-branch "${TRAVIS_BRANCH}" \
       --ci-distribution-branch "${TRAVIS_BRANCH}" \
-      --commit-autosave-message "${version} [Auto Saved]" \
-      --commit-results-message "${version}" \
+      --ci-commit-message "${version} [Auto Saved]" \
+      --ci-end-commit-message "${version}" \
       -f "${testFile}"
 
 }
