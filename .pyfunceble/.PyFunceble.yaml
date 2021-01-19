@@ -7,7 +7,7 @@ cli_testing:
     autocontinue: true
     ci:
         active: false
-        branch: data-testing
+        branch: master
         command: ''
         commit_message: My Privacy DNS Firewall - AutoSave
         distribution_branch: master
