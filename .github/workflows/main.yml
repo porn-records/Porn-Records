@@ -55,7 +55,7 @@ jobs:
         run: |
           pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
 
-      - name: Install UHBW
+      - name: Get UHBW version
         run: |
           uhb_whitelist --version
 
