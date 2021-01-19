@@ -12,3 +12,7 @@ output/
 
 # Dev scripts
 travis/record-test.py
+
+# Visual Basic Code
+.vscode/**
+*.code-workspace
