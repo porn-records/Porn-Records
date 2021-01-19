@@ -54,6 +54,14 @@ jobs:
         run: |
           PyFunceble --version
 
+      - name: Install UHBW
+        run: |
+          pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
+
+      - name: Install UHBW
+        run: |
+          uhb_whitelist --version
+
       - name: Run Whitelist
         run: |
           bash "${{ github.workspace }}/travis/PrepareData.sh"
