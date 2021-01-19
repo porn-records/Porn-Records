@@ -71,7 +71,8 @@ jobs:
       - name: Run Data testing
         run: |
           pyfunceble --ci -c --preload -h -ex --hierarchical --share-logs \
-          --http --dots --autosave-minutes 5 -f "${{ github.workspace }}.pyfunceble/domains.txt"
+          --http --dots --autosave-minutes 5 \
+          -f "${{ github.workspace }}/.pyfunceble/domains.txt"
 
       - name: Create local change
         run: |
