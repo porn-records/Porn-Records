@@ -20,3 +20,10 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         reviewers: "AnonymousPoster"
         team-reviewers: "spirillen" 
+    - name: "Send Review Request 3"
+      if: github.actor != 'spirillen' || 'AnonymousPoster'
+      uses: kunihiko-t/review-request-action@master
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        reviewers: "spirillen"
+        team-reviewers: "spirillen" 
