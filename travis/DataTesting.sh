@@ -25,7 +25,7 @@ RunPyFunceble () {
       --http \
       --dots \
       --autosave-minutes 5 \
-      --ci-branch "spirillen/issue2" \
+      --ci-branch "data-testing" \
       --ci-distribution-branch "master" \
       --ci-commit-message "${version} [Auto Saved]" \
       --ci-end-commit-message "${version}" \

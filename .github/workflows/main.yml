@@ -3,6 +3,7 @@ on:
   push:
       branches:
       - "master"
+      - "data-testing"
   pull_request:
       branches:
       - "master"
