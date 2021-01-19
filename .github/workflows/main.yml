@@ -16,6 +16,8 @@ env:
   PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
   PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
   GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+  GITHUB_RUN_NUMBER: "${{ github.run_number }}"
+  GITHUB_REF: "${{ github.ref }}"
 
 jobs:
   test_and_push:

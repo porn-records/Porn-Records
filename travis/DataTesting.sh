@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version="$(date +%Y.%m).${{GITHUB.RUN_NUMBER}}"
+version="$(date +%Y.%m).${{ GITHUB_RUN_NUMBER }}"
 
 git_dir="$(git rev-parse --show-toplevel)"
 
@@ -17,7 +17,7 @@ RunPyFunceble () {
 
     pyfunceble --ci -q -h -ex --hierarchical \
       --share-logs --http --dots \
-      --autosave-minutes 15 --ci-branch "${{ GITHUB.REF }}" \
+      --autosave-minutes 15 --ci-branch "${{ GITHUB_REF }}" \
       --ci-distribution-branch "${{ github.base_ref }}" \
       --ci-commit-message "${version} [Auto Saved]" \
       --ci-end-commit-message "${version}" \
