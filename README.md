@@ -27,7 +27,7 @@ You can see the full matrix for hosts file locations here:
 
 ### Safe search enabled
 Additionally, there is a new source file which will enforce Safe Search in the
-safer and privacy enhanged [duckduckgo](https://safe.duckduckgo.com).
+safer and privacy enhanced [duckduckgo](https://safe.duckduckgo.com).
 
 For unsafe search portals, we have added `Bing` and `Google`
 "safe search ips".
@@ -65,7 +65,7 @@ submit_here/
 | `rpz-ip` | To block any [#NSFW](https://www.mypdns.org/tag/adult_contents_blocking/) hosted over [ip addresses](https://www.mypdns.org/w/rpz_record_types/#the-quot-response-ip-address), yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley: |
 | `snuff.list` | Snuff Porno (No wildcard this far as the zone is way to small for that) These records will be part of the [adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud) RPZ Firewall zone |
 | `strict_adult.list` | This is the VERY strict list containing domain with a mixed content like ex. `4chan.org` or `fastpic.ru`. It have been lunched as [strict.adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#strict.adult-mypdns-cloud) RPZ Firewall zone |
-| `wildcard.list` | Domain who solely serves Porno and therfor can be in wildcard formats used by proper [DNS recursors](https://www.mypdns.org/w/dnsresolver/) that in full supports [DNS RPZ](https://www.mypdns.org/w/rpz/) |
+| `wildcard.list` | Domain who solely serves Porno and therefor can be in wildcard formats used by proper [DNS recursor's](https://www.mypdns.org/w/dnsresolver/) that in full supports [DNS RPZ](https://www.mypdns.org/w/rpz/) |
 | `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire number of entries quit a bit, as ex. all `.xxx`domains is served from the same root server :smiley: |
 | `whitelist.list` | The locally hosted list for domains that never should be put into any of the above categories or lists |
 
