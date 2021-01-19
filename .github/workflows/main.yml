@@ -15,7 +15,7 @@ env:
   #GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
   PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
   PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
-  #GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
   BUILD_NUMBER: "${{ github.run_number }}"
 
 jobs:
