@@ -11,7 +11,7 @@ on:
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
-  GIT_NAME: "${{ GITHUB_ACTOR }}"
+  GIT_NAME: "${{ secrets.GIT_NAME }}"
   GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
   PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
   PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
