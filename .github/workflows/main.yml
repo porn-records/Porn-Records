@@ -31,10 +31,10 @@ single:
         - ubuntu-latest
 
     steps:
-    - name: Clone repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        name: Clone repository
         with:
-        token: "${{ secrets.BOT_REPO_PAT }}"
+          token: "${{ secrets.BOT_REPO_PAT }}"
 
     - name: Set up Python ${{ matrix.python_version }}
         uses: actions/setup-python@v2
