@@ -15,7 +15,7 @@ RunPyFunceble () {
 
     printf "\n\tYou are running with RunFunceble\n\n"
 
-    pyfunceble --ci -q -h -ex --hierarchical \
+    pyfunceble --ci -h -ex --hierarchical \
       --share-logs --http --dots \
       --autosave-minutes 15 --ci-branch "issue2" \
       --ci-distribution-branch "master" \
