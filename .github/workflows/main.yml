@@ -60,6 +60,10 @@ jobs:
         run: |
           uhb_whitelist --version
 
+      -name: Create test branch if not exist
+          run: |
+            git branch -b data-testing
+
       - name: Run Whitelist
         run: |
           bash "${{ github.workspace }}/travis/PrepareData.sh"
