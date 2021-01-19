@@ -11,4 +11,4 @@ jobs:
       - uses: Logerfo/newline-action@0.0.2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
-          config-path: .github/newline.yml # The path of the addtional configurations file. 
+          config-path: .github/newline.yml # The path of the additional configurations file. 
