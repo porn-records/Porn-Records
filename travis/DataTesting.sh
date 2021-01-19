@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version="$(date +%Y.%m).${TRAVIS_BUILD_NUMBER}"
+version="$(date +%Y.%m).${github.run_number}"
 
 git_dir="$(git rev-parse --show-toplevel)"
 
@@ -17,8 +17,8 @@ RunPyFunceble () {
 
     pyfunceble --ci -q -h -ex --hierarchical \
       --share-logs --http --dots \
-      --autosave-minutes 15 --ci-branch "${TRAVIS_BRANCH}" \
-      --ci-distribution-branch "${TRAVIS_BRANCH}" \
+      --autosave-minutes 15 --ci-branch "${{ github.ref }}" \
+      --ci-distribution-branch "${{ github.base_ref }}" \
       --ci-commit-message "${version} [Auto Saved]" \
       --ci-end-commit-message "${version}" \
       -f "${testFile}"
