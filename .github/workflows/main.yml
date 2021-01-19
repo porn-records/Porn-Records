@@ -39,7 +39,7 @@ single:
     - name: Set up Python ${{ matrix.python_version }}
         uses: actions/setup-python@v2
         with:
-        python-version: ${{ matrix.python_version }}
+          python-version: ${{ matrix.python_version }}
 
     - name: Install dependencies
         run: |
