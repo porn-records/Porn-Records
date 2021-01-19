@@ -82,6 +82,7 @@ jobs:
         run: |
           git config --local user.email "$GIT_EMAIL"
           git config --local user.name "$GIT_NAME"
+          git add .
           git commit -m "Launch test" -a
 
       - name: Push changes
