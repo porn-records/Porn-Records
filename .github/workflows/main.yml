@@ -74,20 +74,20 @@ jobs:
           --http --dots --autosave-minutes 45 \
           -f "${{ github.workspace }}/.pyfunceble/domains.txt"
 
-      - name: Create local change
-        run: |
-          date +%s > "${{ github.workspace }}/.trigger"
+      # - name: Create local change
+      #   run: |
+      #     date +%s > "${{ github.workspace }}/.trigger"
 
-      - name: Commit changes
-        run: |
-          git config --local user.email "$GIT_EMAIL"
-          git config --local user.name "$GIT_NAME"
-          git add .
-          git commit -m "Launch test" -a
+      # - name: Commit changes
+      #   run: |
+      #     git config --local user.email "$GIT_EMAIL"
+      #     git config --local user.name "$GIT_NAME"
+      #     git add .
+      #     git commit -m "Launch test" -a
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          force: true
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: ${{ github.ref }}
+      #     force: true
