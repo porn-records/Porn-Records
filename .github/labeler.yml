@@ -1,8 +1,12 @@
 # source https://github.com/actions/labeler/blob/master/README.md
 # Add 'repo' label to any root file changes
 NSFW Adult Material:
-  - submit_here/hosts.txt
-  - submit_here/snuff.txt
+  - submit_here/adult.mypdns.cloud/hosts.list
+  - submit_here/adult.mypdns.cloud/domains.list
+  - submit_here/adult.mypdns.cloud/mobile.list
+  - submit_here/adult.mypdns.cloud/rpz-ip
+  - submit_here/adult.mypdns.cloud/wildcard.list
+  - submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname
 
 Snuff:
   - submit_here/snuff.txt

@@ -1,4 +1,5 @@
-I believe this domain is an Adult(-related) domain --> Which should be blocked as..
+I believe this domain is an Adult(-related) domain --> Which should be
+blocked as..
 
 <!-- you can mark both for combining the feature -->
 
@@ -18,13 +19,17 @@ This Merge Request covers <https://www.mypdns.org/T>
 
 
 ## External Info
-<!-- if you have found your submission elsewhere, Please credit it by pasting a link here --->
+<!-- if you have found your submission elsewhere, Please credit it by pasting a
+link here --->
 
 
 
 ### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the same update/change?
+- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
+- [ ] document?
+- [ ] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
+      same update/change?
 - [ ] Added Screenshot to the above mentioned issue for prove of submission?
 
 ### Todo

@@ -1,11 +1,11 @@
 name: PyFunceble CI tests
 on:
   push:
-      branches:
+    branches:
       - "master"
       - "data-testing"
   pull_request:
-      branches:
+    branches:
       - "master"
 
 env:
@@ -71,21 +71,3 @@ jobs:
           pyfunceble --ci -q -h -ex --hierarchical --share-logs \
           --http --dots --autosave-minutes 15 \
           -f "${{ github.workspace }}/.pyfunceble/domains.txt"
-
-      # - name: Create local change
-      #   run: |
-      #     date +%s > "${{ github.workspace }}/.trigger"
-
-      # - name: Commit changes
-      #   run: |
-      #     git config --local user.email "$GIT_EMAIL"
-      #     git config --local user.name "$GIT_NAME"
-      #     git add .
-      #     git commit -m "Launch test" -a
-
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: ${{ github.ref }}
-      #     force: true
