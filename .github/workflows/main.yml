@@ -7,8 +7,6 @@ on:
   pull_request:
       branches:
       - "master"
-  schedule:
-      - cron: "0 * * * *"
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
@@ -70,8 +68,8 @@ jobs:
 
       - name: Run Data testing
         run: |
-          pyfunceble --ci -h -ex --hierarchical --share-logs \
-          --http --dots --autosave-minutes 45 \
+          pyfunceble --ci -q -h -ex --hierarchical --share-logs \
+          --http --dots --autosave-minutes 15 \
           -f "${{ github.workspace }}/.pyfunceble/domains.txt"
 
       # - name: Create local change
