@@ -38,7 +38,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: git-bash
-        uses: actions/github-action-git-bash@v1.1
+        uses: pkg-src/github-action-git-bash@v1.1
 
       - name: Set up Python ${{ matrix.python_version }}
         uses: actions/setup-python@v2
