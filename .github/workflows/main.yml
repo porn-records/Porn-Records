@@ -62,7 +62,7 @@ jobs:
 
       - name: Create test branch if not exist
         run: |
-          git branch -b data-testing
+          git checkout -b data-testing
 
       - name: Run Whitelist
         run: |
