@@ -70,7 +70,7 @@ jobs:
 
       - name: Run Data testing
         run: |
-          pyfunceble --ci -c -h -ex --hierarchical --share-logs \
+          pyfunceble --ci -h -ex --hierarchical --share-logs \
           --http --dots --autosave-minutes 45 \
           -f "${{ github.workspace }}/.pyfunceble/domains.txt"
 
