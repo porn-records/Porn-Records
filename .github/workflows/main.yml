@@ -17,8 +17,8 @@ env:
   PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
   #GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
   BUILD_NUMBER: "${{ github.run_number }}"
-  TEST_BRANCH: "${{ github.ref }}" 
-  COMMIT_BRANCH: "${{ github.base_ref }}"
+  TEST_BRANCH: "${{ record-testing }}" 
+  COMMIT_BRANCH: "master"
 
 jobs:
   test_and_push:
