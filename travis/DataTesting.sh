@@ -16,14 +16,13 @@ RunPyFunceble () {
     printf "\n\tYou are running with RunFunceble\n\n"
 
     pyfunceble --ci \
-      -c \
-      --preload \
+      -q \
+      --dots \
       -h \
       -ex \
       --hierarchical \
       --share-logs \
       --http \
-      --dots \
       --autosave-minutes 5 \
       -f "${testFile}"
 

@@ -44,7 +44,6 @@ jobs:
       - name: Install PyFunceble
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
-          pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
 
       - name: Get PyFunceble version
         run: |
@@ -64,6 +63,10 @@ jobs:
 
       - name: Run Data testing
         run: |
-          pyfunceble --ci -q -h -ex --hierarchical --share-logs \
-          --http --dots --autosave-minutes 15 \
-          -f "${{ github.workspace }}/.pyfunceble/domains.txt"
+          bash "${{ github.workspace }}/travis/DataTesting.sh"
+
+      # - name: Run Data testing
+      #   run: |
+      #     pyfunceble --ci -q -h -ex --hierarchical --share-logs \
+      #     --http --dots --autosave-minutes 15 \
+      #     -f "${{ github.workspace }}/.pyfunceble/domains.txt"
