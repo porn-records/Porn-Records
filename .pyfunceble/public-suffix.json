@@ -1356,6 +1356,7 @@
         "bounty-full.com",
         "alpha.bounty-full.com",
         "beta.bounty-full.com",
+        "try-snowplow.com",
         "stackhero-network.com",
         "playstation-cloud.com",
         "api.stdlib.com",
@@ -8169,7 +8170,12 @@
         "telebit.xyz"
     ],
     "ye": [
-        "ye"
+        "com.ye",
+        "edu.ye",
+        "gov.ye",
+        "net.ye",
+        "mil.ye",
+        "org.ye"
     ],
     "yt": [
         "org.yt"
