@@ -36,11 +36,9 @@ RunPyFunceble () {
 
     pyfunceble --ci \
       --preload \
-      -q \
-      --dots \
       -ex \
       --hierarchical \
-      --autosave-minutes 2 \
+      --autosave-minutes 5 \
       -f "${domains}" \
       "${hosts}" \
       "${mobile}" \
@@ -53,8 +51,7 @@ RunPyFunceble () {
       "${strict_rpzIp}" \
       "${strict_wildcard}" \
       "${strict_rpzNsdname}" \
-      --ci-command "echo $(date +'%s') > ${git_dir}/.pyfunceble/.trigger" \
-      --logging-level info
+      --ci-command "echo $(date +'%s') > ${git_dir}/.pyfunceble/.trigger"
 
 }
 RunPyFunceble
