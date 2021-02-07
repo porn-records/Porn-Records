@@ -28,33 +28,30 @@ strict_rpzNsdname="${strict_dir}/wildcard.rpz-nsdname"
 export PYFUNCEBLE_CONFIG_DIR="${git_dir}/.pyfunceble"
 export PYFUNCEBLE_OUTPUT_LOCATION="${git_dir}/active_domains/"
 
-RunPyFunceble () {
+hash pyfunceble
 
-    hash pyfunceble
+printf "\n\tYou are running with RunFunceble\n\n"
 
-    printf "\n\tYou are running with RunFunceble\n\n"
+pyfunceble --ci \
+  --preload \
+  --dots \
+  -ex \
+  --hierarchical \
+  --autosave-minutes 25 \
+  -f "${domains}" \
+  "${hosts}" \
+  "${mobile}" \
+  "${rpzIp}" \
+  "${snuff}" \
+  "${wildcard}" \
+  "${rpzNsdname}" \
+  "${strict_domain}" \
+  "${strict_hosts}" \
+  "${strict_rpzIp}" \
+  "${strict_wildcard}" \
+  "${strict_rpzNsdname}" \
+  --ci-command "echo $(date +'%s') > ${git_dir}/.pyfunceble/.trigger"
 
-    pyfunceble --ci \
-      --dots \
-      -ex \
-      --hierarchical \
-      --autosave-minutes 25 \
-      -f "${domains}" \
-      "${hosts}" \
-      "${mobile}" \
-      "${rpzIp}" \
-      "${snuff}" \
-      "${wildcard}" \
-      "${rpzNsdname}" \
-      "${strict_domain}" \
-      "${strict_hosts}" \
-      "${strict_rpzIp}" \
-      "${strict_wildcard}" \
-      "${strict_rpzNsdname}" #\
-      #--ci-command "echo $(date +'%s') > ${git_dir}/.pyfunceble/.trigger"
-
-}
-RunPyFunceble
 
 exit ${?}
 
