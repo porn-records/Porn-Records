@@ -22,7 +22,7 @@ conda config --set always_yes yes --set changeps1 no
 conda config --add channels conda-forge
 conda update -q conda
 conda create -q -n test-environment python="3.9.1"
-conda activate test-environment
+source activate test-environment
 
 echo "List conda env"
 conda env list
