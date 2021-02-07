@@ -60,7 +60,7 @@ jobs:
       - name: Conda environment creation
         run: |
           conda create -q -n pyfunceble4
-          conda activate pyfunceble4
+          source activate pyfunceble4
 
       - name: Python version
         run: python --version
