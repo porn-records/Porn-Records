@@ -68,4 +68,5 @@ jobs:
 
       - name: Run Data testing
         run: |
+          echo $(date +'%s') > ${git_dir}/.pyfunceble/.trigger
           bash "${{ github.workspace }}/scripts/DataTesting.sh"
