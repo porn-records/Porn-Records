@@ -35,7 +35,6 @@ RunPyFunceble () {
     printf "\n\tYou are running with RunFunceble\n\n"
 
     pyfunceble --ci \
-      --preload \
       --dots \
       -ex \
       --hierarchical \
