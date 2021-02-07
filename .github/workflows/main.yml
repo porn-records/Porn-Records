@@ -2,35 +2,35 @@ name: PyFunceble CI tests
 on:
   push:
     branches:
-      - "master"
-      - "data-testing"
+      - 'master'
+      - 'data-testing'
   pull_request:
     branches:
-      - "master"
+      - 'master'
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: '0 */4 * * *'
 
 env:
-  PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
-  GIT_NAME: "${{ secrets.GIT_NAME }}"
-  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
-  PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
-  PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/active_domains/"
-  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-  BUILD_NUMBER: "${{ github.run_number }}"
+  PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
+  PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/active_domains/'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+  BUILD_NUMBER: '${{ github.run_number }}'
 
 jobs:
   test_and_push:
     name: Run PyFunceble against the files and push result to repository
-    runs-on: "${{ matrix.os }}"
+    runs-on: '${{ matrix.os }}'
 
     strategy:
       fail-fast: false
       matrix:
-          python_version:
-            - "3.9.1"
-          os:
-            - ubuntu-20.04
+        python_version:
+          - '3.9.1'
+        os:
+          - ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v2
@@ -61,12 +61,11 @@ jobs:
 
       - name: Run Whitelist
         run: |
-          bash "${{ github.workspace }}/travis/PrepareData.sh"
+          bash "${{ github.workspace }}/scripts/PrepareData.sh"
 
       - name: Run Data testing
         run: |
-          bash "${{ github.workspace }}/travis/DataTesting.sh"
-
+          bash "${{ github.workspace }}/scripts/DataTesting.sh"
       # - name: Run Data testing
       #   run: |
       #     pyfunceble --ci -q -h -ex --hierarchical --share-logs \

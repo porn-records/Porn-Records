@@ -6,37 +6,37 @@ language: generic
 cache:
   #pip: true
   directories:
-  - "$HOME/db/"
+    - '$HOME/db/'
 
 env:
   global:
-  - GIT_NAME: 'spirillen'
-  - GIT_EMAIL: '44526987+spirillen@users.noreply.github.com'
-  - TRAVIS_REPO_SLUG: "${TRAVIS_REPO_SLUG}"
-  - GIT_BRANCH: $"{TRAVIS_BRANCH}"
-  - TZ: UTC
-  # Variables info: https://pyfunceble.readthedocs.io/en/dev/components/environment-variables.html#what-do-we-use-and-why
-  - PYFUNCEBLE_CONFIG_DIR: "${TRAVIS_BUILD_DIR}/.pyfunceble/"
-  - PYFUNCEBLE_OUTPUT_LOCATION: "${TRAVIS_BUILD_DIR}/active_domains/"
-  - PYFUNCEBLE_AUTO_CONFIGURATION: yes
-  - PYFUNCEBLE_DB_CHARSET="${DB_CHARSET}"
-  - PYFUNCEBLE_DB_HOST="${DB_HOST}"
-  - PYFUNCEBLE_DB_NAME="${DB_NAME}"
-  - PYFUNCEBLE_DB_USERNAME="${DB_USERNAME}"
-  - PYFUNCEBLE_DB_PASSWORD="${DB_PASSWORD}"
-  - PYFUNCEBLE_DB_PORT="${DB_PORT}"
-  #- PYFUNCEBLE_DEBUG: true
-  #- PYFUNCEBLE_DEBUG_ON_SCREEN: true
-  - PYTHON_VERSION: 3.9.0
+    - GIT_NAME: 'spirillen'
+    - GIT_EMAIL: '44526987+spirillen@users.noreply.github.com'
+    - TRAVIS_REPO_SLUG: '${TRAVIS_REPO_SLUG}'
+    - GIT_BRANCH: $"{TRAVIS_BRANCH}"
+    - TZ: UTC
+    # Variables info: https://pyfunceble.readthedocs.io/en/dev/components/environment-variables.html#what-do-we-use-and-why
+    - PYFUNCEBLE_CONFIG_DIR: '${TRAVIS_BUILD_DIR}/.pyfunceble/'
+    - PYFUNCEBLE_OUTPUT_LOCATION: '${TRAVIS_BUILD_DIR}/active_domains/'
+    - PYFUNCEBLE_AUTO_CONFIGURATION: yes
+    - PYFUNCEBLE_DB_CHARSET="${DB_CHARSET}"
+    - PYFUNCEBLE_DB_HOST="${DB_HOST}"
+    - PYFUNCEBLE_DB_NAME="${DB_NAME}"
+    - PYFUNCEBLE_DB_USERNAME="${DB_USERNAME}"
+    - PYFUNCEBLE_DB_PASSWORD="${DB_PASSWORD}"
+    - PYFUNCEBLE_DB_PORT="${DB_PORT}"
+    #- PYFUNCEBLE_DEBUG: true
+    #- PYFUNCEBLE_DEBUG_ON_SCREEN: true
+    - PYTHON_VERSION: 3.9.0
 
 addons:
   #mariadb: '10.5'
   apt:
     packages:
-    - dos2unix
-    - msttcorefonts
-    - lsof
-    - gosu
+      - dos2unix
+      - msttcorefonts
+      - lsof
+      - gosu
 
 install:
   #- sudo bash "${TRAVIS_BUILD_DIR}/travissetup_recursor.sh"
@@ -63,5 +63,5 @@ git:
 
 # paste config here
 script:
-  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/travis/DataTesting.sh"; fi'
-  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/travis/run_on_pull_requests"; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash "${TRAVIS_BUILD_DIR}/scripts/PrepareData.sh" && bash "${TRAVIS_BUILD_DIR}/scripts/DataTesting.sh"; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash "${TRAVIS_BUILD_DIR}/scripts/run_on_pull_requests"; fi'
