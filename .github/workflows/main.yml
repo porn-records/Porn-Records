@@ -59,15 +59,10 @@ jobs:
         run: |
           uhb_whitelist --version
 
-      - name: Run Whitelist
-        run: |
-          bash "${{ github.workspace }}/scripts/PrepareData.sh"
+      # - name: Run Whitelist
+      #   run: |
+      #     bash "${{ github.workspace }}/scripts/PrepareData.sh"
 
       - name: Run Data testing
         run: |
           bash "${{ github.workspace }}/scripts/DataTesting.sh"
-      # - name: Run Data testing
-      #   run: |
-      #     pyfunceble --ci -q -h -ex --hierarchical --share-logs \
-      #     --http --dots --autosave-minutes 15 \
-      #     -f "${{ github.workspace }}/.pyfunceble/domains.txt"
