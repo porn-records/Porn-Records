@@ -9,7 +9,7 @@ echo "Interfering to much with linux"
 echo ""
 
 export PATH="${HOME}/miniconda/bin:${PATH}"
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p ${HOME}/miniconda
 hash -r
 conda config --set always_yes yes --set changeps1 no
