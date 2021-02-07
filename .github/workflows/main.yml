@@ -69,4 +69,22 @@ jobs:
       - name: Run Data testing
         run: |
           echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
-          bash "${{ github.workspace }}/scripts/DataTesting.sh"
+          # bash "${{ github.workspace }}/scripts/DataTesting.sh"
+          pyfunceble --ci \
+            --preload \
+            --dots \
+            -ex \
+            --hierarchical \
+            --autosave-minutes 25 \
+            -f "${domains}" \
+            "${hosts}" \
+            "${mobile}" \
+            "${rpzIp}" \
+            "${snuff}" \
+            "${wildcard}" \
+            "${rpzNsdname}" \
+            "${strict_domain}" \
+            "${strict_hosts}" \
+            "${strict_rpzIp}" \
+            "${strict_wildcard}" \
+            "${strict_rpzNsdname}"
