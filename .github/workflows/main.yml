@@ -50,6 +50,12 @@ jobs:
         run: |
           bash "${{ github.workspace }}/scripts/conda_install.sh"
 
+      - name: Python version
+        run: python --version
+
+      - name: Conda version
+        run: conda --version
+
       - name: Install PyFunceble
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
