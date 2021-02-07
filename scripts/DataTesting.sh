@@ -36,9 +36,10 @@ RunPyFunceble () {
 
     pyfunceble --ci \
       --preload \
+      --dots \
       -ex \
       --hierarchical \
-      --autosave-minutes 5 \
+      --autosave-minutes 25 \
       -f "${domains}" \
       "${hosts}" \
       "${mobile}" \
