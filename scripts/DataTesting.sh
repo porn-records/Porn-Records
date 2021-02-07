@@ -53,7 +53,8 @@ RunPyFunceble () {
       "${strict_rpzIp}" \
       "${strict_wildcard}" \
       "${strict_rpzNsdname}" \
-      --ci-command 'echo "$(date +'%s') > ${git_dir}/.pyfunceble/.trigger"'
+      --ci-command 'echo "$(date +'%s') > ${git_dir}/.pyfunceble/.trigger"' \
+      --logging-level info
 
 }
 RunPyFunceble
