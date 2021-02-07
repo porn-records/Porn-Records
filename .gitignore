@@ -2,6 +2,7 @@ commit.msg
 commit.txt
 pornhosts.geany
 miniconda.sh
+miniconda/**
 test.tmp
 .pyfunceble/db_types/
 active_domains/db_types/
