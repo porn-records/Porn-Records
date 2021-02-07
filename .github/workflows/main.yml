@@ -50,7 +50,7 @@ jobs:
       #   run: |
       #     bash "${{ github.workspace }}/scripts/conda_install.sh"
 
-      - name: setup-conda
+      - name: Setup conda
         uses: s-weigand/setup-conda@v1.0.5
         with:
           python-version: 3.9.1
@@ -68,11 +68,11 @@ jobs:
       - name: Conda version
         run: conda --version
 
-      - name: Install PyFunceble
+      - name: Setup PyFunceble
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
 
-      - name: Get PyFunceble version
+      - name: PyFunceble version
         run: |
           PyFunceble --version
 
@@ -80,7 +80,7 @@ jobs:
         run: |
           pip install --no-cache-dir ultimate-hosts-blacklist-whitelist-dev
 
-      - name: Get UHBW version
+      - name: UHBW version
         run: |
           uhb_whitelist --version
 
@@ -88,7 +88,7 @@ jobs:
       #   run: |
       #     bash "${{ github.workspace }}/scripts/PrepareData.sh"
 
-      - name: Run Data testing
+      - name: Availability test of porn records
         run: |
           echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
           bash "${{ github.workspace }}/scripts/DataTesting.sh"
