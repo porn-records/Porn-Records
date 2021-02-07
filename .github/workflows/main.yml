@@ -68,5 +68,5 @@ jobs:
 
       - name: Run Data testing
         run: |
-          echo $(date +'%s') > ${git_dir}/.trigger
+          echo "$(date +'%s')"" > "${{ github.workspace }}/.trigger"
           bash "${{ github.workspace }}/scripts/DataTesting.sh"
