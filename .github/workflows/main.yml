@@ -48,7 +48,7 @@ jobs:
 
       - name: Install PyFunceble
         run: |
-          pip install --no-cache-dir --pre PyFunceble-dev
+          pip install --no-cache-dir --pre PyFunceble-dev==4.0.0b20
 
       - name: Get PyFunceble version
         run: |
