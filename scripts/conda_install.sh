@@ -4,11 +4,10 @@
 git_dir="$(git rev-parse --show-toplevel)"
 
 echo "..."
-echo "..."
 echo "Let's install conda to prevent MicroShit"
 echo "Interfering to much with linux"
 echo ""
-echo "Any surprises that microsft brakes everything they haven't stolen!!"
+echo "Any surprises that Microsoft brakes everything they haven't stolen!!"
 echo "..."
 echo ""
 
