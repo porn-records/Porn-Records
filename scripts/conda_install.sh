@@ -3,9 +3,13 @@
 # We use git dir to make it CI independent
 git_dir="$(git rev-parse --show-toplevel)"
 
-echo ""
+echo "..."
+echo "..."
 echo "Let's install conda to prevent MicroShit"
 echo "Interfering to much with linux"
+echo ""
+echo "Any surprises that microsft brakes everything they haven't stolen!!"
+echo "..."
 echo ""
 
 export PATH="${HOME}/miniconda/bin:${PATH}"
