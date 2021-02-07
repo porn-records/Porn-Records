@@ -46,6 +46,10 @@ jobs:
         with:
           python-version: ${{ matrix.python_version }}
 
+      - name: Install conda AS WSL sucks
+        run: |
+          bash "${{ github.workspace }}/scripts/conda_install.sh"
+
       - name: Install PyFunceble
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
