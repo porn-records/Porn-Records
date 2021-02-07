@@ -15,7 +15,7 @@ env:
   GIT_NAME: '${{ secrets.GIT_NAME }}'
   GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
   PYFUNCEBLE_DEBUG: True
-  PYFUNCEBLE_DEBUG_LVL: debug
+  # PYFUNCEBLE_DEBUG_LVL: debug
   PYFUNCEBLE_DEBUG_ON_SCREEN: true
   PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
   PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/active_domains/'
