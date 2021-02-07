@@ -12,9 +12,12 @@ echo "..."
 echo ""
 
 export PATH="${HOME}/miniconda/bin:${PATH}"
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
-bash miniconda.sh -b -p ${HOME}/miniconda
+wget 'https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh' -O 'miniconda.sh'
+bash miniconda.sh -b -p "${HOME}/miniconda"
 hash -r
+
+source "${HOME}/miniconda/etc/profile.d/conda.sh"
+
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels conda-forge
 conda update -q conda
