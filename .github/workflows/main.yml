@@ -46,9 +46,21 @@ jobs:
         with:
           python-version: ${{ matrix.python_version }}
 
-      - name: Install conda AS WSL sucks
+      # - name: Install conda AS WSL sucks
+      #   run: |
+      #     bash "${{ github.workspace }}/scripts/conda_install.sh"
+
+      - name: setup-conda
+        uses: s-weigand/setup-conda@v1.0.5
+        with:
+          python-version: 3.9.1
+          activate-conda: true
+          update-conda: true
+
+      - name: Conda environment creation
         run: |
-          bash "${{ github.workspace }}/scripts/conda_install.sh"
+          conda env create test-environment
+          conda activate test-environment
 
       - name: Python version
         run: python --version
