@@ -48,7 +48,8 @@ pyfunceble --ci \
   "${strict_hosts}" \
   "${strict_rpzIp}" \
   "${strict_wildcard}" \
-  "${strict_rpzNsdname}"
+  "${strict_rpzNsdname}" \
+  --ci-command "git status && git add ."
 
 
 exit ${?}
