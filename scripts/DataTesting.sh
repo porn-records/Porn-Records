@@ -34,6 +34,7 @@ printf "\n\tYou are running with RunFunceble\n\n"
 
 pyfunceble --ci \
   -a \
+  --preload \
   -ex \
   --hierarchical \
   --autosave-minutes 25 \
@@ -49,7 +50,7 @@ pyfunceble --ci \
   "${strict_rpzIp}" \
   "${strict_wildcard}" \
   "${strict_rpzNsdname}" \
-  --ci-command "git status && git add ."
+  --ci-command "git add ."
 
 
 exit ${?}
