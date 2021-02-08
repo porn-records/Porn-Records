@@ -37,7 +37,7 @@ pyfunceble --ci \
   --preload \
   -ex \
   --hierarchical \
-  --autosave-minutes 25 \
+  --autosave-minutes 55 \
   -f "${domains}" \
   "${hosts}" \
   "${mobile}" \
@@ -50,7 +50,7 @@ pyfunceble --ci \
   "${strict_rpzIp}" \
   "${strict_wildcard}" \
   "${strict_rpzNsdname}" \
-  --ci-command "git add ."
+  --ci-command "git add ${PYFUNCEBLE_OUTPUT_LOCATION}"
 
 
 exit ${?}
