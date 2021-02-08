@@ -155,7 +155,7 @@ lookup:
     netinfo: true
     reputation: false
     special: true
-    timeout: 5
+    timeout: 2
     whois: true
 share_logs: false
 user_agent:
