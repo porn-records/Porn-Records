@@ -33,8 +33,8 @@ hash pyfunceble
 printf "\n\tYou are running with RunFunceble\n\n"
 
 pyfunceble --ci \
-  --preload \
-  --dots \
+  -a \
+  --local \
   -ex \
   --hierarchical \
   --autosave-minutes 25 \
