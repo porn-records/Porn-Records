@@ -1,15 +1,15 @@
 {
-    "abs_source": "/home/runner/work/porn-records/porn-records/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname",
+    "abs_source": "/home/runner/work/porn-records/porn-records/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname",
     "checker_type": "AVAILABILITY",
     "destination": "wildcard.rpz-nsdname",
-    "hash": "8004e731251751353752e99c4f55ad905b2ac2d31e2f1320a7005f30",
-    "line_number": 2,
+    "hash": "dfb72fc8bd1147bf35da15153964b8d20544d956af5ce710b0360911",
+    "line_number": 4,
     "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/wildcard.rpz-nsdname",
-    "previous_hash": "8004e731251751353752e99c4f55ad905b2ac2d31e2f1320a7005f30",
-    "rel_source": "submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname",
+    "previous_hash": "dfb72fc8bd1147bf35da15153964b8d20544d956af5ce710b0360911",
+    "rel_source": "submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname",
     "session_id": "e38efd7a7493ae9b293a891d",
     "source": "/home/runner/work/porn-records/porn-records/wildcard.rpz-nsdname",
-    "subject": "/home/runner/work/porn-records/porn-records/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname",
+    "subject": "/home/runner/work/porn-records/porn-records/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname",
     "subject_type": "domain",
     "type": "file"
 }

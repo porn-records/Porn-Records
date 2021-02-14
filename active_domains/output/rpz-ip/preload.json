@@ -1,15 +1,15 @@
 {
-    "abs_source": "/home/runner/work/porn-records/porn-records/submit_here/strict.adult.mypdns.cloud/rpz-ip",
+    "abs_source": "/home/runner/work/porn-records/porn-records/submit_here/adult.mypdns.cloud/rpz-ip",
     "checker_type": "AVAILABILITY",
     "destination": "rpz-ip",
-    "hash": "8004e731251751353752e99c4f55ad905b2ac2d31e2f1320a7005f30",
-    "line_number": 2,
+    "hash": "35ab499e0e90d932eabadad561c13b61acb04ec0cc3dbcf07c1c96f1",
+    "line_number": 21,
     "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/rpz-ip",
-    "previous_hash": "8004e731251751353752e99c4f55ad905b2ac2d31e2f1320a7005f30",
-    "rel_source": "submit_here/strict.adult.mypdns.cloud/rpz-ip",
+    "previous_hash": "35ab499e0e90d932eabadad561c13b61acb04ec0cc3dbcf07c1c96f1",
+    "rel_source": "submit_here/adult.mypdns.cloud/rpz-ip",
     "session_id": "4a9e5a5e117fbf57e26cf8a7",
     "source": "/home/runner/work/porn-records/porn-records/rpz-ip",
-    "subject": "/home/runner/work/porn-records/porn-records/submit_here/strict.adult.mypdns.cloud/rpz-ip",
+    "subject": "/home/runner/work/porn-records/porn-records/submit_here/adult.mypdns.cloud/rpz-ip",
     "subject_type": "domain",
     "type": "file"
 }
