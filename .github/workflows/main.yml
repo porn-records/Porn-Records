@@ -50,17 +50,17 @@ jobs:
       #   run: |
       #     bash "${{ github.workspace }}/scripts/conda_install.sh"
 
-      - name: Setup conda
-        uses: s-weigand/setup-conda@v1.0.5
-        with:
-          python-version: 3.9.1
-          activate-conda: true
-          update-conda: true
+      # - name: Setup conda
+      #   uses: s-weigand/setup-conda@v1.0.5
+      #   with:
+      #     python-version: 3.9.1
+      #     activate-conda: true
+      #     update-conda: true
 
-      - name: Conda environment creation
-        run: |
-          conda create -q -n pyfunceble4
-          source activate pyfunceble4
+      # - name: Conda environment creation
+      #   run: |
+      #     conda create -q -n pyfunceble4
+      #     source activate pyfunceble4
 
       - name: Python version
         run: python --version
@@ -92,19 +92,3 @@ jobs:
         run: |
           echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
           bash "${{ github.workspace }}/scripts/DataTesting.sh"
-          # pyfunceble --ci --preload --dots  -ex --hierarchical \
-          #   --logging-level critical \
-          #   --autosave-minutes 25 -f "${{ github.workspace }}/submit_here/adult.mypdns.cloud/domains.list" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/hosts.list" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/mobile.list" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/rpz-ip" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/snuff.list" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/white.list" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/wildcard.list" \
-          #   "${{ github.workspace }}/submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname" \
-          #   "${{ github.workspace }}/submit_here/strict.adult.mypdns.cloud/domains.list" \
-          #   "${{ github.workspace }}/submit_here/strict.adult.mypdns.cloud/hosts.list" \
-          #   "${{ github.workspace }}/submit_here/strict.adult.mypdns.cloud/rpz-ip" \
-          #   "${{ github.workspace }}/submit_here/strict.adult.mypdns.cloud/wildcard.list" \
-          #   "${{ github.workspace }}/submit_here/strict.adult.mypdns.cloud/wildcard.rpz-nsdname" \
-          #   --ci-command "echo $(date +'%s') > ${{ github.workspace }}/.trigger"
