@@ -25,9 +25,9 @@ strict_rpzNsdname="${strict_dir}/strict.wildcard.rpz-nsdname"
 #testFile="https://raw.githubusercontent.com/${TRAVIS_REPO_SLUG}/.pyfunceble/domains.txt"
 #testFile="https://raw.githubusercontent.com/PyFunceble/ci_test/master/test.list"
 
-export PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
-export PYFUNCEBLE_DEBUG: True
-export PYFUNCEBLE_DEBUG_LVL: info
+export PYFUNCEBLE_AUTO_CONFIGURATION=YES
+export PYFUNCEBLE_DEBUG=True
+export PYFUNCEBLE_DEBUG_LVL=info
 export PYFUNCEBLE_CONFIG_DIR="${git_dir}/.pyfunceble"
 export PYFUNCEBLE_OUTPUT_LOCATION="${git_dir}/active_domains/"
 
