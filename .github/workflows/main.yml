@@ -21,6 +21,12 @@ env:
   #PYFUNCEBLE_DEBUG_ON_SCREEN: true
   # PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
   # PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/active_domains/'
+  PYFUNCEBLE_DB_HOST: '${{ secrets.MYPDNS_DB_HOST }}'
+  PYFUNCEBLE_DB_NAME: '${{ secrets.MYPDNS_DB_NAME }}'
+  PYFUNCEBLE_DB_PORT: '${{ secrets.MYPDNS_DB_PORT }}'
+  PYFUNCEBLE_DB_USERNAME: '${{ secrets.MYPDNS_DB_USER }}'
+  PYFUNCEBLE_DB_PASSWORD: '${{ secrets.MYPDNS_DB_PASS }}'
+  PYFUNCEBLE_DB_CHARSET: '${{ secrets.MYPDNS_DB_CHAR }}'
 
 jobs:
   test_and_push:
