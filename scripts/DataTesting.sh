@@ -53,7 +53,7 @@ pyfunceble --ci \
   "${strict_rpzIp}" \
   "${strict_wildcard}" \
   "${strict_rpzNsdname}" \
-  --ci-command "git add ${PYFUNCEBLE_OUTPUT_LOCATION}"
+  --ci-command "git add ${PYFUNCEBLE_OUTPUT_LOCATION} && git pull --rebase"
 
 
 exit ${?}
