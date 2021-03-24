@@ -17,7 +17,7 @@ env:
   BUILD_NUMBER: '${{ github.run_number }}'
   PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
   PYFUNCEBLE_DEBUG: True
-  PYFUNCEBLE_DEBUG_LVL: info
+  PYFUNCEBLE_DEBUG_LVL: critical
   #PYFUNCEBLE_DEBUG_ON_SCREEN: true
   # PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
   # PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/active_domains/'
@@ -37,7 +37,7 @@ jobs:
       fail-fast: false
       matrix:
         python_version:
-          - '3.9.1'
+          - '3.9.2'
         os:
           - ubuntu-20.04
 
