@@ -60,7 +60,7 @@ exit ${?}
 
 # Copyright: https://www.mypdns.org/
 # Content: https://www.mypdns.org/p/Spirillen/
-# Source: https://www.mypdns.org/source/PornDomains/
+# Source: https://www.mypdns.org/source/PornRecords/
 # License: https://www.mypdns.org/w/license
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
