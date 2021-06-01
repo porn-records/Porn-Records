@@ -27,7 +27,7 @@ strict_rpzNsdname="${strict_dir}/strict.wildcard.rpz-nsdname"
 
 export PYFUNCEBLE_AUTO_CONFIGURATION=YES
 export PYFUNCEBLE_DEBUG=True
-export PYFUNCEBLE_DEBUG_LVL=info
+export PYFUNCEBLE_DEBUG_LVL=critical
 export PYFUNCEBLE_CONFIG_DIR="${git_dir}/.pyfunceble"
 export PYFUNCEBLE_OUTPUT_LOCATION="${git_dir}/active_domains/"
 
