@@ -59,7 +59,7 @@ jobs:
       # - name: Setup conda
       #   uses: s-weigand/setup-conda@v1.0.5
       #   with:
-      #     python-version: 3.9.1
+      #     python-version: 3.9.5
       #     activate-conda: true
       #     update-conda: true
 
