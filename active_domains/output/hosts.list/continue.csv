@@ -1,18 +1,4 @@
 idna_subject,checker_type,destination,source,tested_at,session_id
-cluster19a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:04.931360,fa9a73099f5ed86ff26db047
-cluster19b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:04.967001,fa9a73099f5ed86ff26db047
-cluster20a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.003770,fa9a73099f5ed86ff26db047
-cluster20b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.044409,fa9a73099f5ed86ff26db047
-cluster21a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.084184,fa9a73099f5ed86ff26db047
-cluster21b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.121871,fa9a73099f5ed86ff26db047
-cluster3.adultadworld.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.157846,fa9a73099f5ed86ff26db047
-cluster4a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.194900,fa9a73099f5ed86ff26db047
-cluster4b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.230427,fa9a73099f5ed86ff26db047
-cluster5a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.266429,fa9a73099f5ed86ff26db047
-cluster5b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.303582,fa9a73099f5ed86ff26db047
-cluster6a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.339907,fa9a73099f5ed86ff26db047
-cluster6b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.376023,fa9a73099f5ed86ff26db047
-cluster7a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.413464,fa9a73099f5ed86ff26db047
 cluster7b.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.449800,fa9a73099f5ed86ff26db047
 cluster8a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.485756,fa9a73099f5ed86ff26db047
 cluster9a.heavy-r.com,AVAILABILITY,hosts.list,/home/runner/work/porn-records/porn-records/hosts.list,2001-02-08 01:53:05.521447,fa9a73099f5ed86ff26db047
@@ -12625,3 +12611,17 @@ cluster17a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 21:55:15.64
 cluster17b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 21:59:32.126023,fa9a73099f5ed86ff26db047
 cluster18a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:03:43.748891,fa9a73099f5ed86ff26db047
 cluster18b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:07:50.227548,fa9a73099f5ed86ff26db047
+cluster19a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:14:56.794692,fa9a73099f5ed86ff26db047
+cluster19b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:19:08.437045,fa9a73099f5ed86ff26db047
+cluster20a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:23:20.228716,fa9a73099f5ed86ff26db047
+cluster20b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:27:22.254527,fa9a73099f5ed86ff26db047
+cluster21a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:31:43.271590,fa9a73099f5ed86ff26db047
+cluster21b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:35:45.184364,fa9a73099f5ed86ff26db047
+cluster3.adultadworld.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:36:41.978670,fa9a73099f5ed86ff26db047
+cluster4a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:41:02.750869,fa9a73099f5ed86ff26db047
+cluster4b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:45:04.684005,fa9a73099f5ed86ff26db047
+cluster5a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:49:17.144452,fa9a73099f5ed86ff26db047
+cluster5b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:53:28.827949,fa9a73099f5ed86ff26db047
+cluster6a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 22:57:45.136675,fa9a73099f5ed86ff26db047
+cluster6b.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 23:01:56.899931,fa9a73099f5ed86ff26db047
+cluster7a.heavy-r.com,AVAILABILITY,hosts.list,hosts.list,2021-06-06 23:06:08.753709,fa9a73099f5ed86ff26db047
