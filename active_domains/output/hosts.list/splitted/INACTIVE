@@ -77,3 +77,7 @@ cluster5b.heavy-r.com                                                           
 cluster6a.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
 cluster6b.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
 cluster7a.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
+cluster7b.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
+cluster8a.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
+cluster9a.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
+cluster9b.heavy-r.com                                                                                INACTIVE    STDLOOKUP  Unknown           Unknown    AVAILABILITY 
