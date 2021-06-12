@@ -699,6 +699,7 @@
         "blogspot.com.by",
         "com.by",
         "gov.by",
+        "mediatech.by",
         "mil.by",
         "mycloud.by",
         "nym.by",
@@ -1566,6 +1567,7 @@
         "lcl.dev",
         "lclstage.dev",
         "loginline.dev",
+        "mediatech.dev",
         "pages.dev",
         "platter-app.dev",
         "shiftcrypto.dev",
@@ -7443,6 +7445,7 @@
         "nom.rs",
         "org.rs",
         "ox.rs",
+        "shop.brendly.rs",
         "ua.rs"
     ],
     "ru": [
