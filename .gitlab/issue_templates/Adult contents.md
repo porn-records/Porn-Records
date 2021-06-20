@@ -11,13 +11,15 @@ domain   CNAME . ; Adult
 *.domain   CNAME . ; Adult
 ```
 
-### Additional requirements for rPR
+### Additional requirements for dumb hosts-files
+
 ```
 
 www.?
 ```
 
 ## Screenshots
+
 <details><summary>Screenshot</summary>
 
 
@@ -35,6 +37,7 @@ www.?
 - [X] Added to the RPZ zone [adult.mypdns.cloud](https://archive.mypdns.org/w/rpzlist/#adult) (@spirillen)
 
 #### Logger output
+
 <details><summary>Domains **ONLY**</summary>
 
 ```md
@@ -44,7 +47,7 @@ www.?
 </details>
 
 /assign @my-privacy-dns @porn-records
-/label ~SNUFF ~NSFW
+/label ~NSFW
 
 
 <!--
