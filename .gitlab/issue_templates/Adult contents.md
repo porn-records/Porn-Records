@@ -30,10 +30,10 @@ www.?
 
 ### Todo
 - [X] Added to Source file?
-- [X] Added to the RPZ zone adult.mypdns.cloud (@spirillen)
+- [X] Added to the RPZ zone [adult.mypdns.cloud](https://archive.mypdns.org/w/rpzlist/#adult) (@spirillen)
 
 #### Logger output
-<details><summary>Logger output</summary>
+<details><summary>Domains **ONLY**</summary>
 
 ```md
 
@@ -41,8 +41,7 @@ www.?
 
 </details>
 
-/assign @my-privacy-dns
-/cc @spirillen
+/assign @my-privacy-dns @porn-records
 /label ~NSFW
 
 
