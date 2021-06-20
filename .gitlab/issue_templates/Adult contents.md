@@ -1,3 +1,26 @@
+<!--
+usage of www or not
+
+Please check if you submission is using the the www or not and put that into
+the section of
+
+You can tell us you have checked this by adding either a
+, a
+
+or non in front of the www
+
++ www.domain  The domain uses **both** the `www` and the //non// `www` names.
+- www.domain  The domain uses **only** the //non// `www` name.
+www.domain  The domain uses **only** the `www.` name.
+www.? Leaving the question mark tells us you haven't tested this
+
+Tips & Tricks
+
+If you are using ie. uBlock Origin, you can sort the log output with this
+one-liner in bash.
+See snippet: https://mypdns.org/-/snippets/2
+-->
+
 I believe this domain is an Adult(-related) domain --> that have to be blocked as..
 
 - [X] Wildcarded
