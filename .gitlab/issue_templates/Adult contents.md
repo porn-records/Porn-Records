@@ -24,8 +24,10 @@ www.?
 </details>
 
 ### All Submissions:
-- [x] Have you followed the guidelines in our Contributing documentation?
-- [x] Have you checked to ensure there aren't other open Merge Requests or Issues  for the same update/change?
+- [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
+- [x] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
+      same update/change?
 - [x] Added screenshot for prove of False Negative
 
 ### Todo
@@ -42,7 +44,7 @@ www.?
 </details>
 
 /assign @my-privacy-dns @porn-records
-/label ~NSFW
+/label ~SNUFF ~NSFW
 
 
 <!--
