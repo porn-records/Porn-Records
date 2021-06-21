@@ -1,8 +1,8 @@
 {
     "checker_type": "AVAILABILITY",
     "destination": "wildcard.list",
-    "hash": "89545f7bf2a757fa55ad5ff256937ad6be299016c9bdd207faee3403",
-    "line_number": 2352,
+    "hash": "ea4f6db402f9feac62c464fb269bcf1ceb4c7a82f21b58944e7aea3a",
+    "line_number": 687,
     "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/wildcard.list",
     "previous_hash": "89545f7bf2a757fa55ad5ff256937ad6be299016c9bdd207faee3403",
     "session_id": "7a2760f72ed03032a568d054",
