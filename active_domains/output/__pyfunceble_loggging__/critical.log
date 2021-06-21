@@ -178,3 +178,33 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 267, in __handle_blogspot
     if self.status.subject.starts("http:"):
 AttributeError: 'str' object has no attribute 'starts'
+[2021-06-21 22:59:47,427 | CRITICAL | ../../../../../opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/cli/processes/workers/base.py:381@run | PPID2479:pyfunceble_tester_worker_1]:
+Error while running target
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/cli/processes/workers/base.py", line 366, in run
+    result = self.target(consumed)
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/cli/processes/workers/tester.py", line 275, in target
+    self.testing_object.set_subject(test_dataset["idna_subject"])
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/base.py", line 135, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/base.py", line 160, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/base.py", line 135, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/base.py", line 160, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/domain.py", line 179, in query_status
+    ExtraRulesHandler(self.status).start()
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 129, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 320, in start
+    self.__handle_active2inactive()
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 301, in __handle_active2inactive
+    self.__regex_registry_handler(self.regex_active2inactive)
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 218, in __regex_registry_handler
+    element()
+  File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 267, in __handle_blogspot
+    if self.status.subject.starts("http:"):
+AttributeError: 'str' object has no attribute 'starts'
