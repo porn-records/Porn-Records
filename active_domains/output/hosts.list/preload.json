@@ -1,8 +1,8 @@
 {
     "checker_type": "AVAILABILITY",
     "destination": "hosts.list",
-    "hash": "7648886e6a8c59bc85fbcd0ca020b823be0090b388590139fceb77d4",
-    "line_number": 7752,
+    "hash": "d39f6ef8031cedcfc3ff23047a234e83e9f0b317417c7593b639301c",
+    "line_number": 5357,
     "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/hosts.list",
     "previous_hash": "4d31f288a8873dbded79150180df8d4d264773f9aded903fbbbb63cc",
     "session_id": "a4e8db1f46b7f02089846a4d",
