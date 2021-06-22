@@ -6,14 +6,14 @@ I believe this domain is an Adult(-related) domain --> that have to be blocked a
 - [ ] Single domain blocking
 - [ ] Strict adult domain
 
-```
+```python
 domain   CNAME . ; Adult
 *.domain   CNAME . ; Adult
 ```
 
 ### Additional requirements for dumb hosts-files
 
-```
+```python
 
 www.?
 ```
@@ -41,13 +41,13 @@ www.?
 
 <details><summary>Domains **ONLY**</summary>
 
-```md
+```python
 
 ```
 
 </details>
 
-/assign @my-privacy-dns @porn-records
+/assign @spirillen @anonymous @mypdns 
 /label ~NSFW
 
 
@@ -57,10 +57,7 @@ usage of www or not
 Please check if you submission is using the the www or not and put that into
 the section of
 
-You can tell us you have checked this by adding either a
-, a
-
-or non in front of the www
+You can tell us you have checked this by adding either a {key +}, a {key -} or `non` in front of the `www`
 
 + www.domain  The domain uses **both** the `www` and the //non// `www` names.
 - www.domain  The domain uses **only** the //non// `www` name.
