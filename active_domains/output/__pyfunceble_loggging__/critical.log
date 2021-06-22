@@ -298,7 +298,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 267, in __handle_blogspot
     if self.status.subject.starts("http:"):
 AttributeError: 'str' object has no attribute 'starts'
-[2021-06-22 04:29:56,275 | CRITICAL | ../../../../../opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/cli/processes/workers/base.py:381@run | PPID2736:pyfunceble_tester_worker_1]:
+[2021-06-22 04:31:11,328 | CRITICAL | ../../../../../opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/cli/processes/workers/base.py:381@run | PPID2637:pyfunceble_tester_worker_1]:
 Error while running target
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/cli/processes/workers/base.py", line 366, in run
