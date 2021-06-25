@@ -2,39 +2,41 @@ Collecting PyFunceble-dev
   Downloading PyFunceble_dev-4.0.0b56-py3-none-any.whl (454 kB)
 Collecting PyYAML
   Downloading PyYAML-5.4.1-cp39-cp39-manylinux1_x86_64.whl (630 kB)
-Collecting SQLAlchemy>=1.3.20
-  Downloading SQLAlchemy-1.4.19-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.5 MB)
-Collecting alembic
-  Downloading alembic-1.6.5-py2.py3-none-any.whl (164 kB)
-Collecting dnspython[doh]>=2.0.0
-  Downloading dnspython-2.1.0-py3-none-any.whl (241 kB)
-Collecting packaging
-  Downloading packaging-20.9-py2.py3-none-any.whl (40 kB)
-Collecting requests<3
-  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
 Collecting domain2idna>=1.12.0
   Downloading domain2idna-1.12.0-py3-none-any.whl (10 kB)
 Collecting inflection
   Downloading inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
-Collecting PyMySQL
-  Downloading PyMySQL-1.0.2-py3-none-any.whl (43 kB)
-Collecting python-dotenv
-  Downloading python_dotenv-0.18.0-py2.py3-none-any.whl (18 kB)
-Collecting colorama
-  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
-Collecting python-box[all]>=5.0.0
-  Downloading python_box-5.3.0-py3-none-any.whl (21 kB)
+Collecting packaging
+  Downloading packaging-20.9-py2.py3-none-any.whl (40 kB)
+Collecting SQLAlchemy>=1.3.20
+  Downloading SQLAlchemy-1.4.19-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.5 MB)
+Collecting requests<3
+  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
 Collecting cryptography
   Downloading cryptography-3.4.7-cp36-abi3-manylinux2014_x86_64.whl (3.2 MB)
+Collecting dnspython[doh]>=2.0.0
+  Downloading dnspython-2.1.0-py3-none-any.whl (241 kB)
+Collecting python-box[all]>=5.0.0
+  Downloading python_box-5.3.0-py3-none-any.whl (21 kB)
+Collecting python-dotenv
+  Downloading python_dotenv-0.18.0-py2.py3-none-any.whl (18 kB)
+Collecting alembic
+  Downloading alembic-1.6.5-py2.py3-none-any.whl (164 kB)
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting PyMySQL
+  Downloading PyMySQL-1.0.2-py3-none-any.whl (43 kB)
 Requirement already satisfied: setuptools in /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages (from PyFunceble-dev) (56.0.0)
 Collecting requests-toolbelt
   Downloading requests_toolbelt-0.9.1-py2.py3-none-any.whl (54 kB)
+Collecting msgpack
+  Downloading msgpack-1.0.2-cp39-cp39-manylinux1_x86_64.whl (294 kB)
 Collecting ruamel.yaml
   Downloading ruamel.yaml-0.17.10-py3-none-any.whl (108 kB)
 Collecting toml
   Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
-Collecting msgpack
-  Downloading msgpack-1.0.2-cp39-cp39-manylinux1_x86_64.whl (294 kB)
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
 Collecting chardet<5,>=3.0.2
   Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
 Collecting certifi>=2017.4.17
@@ -51,6 +53,8 @@ Collecting python-editor>=0.3
   Downloading python_editor-1.0.4-py3-none-any.whl (4.9 kB)
 Collecting python-dateutil
   Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting python-editor>=0.3
+  Downloading python_editor-1.0.4-py3-none-any.whl (4.9 kB)
 Collecting cffi>=1.12
   Downloading cffi-1.14.5-cp39-cp39-manylinux1_x86_64.whl (406 kB)
 Collecting pycparser
