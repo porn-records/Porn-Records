@@ -76,7 +76,7 @@ jobs:
 
       - name: Setup PyFunceble
         run: |
-          pip install --no-cache-dir --pre PyFunceble-dev>=4.0.0b56
+          pip install --no-cache-dir PyFunceble
 
       - name: PyFunceble version
         run: |
