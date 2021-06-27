@@ -1,0 +1,1 @@
+[2021-06-27 15:20:50,224::INFO::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:120@__get_resolver](PID1555:MainProcess): DNS Server not explicitly given, providing the systemwide one.

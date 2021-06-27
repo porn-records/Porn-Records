@@ -1,0 +1,6 @@
+[2021-06-27 15:20:50,225::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:83@__init__](PID1555:MainProcess): DNS Resolver Nameservers: ['127.0.0.53']
+[2021-06-27 15:20:50,225::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:86@__init__](PID1555:MainProcess): DNS Resolver (Nameservers) Port: {}
+[2021-06-27 15:20:50,225::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:89@__init__](PID1555:MainProcess): DNS Resolver Port: 53
+[2021-06-27 15:20:50,225::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:90@__init__](PID1555:MainProcess): DNS Resolver timeout: 2.0
+[2021-06-27 15:20:50,225::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:91@__init__](PID1555:MainProcess): DNS Resolver lifetime: 5.0
+[2021-06-27 15:20:50,226::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:92@__init__](PID1555:MainProcess): DNS Resolver over TCP: False
