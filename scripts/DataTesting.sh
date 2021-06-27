@@ -40,7 +40,7 @@ pyfunceble --ci \
   --preload \
   -ex \
   --hierarchical \
-  --ci-max-minutes 345 \
+  --ci-max-minutes 45 \
   -f "${domains}" \
   "${hosts}" \
   "${mobile}" \
