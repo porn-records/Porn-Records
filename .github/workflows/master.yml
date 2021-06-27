@@ -62,6 +62,10 @@ jobs:
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
 
+      - name: Install mypdns
+        run: |
+          pip install --no-cache-dir mypdns
+
       - name: PyFunceble version
         run: |
           PyFunceble --version
