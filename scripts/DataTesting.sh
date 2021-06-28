@@ -40,7 +40,7 @@ pyfunceble --ci \
   --preload \
   -ex \
   --hierarchical \
-  --ci-max-minutes 65 \
+  --ci-max-minutes 320 \
   -f "${domains}" \
   "${hosts}" \
   "${mobile}" \
@@ -52,8 +52,7 @@ pyfunceble --ci \
   "${strict_hosts}" \
   "${strict_rpzIp}" \
   "${strict_wildcard}" \
-  "${strict_rpzNsdname}" \
-  --http
+  "${strict_rpzNsdname}" 
   #--ci-command "git add ${PYFUNCEBLE_OUTPUT_LOCATION} && git pull --rebase"
 
 
