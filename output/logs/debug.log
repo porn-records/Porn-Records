@@ -10,3 +10,9 @@
 [2021-06-27 16:14:17,343::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:90@__init__](PID1551:MainProcess): DNS Resolver timeout: 2.0
 [2021-06-27 16:14:17,343::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:91@__init__](PID1551:MainProcess): DNS Resolver lifetime: 5.0
 [2021-06-27 16:14:17,343::DEBUG::/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:92@__init__](PID1551:MainProcess): DNS Resolver over TCP: False
+[2021-06-28 03:15:30,731::DEBUG::/home/joakim/miniconda/envs/pyfunceble4/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:83@__init__](PID501003:MainProcess): DNS Resolver Nameservers: ['192.168.0.1']
+[2021-06-28 03:15:30,731::DEBUG::/home/joakim/miniconda/envs/pyfunceble4/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:86@__init__](PID501003:MainProcess): DNS Resolver (Nameservers) Port: {}
+[2021-06-28 03:15:30,731::DEBUG::/home/joakim/miniconda/envs/pyfunceble4/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:89@__init__](PID501003:MainProcess): DNS Resolver Port: 53
+[2021-06-28 03:15:30,731::DEBUG::/home/joakim/miniconda/envs/pyfunceble4/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:90@__init__](PID501003:MainProcess): DNS Resolver timeout: 2.0
+[2021-06-28 03:15:30,731::DEBUG::/home/joakim/miniconda/envs/pyfunceble4/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:91@__init__](PID501003:MainProcess): DNS Resolver lifetime: 5.0
+[2021-06-28 03:15:30,732::DEBUG::/home/joakim/miniconda/envs/pyfunceble4/lib/python3.9/site-packages/PyFunceble/lookup/dns.py:92@__init__](PID501003:MainProcess): DNS Resolver over TCP: False
