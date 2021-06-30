@@ -1,6 +1,0 @@
-idna_subject,checker_type,destination,source,tested_at,session_id
-cdngangsta.com,AVAILABILITY,wildcard.rpz-nsdname,wildcard.rpz-nsdname,2001-06-29 22:23:48.327431,9e8ee0b32a09eddd522fd1cb
-maturescream.com,AVAILABILITY,wildcard.rpz-nsdname,wildcard.rpz-nsdname,2001-06-29 22:23:48.343232,9e8ee0b32a09eddd522fd1cb
-xd-cdn.com,AVAILABILITY,wildcard.rpz-nsdname,wildcard.rpz-nsdname,2001-06-29 22:23:48.358789,9e8ee0b32a09eddd522fd1cb
-feetfoot.com,AVAILABILITY,wildcard.rpz-nsdname,wildcard.rpz-nsdname,2001-06-29 22:23:48.374466,9e8ee0b32a09eddd522fd1cb
-sopornmovies.com,AVAILABILITY,wildcard.rpz-nsdname,wildcard.rpz-nsdname,2001-06-29 22:23:48.390112,9e8ee0b32a09eddd522fd1cb
