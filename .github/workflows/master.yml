@@ -58,15 +58,15 @@ jobs:
       - name: Conda version
         run: conda --version
 
-      - name: Setup PyFunceble
+      - name: Setup python requirements
         run: |
           #pip install --no-cache-dir --pre PyFunceble-dev
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Install mypdns
-        run: |
-          pip install --no-cache-dir mypdns
+      # - name: Install mypdns
+      #   run: |
+      #     pip install --no-cache-dir mypdns
 
       - name: PyFunceble version
         run: |
