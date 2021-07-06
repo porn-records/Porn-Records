@@ -14,26 +14,26 @@ If you feel like contributing there are a couple of ways to do this
 
 ### Add new hosts
 The workflow is a bit clumsy, but the most reliable and fail-safe.
-1. You add an issue with you question, feature request or contribution
-   via [this form](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents)
-   (This is the history of _why_ to blacklist a record)
+   1. You add an issue with you question, feature request or contribution
+      via [this form](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents)
+      (This is the history of _why_ to blacklist a record)
 
-   ALL fields MOST be filled out, the questions are there for a
-   good reason...
+      ALL fields MOST be filled out, the questions are there for a
+      good reason...
 
-2. Add your new domain record(s) to suitable file(s) in the `submit_here/`
-   folder.  
-   A issue is required to be able to historically trace why you
-   have committed the records.
-    
-3. You open a PR (Merge Request) where you'll add your contribution
-   (This is the _when_ we did the blacklisting)
+   2. Add your new domain record(s) to suitable file(s) in the `submit_here/`
+      folder.
+      A issue is required to be able to historically trace why you
+      have committed the records.
 
-4. You add the new domain record entry in the top of the list, then
-   it is easier to find.  
-   The code will make it appear in alphanumeric order
+   3. You open a PR (Merge Request) where you'll add your contribution
+      (This is the _when_ we did the blacklisting)
 
-5. Follow the [New commit](#new-commit) guide
+   4. You add the new domain record entry in the top of the list, then
+      it is easier to find.
+      The code will make it appear in alphanumeric order
+
+   5. Follow the [New commit](#new-commit) guide
 
 
 ### New code
