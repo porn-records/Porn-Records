@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version="$(date +%Y.%m).${BUILD_NUMBER}"
+export version="$(date +%Y.%m).${BUILD_NUMBER}"
 
 git_dir="$(git rev-parse --show-toplevel)"
 
