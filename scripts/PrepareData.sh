@@ -85,7 +85,7 @@ then
     echo "Running WhiteListing"
     hash uhb_whitelist
     mv "${testFile}" "${testFile}.tmp.txt"
-    uhb_whitelist -wc -m -w ${WhiteList} \
+    uhb_whitelist -wc -m -w "${WhiteList}" \
       -w 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/domains.list' \
       --all 'https://raw.githubusercontent.com/mypdns/matrix/master/source/whitelist/wildcard.list'
       -f "${testfile}" -o "${testFile}"
