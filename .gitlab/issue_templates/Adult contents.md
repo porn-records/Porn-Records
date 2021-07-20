@@ -48,8 +48,7 @@ www.?
 </details>
 
 
-/assign @spirillen @anonymous @mypdns 
-
+/assign @spirillen 
 
 /label ~NSFW
 
