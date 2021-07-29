@@ -50,7 +50,7 @@ www.?
 
 /assign @spirillen 
 
-/label ~NSFW
+/label ~"NSFW::Strict"
 
 
 <!--

@@ -51,4 +51,4 @@ Not for the faint hearten...
 
 /assign @spirillen 
 
-/label ~snuff 
+/label ~"NSFW::Snuff" 
