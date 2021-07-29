@@ -1,6 +1,7 @@
 {
     "ac": [
         "com.ac",
+        "drr.ac",
         "edu.ac",
         "gov.ac",
         "mil.ac",
@@ -229,6 +230,7 @@
         "info.at",
         "kunden.ortsinfo.at",
         "lima-city.at",
+        "myspreadshop.at",
         "or.at",
         "priv.at",
         "sth.ac.at",
@@ -247,6 +249,7 @@
         "id.au",
         "info.au",
         "mel.cloudlets.com.au",
+        "myspreadshop.com.au",
         "net.au",
         "nsw.au",
         "nsw.edu.au",
@@ -305,7 +308,8 @@
         "gov.ba",
         "mil.ba",
         "net.ba",
-        "org.ba"
+        "org.ba",
+        "rs.ba"
     ],
     "basketball": [
         "aus.basketball",
@@ -331,6 +335,7 @@
         "blogspot.be",
         "cloud.interhostsolutions.be",
         "ezproxy.kuleuven.be",
+        "myspreadshop.be",
         "transurl.be",
         "webhosting.be"
     ],
@@ -725,6 +730,7 @@
         "co.ca",
         "gc.ca",
         "mb.ca",
+        "myspreadshop.ca",
         "nb.ca",
         "nf.ca",
         "nl.ca",
@@ -769,6 +775,7 @@
         "gotdns.ch",
         "lima-city.ch",
         "linkyard-cloud.ch",
+        "myspreadshop.ch",
         "square7.ch",
         "svc.firenet.ch"
     ],
@@ -927,6 +934,7 @@
         "otap.co",
         "rec.co",
         "repl.co",
+        "supabase.co",
         "web.co"
     ],
     "codes": [
@@ -1003,6 +1011,7 @@
         "ddnsking.com",
         "ddnslive.com",
         "de.com",
+        "demo.datadetect.com",
         "demo.jelastic.com",
         "dev-myqnapcloud.com",
         "dev.adobeaemcloud.com",
@@ -1141,6 +1150,7 @@
         "impertrix.com",
         "impertrixcdn.com",
         "indowapblog.com",
+        "instance.datadetect.com",
         "is-a-anarchist.com",
         "is-a-blogger.com",
         "is-a-bookkeeper.com",
@@ -1233,6 +1243,7 @@
         "mysecuritycamera.com",
         "myshopblocks.com",
         "myshopify.com",
+        "myspreadshop.com",
         "mytuleap.com",
         "myvnc.com",
         "neat-url.com",
@@ -1282,6 +1293,7 @@
         "rag-cloud-ch.hosteur.com",
         "rag-cloud.hosteur.com",
         "remotewd.com",
+        "reservd.com",
         "reserve-online.com",
         "rhcloud.com",
         "ru.com",
@@ -1379,6 +1391,7 @@
         "townnews-staging.com",
         "try-snowplow.com",
         "trycloudflare.com",
+        "tuleap-partners.com",
         "u2-local.xnbay.com",
         "u2.xnbay.com",
         "uk.com",
@@ -1417,6 +1430,7 @@
     ],
     "community": [
         "myforum.community",
+        "nog.community",
         "ravendb.community"
     ],
     "cool": [
@@ -1537,6 +1551,7 @@
         "my-vigor.de",
         "my-wan.de",
         "myhome-server.de",
+        "myspreadshop.de",
         "schulserver.de",
         "spdns.de",
         "square7.de",
@@ -1586,6 +1601,7 @@
         "blogspot.dk",
         "co.dk",
         "firm.dk",
+        "myspreadshop.dk",
         "reg.dk",
         "store.dk"
     ],
@@ -1678,6 +1694,7 @@
         "com.es",
         "edu.es",
         "gob.es",
+        "myspreadshop.es",
         "nom.es",
         "org.es"
     ],
@@ -1727,6 +1744,7 @@
         "fi.cloudplatform.fi",
         "häkkinen.fi",
         "iki.fi",
+        "myspreadshop.fi",
         "paas.datacenter.fi",
         "xn--hkkinen-5wa.fi"
     ],
@@ -1778,6 +1796,7 @@
         "greta.fr",
         "huissier-justice.fr",
         "medecin.fr",
+        "myspreadshop.fr",
         "nom.fr",
         "notaires.fr",
         "on-web.fr",
@@ -1785,7 +1804,8 @@
         "port.fr",
         "prd.fr",
         "tm.fr",
-        "veterinaire.fr"
+        "veterinaire.fr",
+        "ynh.fr"
     ],
     "gd": [
         "edu.gd",
@@ -2059,6 +2079,7 @@
     "ie": [
         "blogspot.ie",
         "gov.ie",
+        "myspreadshop.ie",
         "nym.ie"
     ],
     "il": [
@@ -2102,6 +2123,7 @@
         "nic.in",
         "org.in",
         "res.in",
+        "supabase.in",
         "web.in"
     ],
     "info": [
@@ -2141,6 +2163,7 @@
         "backyards.banzaicloud.io",
         "barsy.io",
         "basicserver.io",
+        "bitbucket.io",
         "bluebite.io",
         "boxfuse.io",
         "browsersafetymark.io",
@@ -2187,6 +2210,9 @@
         "qcx.io",
         "qoto.io",
         "readthedocs.io",
+        "reservd.dev.thingdust.io",
+        "reservd.disrec.thingdust.io",
+        "reservd.testing.thingdust.io",
         "resindevice.io",
         "s5y.io",
         "sandcats.io",
@@ -2452,6 +2478,7 @@
         "monzaedellabrianza.it",
         "ms.it",
         "mt.it",
+        "myspreadshop.it",
         "na.it",
         "naples.it",
         "napoli.it",
@@ -4708,6 +4735,9 @@
         "dweb.link",
         "mypep.link"
     ],
+    "live": [
+        "hlx.live"
+    ],
     "lk": [
         "ac.lk",
         "assn.lk",
@@ -4921,6 +4951,9 @@
     "mom": [
         "and.mom",
         "for.mom"
+    ],
+    "mp": [
+        "ju.mp"
     ],
     "mr": [
         "blogspot.mr",
@@ -5616,6 +5649,7 @@
         "buyshouses.net",
         "casacam.net",
         "cdn-edges.net",
+        "cdn.prod.atlassian-dev.net",
         "cdn77-ssl.net",
         "centralus.azurestaticapps.net",
         "channelsdvr.net",
@@ -5708,6 +5742,7 @@
         "mymediapc.net",
         "mypsx.net",
         "mysecuritycamera.net",
+        "myspreadshop.net",
         "nhlfan.net",
         "njs.jelastic.vps-host.net",
         "no-ip.net",
@@ -5745,6 +5780,7 @@
         "square7.net",
         "static-access.net",
         "storage.yandexcloud.net",
+        "supabase.net",
         "sytes.net",
         "t3l3p0rt.net",
         "thruhere.net",
@@ -5829,6 +5865,7 @@
         "demon.nl",
         "hosting-cluster.nl",
         "khplay.nl",
+        "myspreadshop.nl",
         "transurl.nl",
         "virtueeldomein.nl"
     ],
@@ -6249,6 +6286,7 @@
         "muosat.no",
         "muosát.no",
         "museum.no",
+        "myspreadshop.no",
         "málatvuopmi.no",
         "mátta-várjjat.no",
         "målselv.no",
@@ -6779,8 +6817,7 @@
         "merseine.nu",
         "mine.nu",
         "nom.nu",
-        "shacknet.nu",
-        "uwu.nu"
+        "shacknet.nu"
     ],
     "nz": [
         "ac.nz",
@@ -6823,7 +6860,9 @@
         "under.one"
     ],
     "online": [
-        "barsy.online"
+        "barsy.online",
+        "eero-stage.online",
+        "eero.online"
     ],
     "org": [
         "accesscam.org",
@@ -7018,6 +7057,8 @@
         "sld.pa"
     ],
     "page": [
+        "hlx.page",
+        "hlx3.page",
         "magnet.page",
         "pdns.page",
         "plesk.page",
@@ -7169,6 +7210,7 @@
         "mragowo.pl",
         "mup.gov.pl",
         "mw.gov.pl",
+        "myspreadshop.pl",
         "naklo.pl",
         "net.pl",
         "nieruchomosci.pl",
@@ -7575,6 +7617,7 @@
         "h.se",
         "i.se",
         "iopsys.se",
+        "itcouldbewor.se",
         "k.se",
         "komforb.se",
         "kommunalforbund.se",
@@ -7582,6 +7625,7 @@
         "l.se",
         "lanbib.se",
         "m.se",
+        "myspreadshop.se",
         "n.se",
         "naturbruksgymn.se",
         "o.se",
@@ -7592,8 +7636,8 @@
         "press.se",
         "r.se",
         "s.se",
+        "su.paba.se",
         "t.se",
-        "tm.se",
         "u.se",
         "w.se",
         "x.se",
@@ -7718,6 +7762,7 @@
         "store.st"
     ],
     "store": [
+        "sellfy.store",
         "shopware.store",
         "storebase.store"
     ],
@@ -8113,6 +8158,7 @@
         "lug.org.uk",
         "lugs.org.uk",
         "me.uk",
+        "myspreadshop.co.uk",
         "net.uk",
         "nh-serv.co.uk",
         "nhs.uk",
@@ -8359,6 +8405,7 @@
         "sd.us",
         "stuff-4-sale.us",
         "tec.mi.us",
+        "tm.se",
         "tn.us",
         "tx.us",
         "ut.us",
