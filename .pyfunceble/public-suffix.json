@@ -806,6 +806,7 @@
         "banzai.cloud",
         "ca.reclaim.cloud",
         "ch.trendhosting.cloud",
+        "cs.keliweb.cloud",
         "de.trendhosting.cloud",
         "diadem.cloud",
         "elementor.cloud",
@@ -4856,6 +4857,7 @@
         "tbits.me",
         "tcp4.me",
         "ukco.me",
+        "vp4.me",
         "wbq.me",
         "webhop.me",
         "wedeploy.me",
@@ -6819,7 +6821,6 @@
         "pro.om"
     ],
     "one": [
-        "cs.keliweb.cloud",
         "for.one",
         "homelink.one",
         "onred.one",
