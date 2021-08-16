@@ -35,7 +35,7 @@ www.?
 
 ### Todo
 - [ ] Added to Source file?
-- [ ] Added to the RPZ zone [adult.mypdns.cloud](https://archive.mypdns.org/w/rpzlist/#strict-adult-mypdns-cloud) (@spirillen)
+- [ ] Added to the RPZ zone [adult.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#strictadultmypdnscloud) (@spirillen)
 
 #### Logger output
 
