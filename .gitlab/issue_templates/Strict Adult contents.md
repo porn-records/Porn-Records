@@ -19,7 +19,7 @@ www.?
 ```
 
 ## Screenshots
-<!-- Required. Just enough to demonstrate. -->
+
 <details><summary>Screenshot</summary>
 
 
