@@ -18,7 +18,7 @@ www.?
 ```
 
 ## Screenshots
-<!-- Required. Just enough to demonstrate. -->
+
 <details><summary>Screenshot</summary>
 
 
@@ -37,7 +37,7 @@ www.?
 - [ ] Added to the RPZ zone [adult.mypdns.cloud](https://archive.mypdns.org/w/rpzlist/#adult) (@spirillen)
 
 #### Logger output
-<!-- Used for relation tracking. -->
+
 <details><summary>Domains **ONLY**</summary>
 
 ```python
@@ -70,6 +70,4 @@ Tips & Tricks
 If you are using ie. uBlock Origin, you can sort the log output with this
 one-liner in bash.
 See snippet: https://mypdns.org/-/snippets/2
-
-Please delete all tips before pushing
 -->
