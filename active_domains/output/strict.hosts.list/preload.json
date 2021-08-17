@@ -11,5 +11,18 @@
         "subject": "submit_here/strict.adult.mypdns.cloud/strict.hosts.list",
         "subject_type": "domain",
         "type": "file"
+    },
+    {
+        "checker_type": "AVAILABILITY",
+        "destination": "strict.hosts.list",
+        "hash": "0814e5d8fd6e71a201374981318557a0cae36420631f8deb1e7d5c54",
+        "line_number": 45,
+        "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/strict.hosts.list",
+        "previous_hash": "0814e5d8fd6e71a201374981318557a0cae36420631f8deb1e7d5c54",
+        "session_id": "3b85887e62b78a0b3bf9acfe",
+        "source": "submit_here/strict.adult.mypdns.cloud/strict.hosts.list",
+        "subject": "submit_here/strict.adult.mypdns.cloud/strict.hosts.list",
+        "subject_type": "domain",
+        "type": "file"
     }
 ]
