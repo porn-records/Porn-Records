@@ -1,0 +1,15 @@
+[
+    {
+        "checker_type": "AVAILABILITY",
+        "destination": "hosts.list",
+        "hash": "a7053bd64b0ca39255e084cb6c80b74fd1acfe570531112eae54c166",
+        "line_number": 13925,
+        "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/hosts.list",
+        "previous_hash": "a7053bd64b0ca39255e084cb6c80b74fd1acfe570531112eae54c166",
+        "session_id": "47ce90b402abb52fbbf4f50c",
+        "source": "submit_here/adult.mypdns.cloud/hosts.list",
+        "subject": "submit_here/adult.mypdns.cloud/hosts.list",
+        "subject_type": "domain",
+        "type": "file"
+    }
+]
