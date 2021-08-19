@@ -1417,7 +1417,6 @@
         "x.mythic-beasts.com",
         "xen.prgmr.com",
         "xnbay.com",
-        "yali.mythic-beasts.com",
         "yolasite.com",
         "za.com"
     ],
@@ -4581,6 +4580,7 @@
         "asso.km",
         "com.km",
         "coop.km",
+        "donna.no",
         "edu.km",
         "gouv.km",
         "gov.km",
@@ -6788,7 +6788,8 @@
         "enterprisecloud.nu",
         "merseine.nu",
         "mine.nu",
-        "shacknet.nu"
+        "shacknet.nu",
+        "yali.mythic-beasts.com"
     ],
     "nz": [
         "ac.nz",
