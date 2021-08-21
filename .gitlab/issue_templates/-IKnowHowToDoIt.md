@@ -15,12 +15,14 @@ domain   CNAME . ; Adult
 www.?
 ```
 
-## ## Relevant logs or comments
-<!-- comments like a specific url to see contents -->
+## ## Relevant comments
+
 
 ## External sources
-<!-- you have found this record on another fora -->
+
+
 ## Screenshots
+
 
 <details><summary>Screenshot</summary>
 
