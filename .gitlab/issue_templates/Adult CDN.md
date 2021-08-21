@@ -19,10 +19,13 @@ CDN See [Linked issues](#related-issues) for details
 www.?
 ```
 
-## ## Relevant logs or comments
+## Relevant logs or comments
 <!-- comments like a specific url to see contents -->
 
 ## External sources
+<!-- If you found this domain on another issueboard -->
+
+
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?

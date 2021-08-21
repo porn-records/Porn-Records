@@ -17,10 +17,11 @@ domain   CNAME . ; Adult
 www.?
 ```
 
-## ## Relevant logs or comments
+## Relevant logs or comments
 <!-- comments like a specific url to see contents -->
 
 ## External sources
+<!-- If you found this domain on another issueboard -->
 
 ## Screenshots
 

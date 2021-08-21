@@ -11,18 +11,18 @@ domain   CNAME . ; Adult
 ### Additional requirements for dumb hosts-files
 
 ```python
-
++ www
+- www
 www.?
 ```
 
-## ## Relevant comments
+## Relevant comments
 
 
 ## External sources
 
 
 ## Screenshots
-
 
 <details><summary>Screenshot</summary>
 
