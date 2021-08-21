@@ -9,14 +9,17 @@ domain   CNAME . ; Snuff
 *.domain   CNAME . ; Snuff
 ```
 
-## Relevant information
-
 ## Additional requirements for dumb hosts-files
 
 ```python
 
 www.?
 ```
+
+## ## Relevant logs or comments
+<!-- comments like a specific url to see contents -->
+
+## External sources
 
 ## Screenshots
 Not for the faint hearten...
