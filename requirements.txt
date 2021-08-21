@@ -1,4 +1,4 @@
-pyfunceble-dev>=4.0.0b60
+pyfunceble-dev>=4.0.0b64
 ultimate-hosts-blacklist-whitelist-DEV
 mypdns
 wheel
