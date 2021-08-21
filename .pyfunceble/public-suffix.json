@@ -164,6 +164,8 @@
     "app": [
         "a.run.app",
         "bookonline.app",
+        "clerk.app",
+        "clerkstage.app",
         "developer.app",
         "edgecompute.app",
         "fireweb.app",
@@ -1417,6 +1419,7 @@
         "x.mythic-beasts.com",
         "xen.prgmr.com",
         "xnbay.com",
+        "yali.mythic-beasts.com",
         "yolasite.com",
         "za.com"
     ],
@@ -2932,7 +2935,6 @@
         "gotemba.shizuoka.jp",
         "goto.nagasaki.jp",
         "gotsu.shimane.jp",
-        "gov.mr",
         "gr.jp",
         "gujo.gifu.jp",
         "gunma.jp",
@@ -4578,9 +4580,9 @@
     "km": [
         "ass.km",
         "asso.km",
+        "australia.museum",
         "com.km",
         "coop.km",
-        "donna.no",
         "edu.km",
         "gouv.km",
         "gov.km",
@@ -5536,7 +5538,8 @@
         "gov.mw",
         "int.mw",
         "museum.mw",
-        "net.mw"
+        "net.mw",
+        "org.mw"
     ],
     "mx": [
         "blogspot.mx",
@@ -6306,7 +6309,6 @@
         "oppdal.no",
         "oppegard.no",
         "oppegård.no",
-        "org.mw",
         "orkanger.no",
         "orkdal.no",
         "orland.no",
@@ -6788,8 +6790,7 @@
         "enterprisecloud.nu",
         "merseine.nu",
         "mine.nu",
-        "shacknet.nu",
-        "yali.mythic-beasts.com"
+        "shacknet.nu"
     ],
     "nz": [
         "ac.nz",
@@ -8080,6 +8081,7 @@
         "zaporizhzhia.ua",
         "zhitomir.ua",
         "zhytomyr.ua",
+        "zp.ua",
         "zt.ua"
     ],
     "ug": [
@@ -8471,10 +8473,6 @@
         "mypets.ws",
         "net.ws",
         "org.ws"
-    ],
-    "xn--j6w193g": [
-        "xn--55qx5d.xn--j6w193g",
-        "zp.ua"
     ],
     "xyz": [
         "blogsite.xyz",
