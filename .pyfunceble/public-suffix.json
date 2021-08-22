@@ -4580,7 +4580,6 @@
     "km": [
         "ass.km",
         "asso.km",
-        "australia.museum",
         "com.km",
         "coop.km",
         "edu.km",
@@ -6286,7 +6285,6 @@
         "nissedal.no",
         "nittedal.no",
         "nl.no",
-        "nom.re",
         "nord-aurdal.no",
         "nord-fron.no",
         "nord-odal.no",
@@ -8405,6 +8403,7 @@
     ],
     "ve": [
         "arts.ve",
+        "bib.ve",
         "co.ve",
         "com.ve",
         "e12.ve",
@@ -8416,7 +8415,9 @@
         "int.ve",
         "mil.ve",
         "net.ve",
+        "nom.ve",
         "org.ve",
+        "rar.ve",
         "rec.ve",
         "store.ve",
         "tec.ve",
