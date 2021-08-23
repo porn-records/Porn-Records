@@ -1,0 +1,15 @@
+[
+    {
+        "checker_type": "AVAILABILITY",
+        "destination": "wildcard.list",
+        "hash": "d42eba7b782364201090931257470bdfdf08e278588428beea40b47e",
+        "line_number": 2700,
+        "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/wildcard.list",
+        "previous_hash": "d42eba7b782364201090931257470bdfdf08e278588428beea40b47e",
+        "session_id": "b140b5c34ff6a9c36ebdc691",
+        "source": "submit_here/adult.mypdns.cloud/wildcard.list",
+        "subject": "submit_here/adult.mypdns.cloud/wildcard.list",
+        "subject_type": "domain",
+        "type": "file"
+    }
+]
