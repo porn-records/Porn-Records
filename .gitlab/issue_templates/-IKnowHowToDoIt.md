@@ -20,7 +20,7 @@ www.?
 
 
 ## External sources
-- https://github.com/blocklistproject/Lists/issues/459
+
 
 ## Screenshots
 
