@@ -1,8 +1,8 @@
 {
     "chrome": {
         "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v8029137934589397761 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0 svfu=1",
-        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36/RHK53YCD-14"
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.48 CitizenFX/1.0.0.4415 Safari/537.36"
     },
     "edge": {
         "linux": null,
@@ -12,7 +12,7 @@
     "firefox": {
         "linux": "Mozilla/5.0 (Linux x86_64; rv:1.0) Gecko/2003615 Firefox/1.0",
         "macosx": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0/h4EbFwbcZEvBzS"
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0/6CtbO2SV8qOOL"
     },
     "ie": {
         "linux": null,
@@ -25,7 +25,7 @@
         "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 OPR/78.0.4093.147/jNoBvU8LLZ24tJYuc"
     },
     "safari": {
-        "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/15.8.0.0.5beta",
+        "linux": "Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE partnerId:comcast",
         "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5",
         "win10": null
     }
