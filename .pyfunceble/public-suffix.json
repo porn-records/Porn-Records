@@ -1551,6 +1551,7 @@
         "my-wan.de",
         "myhome-server.de",
         "myspreadshop.de",
+        "pages.it.hs-heilbronn.de",
         "schulserver.de",
         "spdns.de",
         "square7.de",
@@ -2062,6 +2063,7 @@
         "net.id",
         "or.id",
         "ponpes.id",
+        "rss.my.id",
         "sch.id",
         "wblog.id",
         "web.id"
@@ -2081,7 +2083,8 @@
         "muni.il",
         "net.il",
         "org.il",
-        "ravpage.co.il"
+        "ravpage.co.il",
+        "tabitorder.co.il"
     ],
     "im": [
         "ac.im",
@@ -2162,7 +2165,6 @@
         "cust.disrec.thingdust.io",
         "cust.prod.thingdust.io",
         "cust.testing.thingdust.io",
-        "customer.enonic.io",
         "dedyn.io",
         "definima.io",
         "devices.resinstaging.io",
@@ -2170,7 +2172,6 @@
         "dyn53.io",
         "dyndns.dappnode.io",
         "editorx.io",
-        "enonic.io",
         "fh-muenster.io",
         "g.vbrplsbx.io",
         "ghost.io",
@@ -4850,7 +4851,6 @@
         "mcdir.me",
         "mcpe.me",
         "myds.me",
-        "nctu.me",
         "net.me",
         "nohost.me",
         "noip.me",
@@ -7429,6 +7429,7 @@
     ],
     "ro": [
         "arts.ro",
+        "barsy.ro",
         "blogspot.ro",
         "co.ro",
         "com.ro",
@@ -7511,7 +7512,8 @@
         "development.run",
         "hs.run",
         "ravendb.run",
-        "repl.run"
+        "repl.run",
+        "servers.run"
     ],
     "rw": [
         "ac.rw",
@@ -7699,6 +7701,9 @@
         "net.so",
         "org.so",
         "sch.so"
+    ],
+    "solutions": [
+        "diher.solutions"
     ],
     "space": [
         "myfast.space",
@@ -8102,6 +8107,7 @@
     "uk": [
         "ac.uk",
         "adimo.co.uk",
+        "affinitylottery.org.uk",
         "barsy.co.uk",
         "barsy.uk",
         "barsyonline.co.uk",
@@ -8130,9 +8136,11 @@
         "plc.uk",
         "police.uk",
         "pymnt.uk",
+        "raffleentry.org.uk",
         "sch.uk",
         "service.gov.uk",
         "vm.bytemark.co.uk",
+        "weeklylottery.org.uk",
         "wellbeingzone.co.uk"
     ],
     "us": [
