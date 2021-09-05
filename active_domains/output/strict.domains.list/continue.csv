@@ -1,3 +1,3 @@
 idna_subject,checker_type,destination,source,tested_at,session_id
-cdn.shopify.com,AVAILABILITY,strict.domains.list,submit_here/strict.adult.mypdns.cloud/strict.domains.list,2001-09-05 10:24:04.171465,54d32e415e925a6e1ebb2f6a
-shagmag-media-2.s3.us-east-2.amazonaws.com,AVAILABILITY,strict.domains.list,submit_here/strict.adult.mypdns.cloud/strict.domains.list,2001-09-05 10:24:04.185891,54d32e415e925a6e1ebb2f6a
+cdn.shopify.com,AVAILABILITY,strict.domains.list,submit_here/strict.adult.mypdns.cloud/strict.domains.list,2001-09-05 10:48:03.019065,46aa31cc9cdcde8548708575
+shagmag-media-2.s3.us-east-2.amazonaws.com,AVAILABILITY,strict.domains.list,submit_here/strict.adult.mypdns.cloud/strict.domains.list,2001-09-05 10:48:03.041990,46aa31cc9cdcde8548708575
