@@ -184,16 +184,20 @@
         "wnext.app"
     ],
     "ar": [
+        "bet.ar",
         "blogspot.com.ar",
         "com.ar",
+        "coop.ar",
         "edu.ar",
         "gob.ar",
         "gov.ar",
         "int.ar",
         "mil.ar",
         "musica.ar",
+        "mutual.ar",
         "net.ar",
         "org.ar",
+        "senasa.ar",
         "tur.ar"
     ],
     "arpa": [
@@ -748,6 +752,7 @@
         "fantasyleague.cc",
         "ftpaccess.cc",
         "game-server.cc",
+        "instances.spawn.cc",
         "myphotos.cc",
         "scrapping.cc",
         "twmail.cc"
@@ -5674,6 +5679,7 @@
         "from-ny.net",
         "gb.net",
         "gets-it.net",
+        "global.prod.fastly.net",
         "global.ssl.fastly.net",
         "ham-radio-op.net",
         "hicam.net",
@@ -5726,7 +5732,6 @@
         "ny-1.paas.massivegrid.net",
         "ny-2.paas.massivegrid.net",
         "office-on-the.net",
-        "on-the-web.tv",
         "onavstack.net",
         "ownip.net",
         "pages.torproject.net",
@@ -6790,7 +6795,6 @@
     ],
     "nu": [
         "enterprisecloud.nu",
-        "global.prod.fastly.net",
         "merseine.nu",
         "mine.nu",
         "shacknet.nu"
@@ -7715,7 +7719,6 @@
         "biz.ss",
         "com.ss",
         "edu.ss",
-        "elk.pl",
         "gov.ss",
         "me.ss",
         "net.ss",
@@ -7972,6 +7975,7 @@
     "tv": [
         "better-than.tv",
         "dyndns.tv",
+        "on-the-web.tv",
         "worse-than.tv"
     ],
     "tw": [
