@@ -22,8 +22,8 @@ Please read this
 [wiki](https://mypdns.org/mypdns/support/-/wikis/Performance-Test-of-Hosts-File-vs.-Dns-recursors)
 
 ### hosts file Location
-You can see the full matrix for hosts file locations here:
-<https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts#location-in-the-file-system>
+You can see the full matrix for hosts file locations
+[here](https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts#location-in-the-file-system)
 
 ### Safe search enabled
 Additionally, there is a new source file which will enforce Safe Search in the
@@ -96,7 +96,7 @@ If you are stocked on the very weird and extremely outdated way of
 blocking DNS queries with a [hosts](https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts)
 file. You'll need to combine all the above files into a flat `hosts`
 file with the exception of `README.md`, `rpz-ip` and
-`wildcard.rpz-nsdname`, however, this //WILL// gives you to many records,
+`wildcard.rpz-nsdname`, however, this _WILL_ gives you to many records,
 as not necessary all domains are served over both `www.$domain.tld` and
 `$domain.tld` equally, you will however be covered in full.
 
