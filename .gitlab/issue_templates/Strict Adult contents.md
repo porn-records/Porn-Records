@@ -2,9 +2,9 @@
 
 I believe this domain is an Adult(-related) domain --> that have to be blocked as..
 
-- [ ] Wildcarded
+- [X] Wildcarded
 - [ ] Single domain blocking
-- [X] Strict adult domain
+
 
 ```python
 domain   CNAME . ; Strict.Adult
@@ -21,7 +21,7 @@ www.?
 ## Relevant logs or comments
 <!-- comments like a specific url to see contents -->
 
-## External sources
+## Relevant External sources
 <!-- If you found this domain on another issueboard -->
 
 ## Screenshots

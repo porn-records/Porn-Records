@@ -13,14 +13,8 @@ domain   CNAME . ; Adult
 ```python
 + www
 - www
-www.?
+www.
 ```
-
-## Relevant comments
-
-
-## External sources
-
 
 ## Screenshots
 
@@ -29,6 +23,12 @@ www.?
 
 
 </details>
+
+
+## Relevant comments
+
+## Relevant External sources
+
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
@@ -50,7 +50,6 @@ www.?
 ```
 
 </details>
-
 
 /assign @spirillen 
 
