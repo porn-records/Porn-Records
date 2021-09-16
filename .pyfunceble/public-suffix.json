@@ -1911,6 +1911,7 @@
         "guam.gu",
         "info.gu",
         "net.gu",
+        "org.gu",
         "web.gu"
     ],
     "gy": [
@@ -3855,7 +3856,6 @@
         "ooshika.nagano.jp",
         "or.jp",
         "ora.gunma.jp",
-        "org.gu",
         "osaka.jp",
         "osakasayama.osaka.jp",
         "osaki.miyagi.jp",
@@ -6903,6 +6903,7 @@
         "fr.eu.org",
         "freeddns.org",
         "freedesktop.org",
+        "freemyip.com",
         "from-me.org",
         "game-host.org",
         "go.dyndns.org",
