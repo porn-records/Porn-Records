@@ -1065,7 +1065,6 @@
         "eu.meteorapp.com",
         "eu.pythonanywhere.com",
         "familyds.com",
-        "fastly-terrarium.com",
         "fastvps-server.com",
         "fentiger.mythic-beasts.com",
         "firebaseapp.com",
@@ -6794,6 +6793,7 @@
     ],
     "nu": [
         "enterprisecloud.nu",
+        "fastly-terrarium.com",
         "merseine.nu",
         "mine.nu",
         "shacknet.nu"
