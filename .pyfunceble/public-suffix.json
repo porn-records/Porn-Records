@@ -1065,6 +1065,7 @@
         "eu.meteorapp.com",
         "eu.pythonanywhere.com",
         "familyds.com",
+        "fastly-terrarium.com",
         "fastvps-server.com",
         "fentiger.mythic-beasts.com",
         "firebaseapp.com",
@@ -2850,7 +2851,6 @@
         "chuo.tokyo.jp",
         "chuo.yamanashi.jp",
         "co.jp",
-        "corporation.museum",
         "daigo.ibaraki.jp",
         "daisen.akita.jp",
         "daito.osaka.jp",
@@ -3901,6 +3901,7 @@
         "rebun.hokkaido.jp",
         "rifu.miyagi.jp",
         "rikubetsu.hokkaido.jp",
+        "rikuzentakata.iwate.jp",
         "rishiri.hokkaido.jp",
         "rishirifuji.hokkaido.jp",
         "ritto.shiga.jp",
@@ -4661,8 +4662,7 @@
         "gov.kw",
         "ind.kw",
         "net.kw",
-        "org.kw",
-        "rikuzentakata.iwate.jp"
+        "org.kw"
     ],
     "ky": [
         "com.ky",
@@ -6262,6 +6262,7 @@
         "moskenes.no",
         "moss.no",
         "mosvik.no",
+        "moåreke.no",
         "mr.no",
         "muosat.no",
         "muosát.no",
@@ -6672,6 +6673,7 @@
         "xn--mlatvuopmi-s4a.no",
         "xn--mli-tla.no",
         "xn--mlselv-iua.no",
+        "xn--moreke-jua.no",
         "xn--mosjen-eya.no",
         "xn--mot-tla.no",
         "xn--msy-ula0h.no",
@@ -6793,7 +6795,6 @@
     ],
     "nu": [
         "enterprisecloud.nu",
-        "fastly-terrarium.com",
         "merseine.nu",
         "mine.nu",
         "shacknet.nu"
@@ -7571,8 +7572,7 @@
         "med.sd",
         "net.sd",
         "org.sd",
-        "tv.sd",
-        "xn--moreke-jua.no"
+        "tv.sd"
     ],
     "se": [
         "a.se",
