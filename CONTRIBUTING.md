@@ -18,29 +18,32 @@ The workflow is a bit clumsy, but the most reliable and fail-safe.
       via [this form](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents)
       (This is the history of _why_ to blacklist a record)
 
-      ALL fields MOST be filled out, the questions are there for a
+      ALL fields MOST be filled out, the questions is there for a
       good reason...
 
    2. Add your new domain record(s) to suitable file(s) in the `submit_here/`
       folder.
       A issue is required to be able to historically trace why you
-      have committed the records.
+      have committed the records and for other to verify your commit
+      without having to visit a pornographic site, for which they actualle
+      try to avoid by using this list.
 
-   3. You open a PR (Merge Request) where you'll add your contribution
+   3. If you added any content to any of the files in `submit_here/`l
+      You open a PR (Merge Request) where you'll add your contribution
       (This is the _when_ we did the blacklisting)
 
-   4. You add the new domain record entry in the top of the list, then
-      it is easier to find.
-      The code will make it appear in alphanumeric order
+   4. You add the new domain record entry in the top or bottom of the list,
+      then it is easier to find.
+      The CI/CD code will make it appear in alphanumeric order
 
    5. Follow the [New commit](#new-commit) guide
 
 
 ### New code
-If you like to add new code or modify existing code to make it run better,
-faster, smarter etc. You will by editing and contributing to the code,
-automatically be redirected to a fork of the main repo, from where you
-add and/or modify the code.
+If you feel like adding new code or modify existing code to make it run
+better, faster, smarter etc. You will by editing and contributing to the
+code, automatically be redirected to a fork of the main repo, from where
+you add and/or modify the code.
 
 ### New commit
 When you are done with your contribution, you will save the file in
@@ -51,13 +54,14 @@ your commit message as a full url to issue:
 https://mypdns.org/my-privacy-dns/porn-records/-/issues/<ID>
 ```
 
-Replace the `$ID` with the issue id from <https://mypdns.org/my-privacy-dns/porn-records/-/issues>
+Replace the `<ID>` with the issue id from
+<https://mypdns.org/my-privacy-dns/porn-records/-/issues>
 
-![new commit](https://user-images.githubusercontent.com/44526987/68994730-a380f980-0886-11ea-84a6-7a921902de98.png)
+![new commit](https://user-images.githubusercontent.com/44526987/134584727-5ce2cc04-6eac-485d-a934-1b730cb1fe44.png)
 
 Next you'll be taken to the `Open a pull request`
 
-![Open a pull request](https://user-images.githubusercontent.com/44526987/68994731-a4199000-0886-11ea-8158-1cd2b0a4a271.png)
+![Open a pull request](https://user-images.githubusercontent.com/44526987/134584048-51c583f1-8fe8-4536-831d-8b821077fe57.png)
 
 When everything is filled out curectly, you just hit the `Create pull request`
 and you are done.
