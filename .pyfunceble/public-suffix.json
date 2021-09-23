@@ -1016,6 +1016,7 @@
         "dev-myqnapcloud.com",
         "dev.adobeaemcloud.com",
         "devcdnaccesso.com",
+        "digitaloceanspaces.com",
         "ditchyourip.com",
         "dnsalias.com",
         "dnsdojo.com",
@@ -7884,10 +7885,7 @@
         "org.tm"
     ],
     "tn": [
-        "agrinet.tn",
         "com.tn",
-        "defense.tn",
-        "edunet.tn",
         "ens.tn",
         "fin.tn",
         "gov.tn",
@@ -7900,11 +7898,7 @@
         "orangecloud.tn",
         "org.tn",
         "perso.tn",
-        "rnrt.tn",
-        "rns.tn",
-        "rnu.tn",
-        "tourism.tn",
-        "turen.tn"
+        "tourism.tn"
     ],
     "to": [
         "611.to",

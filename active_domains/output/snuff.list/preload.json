@@ -1,0 +1,15 @@
+[
+    {
+        "checker_type": "AVAILABILITY",
+        "destination": "snuff.list",
+        "hash": "ac501820e4882cdcc59ca11180197cbc64f39e77913eb6fb088977ba",
+        "line_number": 13,
+        "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/snuff.list",
+        "previous_hash": "ac501820e4882cdcc59ca11180197cbc64f39e77913eb6fb088977ba",
+        "session_id": "2d0a1403d5aa3911924a8f7b",
+        "source": "submit_here/adult.mypdns.cloud/snuff.list",
+        "subject": "submit_here/adult.mypdns.cloud/snuff.list",
+        "subject_type": "domain",
+        "type": "file"
+    }
+]

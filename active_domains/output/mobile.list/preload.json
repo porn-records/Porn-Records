@@ -1,0 +1,15 @@
+[
+    {
+        "checker_type": "AVAILABILITY",
+        "destination": "mobile.list",
+        "hash": "e66a7a65e6fbc9e41fc848ea9615fc964a413234054e9b2636ba7ca5",
+        "line_number": 1040,
+        "output_dir": "/home/runner/work/porn-records/porn-records/active_domains/output/mobile.list",
+        "previous_hash": "e66a7a65e6fbc9e41fc848ea9615fc964a413234054e9b2636ba7ca5",
+        "session_id": "bf4aeb2c42a3ce0d6c709b79",
+        "source": "submit_here/adult.mypdns.cloud/mobile.list",
+        "subject": "submit_here/adult.mypdns.cloud/mobile.list",
+        "subject_type": "domain",
+        "type": "file"
+    }
+]
