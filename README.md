@@ -1,5 +1,4 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3edd253ce42f4f0d8f51fbf81095090d)](https://app.codacy.com/gh/mypdns/porn-records/dashboard)
-[![Porn Records active test](https://github.com/mypdns/porn-records/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/mypdns/porn-records/actions/workflows/master.yml)
 
 # Porn Domains
 
