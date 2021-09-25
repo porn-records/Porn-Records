@@ -111,4 +111,3 @@ You can reach the team by issue or in one of our IRC (Internet Relay
 Chat) channels on libera.chat. More about that in the support
 [wiki](https://mypdns.org/mypdns/support/-/wikis/home#internet-relay-chat-irc)
 
-..
