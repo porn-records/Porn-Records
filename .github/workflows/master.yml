@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - 'master'
-      - 'data-testing'
-  pull_request:
-    branches:
-      - 'master'
+  #     - 'data-testing'
+  # pull_request:
+  #   branches:
+  #     - 'master'
   schedule:
     - cron: '58 2 3 * *'
 
