@@ -52,8 +52,8 @@ the section of
 
 You can tell us you have checked this by adding either a {key +}, a {key -} or `none` in front of the `www`
 
-+ www.domain  The domain uses **both** the `www` and the _none_ `www` names.
-- www.domain  The domain uses **only** the _none_ `www` name.
++ www  The domain uses **both** the `www` and the _none_ `www` names.
+- www  The domain uses **only** the _none_ `www` name.
 www.domain  The domain uses **only** the `www.` name.
 www.? Leaving the question mark tells us you haven't tested this
 
