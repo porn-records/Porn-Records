@@ -54,3 +54,5 @@ www.
 /assign @spirillen 
 
 /label ~"NSFW::Porn"
+
+<!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=-IKnowHowToDoIt -->

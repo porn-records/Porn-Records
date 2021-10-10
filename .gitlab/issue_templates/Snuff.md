@@ -56,3 +56,6 @@ Not for the faint hearten...
 /assign @spirillen 
 
 /label ~"NSFW::Snuff" 
+
+
+<!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff -->
