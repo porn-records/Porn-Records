@@ -17,7 +17,6 @@ domain   CNAME . ; Adult
 www.?
 ```
 
-
 ## Screenshots
 
 <details><summary>Screenshot</summary>
