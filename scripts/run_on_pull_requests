@@ -28,13 +28,13 @@ SyntaxTest () {
     PyFunceble -m -nf --hierarchical -ex --syntax -f "${testFile}"
 }
 
-AvaileblityTest () {
+AvailabilityTest () {
 
     cd "${TRAVIS_BUILD_DIR}/.pyfunceble" || exit 1
 
     hash PyFunceble
 
-	printf "\n\tYou are running with AvaileblityTest\n\n"
+	printf "\n\tYou are running with AvailabilityTest\n\n"
 
     PyFunceble -m -ex --share-logs --idna -a -nf \
             --hierarchical -f "${testFile}"
@@ -42,7 +42,7 @@ AvaileblityTest () {
 
 SyntaxTest
 
-AvaileblityTest
+AvailabilityTest
 
 rm -f "${testFile}"
 
