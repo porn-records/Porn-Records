@@ -111,3 +111,8 @@ You can reach the team by issue or in one of our IRC (Internet Relay
 Chat) channels on libera.chat. More about that in the support
 [wiki](https://mypdns.org/mypdns/support/-/wikis/home#internet-relay-chat-irc)
 
+## Buzz words and keyword
+Adult Only, DNS Filter, DNS Firewall, Family Filter, Family Shield,
+FamilyShield, hosts file, hostsfile, Kids Safe, NSFW, parental control,
+Porn Block, Porn Blocker, Porn Detection, Porn Filter, Porn Records,
+Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
