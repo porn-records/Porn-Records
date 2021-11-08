@@ -4,32 +4,42 @@ This is where you contributes with new domains matching any of these sub
 files.
 
 ```shell
-submit_here/
-├── domains.list
-├── hosts.txt
-├── mobile.txt
-├── README.md
-├── rpz-ip
-├── snuff.txt
-├── strict_adult.txt
-├── whitelist.txt
-├── wildcard.list
-└── wildcard.rpz-nsdname
+submit_here
+├── submit_here/adult.mypdns.cloud
+│   ├── submit_here/adult.mypdns.cloud/domains.list
+│   ├── submit_here/adult.mypdns.cloud/hosts.list
+│   ├── submit_here/adult.mypdns.cloud/mobile.list
+│   ├── submit_here/adult.mypdns.cloud/rpz-ip
+│   ├── submit_here/adult.mypdns.cloud/snuff.list
+│   ├── submit_here/adult.mypdns.cloud/tld.list
+│   ├── submit_here/adult.mypdns.cloud/white.list
+│   ├── submit_here/adult.mypdns.cloud/wildcard.list
+│   └── submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname
+├── submit_here/README.md
+├── submit_here/strict.adult.mypdns.cloud
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.domains.list
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.hosts.list
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.rpz-ip
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.white.list
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.wildcard.list
+│   └── submit_here/strict.adult.mypdns.cloud/strict.wildcard.rpz-nsdname
+└── submit_here/whitelist.list
 ```
 
 
-| File                   | Contents / Category                                                                                                                                                                                                                             |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `domains.list`         | This file is only for domains that do can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.                    |
-| `hosts.txt`            | Domain who solely serves Porno in hosts file formatted files requirement. This list is unrelated to `domains.list` and only supplementary to hosts files generation, such as `lang.$domain.TLD` or `cdn.$domain.TLD`                            |
-| `mobile.txt`           | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list`                                                                                                                   |
-| `README.md`            | This File                                                                                                                                                                                                                                       |
-| `rpz-ip`               | To block any porn hosted over [ip addresses](https://www.mypdns.org/w/rpz_record_types/#the-quot-response-ip-address), yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley:                                                 |
-| `snuff.txt`            | Snuff Porno (No wildcard this far as the zone is way to small for that) These records will be part of the [adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud) RPZ Firewall zone                                          |
-| `strict_adult.txt`     | This is the VERY strict list containing domain with a mixed content like ex. `4chan.org` or `fastpic.ru`. It will later be served as [strict.adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#strict.adult-mypdns-cloud) RPZ Firewall zone |
-| `wildcard.list`        | Domain who solely serves Porno in wildcard formats used for proper [DNS recursors](https://www.mypdns.org/w/dnsresolver/) that understand [DNS RPZ](https://www.mypdns.org/w/rpz/)                                                              |
-| `wildcard.rpz-nsdname` | This file will blacklist all DNS AUTH servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire quit a bit, as ex. all `.xxx`domains is served from the same root server :smiley:           |
-| `whitelist.txt`        | The locally hosted list for domains that never should be put into any of the above categories or lists                                                                                                                                          |
+| File                   | Contents / Category                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Intro:                 | The difference between the files inside the `submit_here/adult.mypdns.cloud` and the `submit_here/strict.adult.mypdns.cloud` is that the strict folder contains domains that otherwise hosts SFW contents, while records found in the `adult.mypdns.cloud` is mainly adult domains.<br>The description of the files contents is equal independent of the folder     |
+| `domains.list`         | This file is only for domains that can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD`.                                                                                                                                           |
+| `hosts.txt`            | This list is unrelated to `domains.list` and contains only supplementary records required by dumb hosts files, such as `lang.$domain.$TLD` or `cdn.$domain.$TLD` as hosts files requires exact match to function [rfc:952](http://tools.ietf.org/html/rfc952). You should also take a look at this [wiki page](https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts) |
+| `mobile.txt`           | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list`. This list is probably as good as dead, tanks to the responseble design nowadays. This list is swallowed by the ordinary hosts or subsidiary the domain.list                                                                          |
+| `rpz-ip`               | To block any [#NSFW](https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn) by there [ip addresses](https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip), yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley:                                        |
+| `snuff.list`           | Snuff Porno (No wildcard this far as the zone is way to small for that) These records will be part of the [adult.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud) RPZ Firewall zone                                                                                                                                               |
+| `tld.list`             | This list contains Top Level Domains like `.xxx` which with wildcard allow us to make a huge impact on adult specific domain. A very short list, made to avoid FP while testing with @Pyfunceble.                                                                                                                                                                   |
+| `wildcard.list`        | Domain who solely serves Porno and therefor can be in wildcard formats used by proper [DNS recursor's](https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver) that in full supports [DNS RPZ](https://mypdns.org/MypDNS/support/-/wikis/rpz/)                                                                                                                   |
+| `whitelist.list`       | The locally hosted list for domains that never should be put into any of the above categories or lists                                                                                                                                                                                                                                                              |
+| `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire number of entries quit a bit, as ex. all `.xxx`domains is served from the same root server :smiley:                                                                                                                 |
+| `README.md`            | This File                                                                                                                                                                                                                                                                                                                                                           |
 
 ## Combining the lists
 
