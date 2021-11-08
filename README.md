@@ -114,6 +114,33 @@ file with the exception of `README.md`, `rpz-ip` and
 as not necessary all domains are served over both `www.$domain.tld` and
 `$domain.tld` equally, you will however be covered in full.
 
+### Pi-Hole
+Pi-hole users should be able to use the wildcar for blacklisting throught
+the `-d -wild $SOURCE_OBJECT`
+
+To quote `https://discourse.pi-hole.net/t/the-pihole-command-with-examples/738#wildcarding`
+
+```txt
+Whitelist/Blacklist Options:
+  -w, whitelist       Whitelist domain(s)
+  -b, blacklist       Blacklist domain(s)
+  -wild, wildcard     Blacklist domain(s), and all its subdomains
+                      Add '-h' for more info on whitelist/blacklist usage
+```
+
+*IF* the above is correct, then Pi-Hole users should be happy with the
+following files for blocking adult contents with there PI-Hole installation.
+
+| File            | Pi-hole<br>(with wildcard support) | Pi-Hole<br>(without wildcard support) |
+| --------------- | ---------------------------------- | ------------------------------------- |
+| `domains.list`  | :heavy_check_mark:                 | :heavy_check_mark:                    |
+| `hosts.list`    | :heavy_division_sign:              | :heavy_check_mark:                    |
+| `mobile.list`   | :heavy_division_sign:              | :heavy_check_mark:                    |
+| `rpz-ip`        | :heavy_division_sign:              | :heavy_division_sign:                 |
+| `snuff.list`    | :heavy_check_mark:                 | :heavy_check_mark:                    |
+| `tld.list`      | :heavy_check_mark:                 | :heavy_division_sign:                 |
+| `wildcard.list` | :heavy_check_mark:                 | :heavy_check_mark:                    |
+
 ## Contributing
 Any helpful [contributions](https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/CONTRIBUTING.md)
 are appreciated.
