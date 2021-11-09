@@ -123,8 +123,8 @@ as not necessary all domains are served over both `www.$domain.tld` and
 ### Pi-Hole
 Since Pi-hole are crippled from using wildcard lists for blacklisting through
 they have support for regex, then this is capped to be used for internal 
-management only. See also
-[What lists to use for pi-hole](https://mypdns.org/mypdns/support/-/issues/253)
+management only. Read more about it in
+[What lists to use in pi-hole](https://mypdns.org/mypdns/support/-/issues/253)
 by @pallebone
 
 
@@ -134,8 +134,10 @@ are appreciated.
 
 
 ## Contact
-You can reach the team by issue or in one of our IRC (Internet Relay
-Chat) channels on libera.chat. More about that in the support
+You can reach the team by
+[issue](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new) or
+in one of our IRC (Internet Relay Chat) channels on libera.chat.
+More about that in the support
 [wiki](https://mypdns.org/mypdns/support/-/wikis/home#internet-relay-chat-irc)
 
 
@@ -154,5 +156,4 @@ Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
 [rfc_952]: (http://tools.ietf.org/html/rfc952)
 [wiki_DNS_host]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts
 [wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname
-
 [disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415
