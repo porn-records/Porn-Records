@@ -159,7 +159,6 @@ FamilyShield, hosts file, hostsfile, Kids Safe, NSFW, parental control,
 Porn Block, Porn Blocker, Porn Detection, Porn Filter, Porn Records,
 Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
 
-<!-- Links
 [DNS_RPZ]: https://mypdns.org/MypDNS/support/-/wikis/rpz/
 [DNS_recursor]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver
 [adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud
@@ -170,4 +169,3 @@ Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
 [wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname
 
 [disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415
--->
