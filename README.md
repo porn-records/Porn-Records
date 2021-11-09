@@ -90,7 +90,9 @@ you have of curse updated your local network to be using a local
 that have full support of the
 [Response Policy zones](https://mypdns.org/MypDNS/support/-/wikis/rpz/),
 such as the [PowerDNS Recursor](https://www.mypdns.org/source/pdns-recursor/)
-or [ICS Bind9+](https://mypdns.org/rpz/dns-rpz-integration/-/tree/master/Bind_9).
+or [ICS Bind9+](https://mypdns.org/rpz/dns-rpz-integration/-/tree/master/Bind_9),
+while unbound only have partial support of DNS RPZ you will be excluded
+from the benefits of the `wildcard.rpz-nsdname`.
 
 In this case you'll only need to combine the following files.
 Preferred response rule is the
@@ -100,7 +102,7 @@ Action:
   - `domains.list`
   - `rpz-ip`
   - `snuff.list`
-  - `strict_adult.list` (Optional as this is tight blocking and 
+  - `strict.wildcard.list` (Optional as this is tight blocking and 
     contains a lot of SFW domains)
   - `wildcard.list`
   - `wildcard.rpz-nsdname`
