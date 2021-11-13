@@ -12,6 +12,7 @@ domain   CNAME . ; Adult
 
 ```python
 members.
+secure.
 tour.
 
 + www
