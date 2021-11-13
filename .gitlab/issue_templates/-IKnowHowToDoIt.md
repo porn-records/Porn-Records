@@ -11,10 +11,6 @@ domain   CNAME . ; Adult
 ### Additional requirements for dumb hosts-files
 
 ```python
-members.
-secure.
-tour.
-
 + www
 - www
 www.
@@ -32,7 +28,7 @@ www.
 
 
 ## Relevant External sources
-This domain is controlled by `247mg.com` (https://mypdns.org/my-privacy-dns/porn-records/-/issues/1520)
+
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
@@ -50,7 +46,6 @@ This domain is controlled by `247mg.com` (https://mypdns.org/my-privacy-dns/porn
 <details><summary>Domains ONLY</summary>
 
 ```python
-nats.247mg.com
 
 ```
 
