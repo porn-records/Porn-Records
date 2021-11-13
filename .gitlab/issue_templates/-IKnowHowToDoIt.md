@@ -28,7 +28,7 @@ www.
 
 
 ## Relevant External sources
-
+This domain is controlled by 247mg.com (https://mypdns.org/my-privacy-dns/porn-records/-/issues/1520)
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
@@ -43,9 +43,10 @@ www.
 
 #### Logger output
 
-<details><summary>Domains **ONLY**</summary>
+<details><summary>Domains ONLY</summary>
 
 ```python
+nats.247mg.com
 
 ```
 
