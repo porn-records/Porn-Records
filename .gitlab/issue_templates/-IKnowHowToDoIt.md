@@ -11,6 +11,9 @@ domain   CNAME . ; Adult
 ### Additional requirements for dumb hosts-files
 
 ```python
+members.
+tour.
+
 + www
 - www
 www.
