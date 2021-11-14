@@ -28,14 +28,10 @@ build1:
       - master
       - merge_requests
     changes:
-<<<<<<< HEAD
-      - ${PROJECT_FOLDER}/submit_here/**
-=======
       - submit_here/**
   rules:
     - if: '$CI_PIPELINE_SOURCE == "schedule"'
       when: never
->>>>>>> fadeb31a6 (Updating links and update to pyfunceble 4)
   script:
     - echo "Do your build here"
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
@@ -54,8 +50,8 @@ build2:
     # changes:
     #   - submit_here/**
   rules:
-    - if: '$CI_PIPELINE_SOURCE == "schedule"'
-      when: never
+    - if: '$CI_PIPELINE_SOURCE != "schedule"'
+      when: always
   script:
     - echo "Do your build here"
     - bash "$CI_PROJECT_DIR/scripts/conda_install.sh"
