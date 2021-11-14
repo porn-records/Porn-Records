@@ -36,7 +36,7 @@ build1:
     - git status
     - git push "https://mypdns:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
 
-build2:
+build2:on-schedule:
   stage: build
   only:
     refs:
