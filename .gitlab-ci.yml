@@ -43,4 +43,4 @@ build2:on-schedule:
   script:
     - echo "Running scheduled PyFunceble"
     - bash "$CI_PROJECT_DIR/scripts/conda_install.sh"
-    - bash '$CI_PROJECT_DIR/scripts/DataTesting.bash -ci'
+    - bash '$CI_PROJECT_DIR/scripts/DataTesting.bash "-ci"'
