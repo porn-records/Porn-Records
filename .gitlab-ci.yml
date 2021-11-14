@@ -9,7 +9,7 @@ before_script:
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yqqf bash git pgp python3-pip
+  - apt-get install -yqqf bash git pgp python3-pip wget curl
   - pip3 install -q mypdns
   - git config --global user.email "pdns@pm.me"
   - git config --global user.name "My Privacy DNS"
