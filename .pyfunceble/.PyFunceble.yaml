@@ -57,6 +57,7 @@ debug:
     active: false
     level: info
 dns:
+    delay: 0.0
     follow_server_order: true
     protocol: UDP
     server: null

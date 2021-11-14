@@ -91,7 +91,7 @@ you have of curse updated your local network to be using a local
 [DNS resolver](https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver)
 that have full support of the
 [Response Policy zones](https://mypdns.org/MypDNS/support/-/wikis/rpz/),
-such as the [PowerDNS Recursor](https://www.mypdns.org/source/pdns-recursor/)
+such as the [PowerDNS Recursor](https://mypdns.org/source/pdns-recursor/)
 or [ICS Bind9+](https://mypdns.org/rpz/dns-rpz-integration/-/tree/master/Bind_9),
 while unbound only have partial support of DNS RPZ you will be excluded
 from the benefits of the `wildcard.rpz-nsdname`.

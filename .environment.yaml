@@ -1,0 +1,7 @@
+name: pyfunceble
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pyfunceble>=4.0.1
+      - mypdns

@@ -45,18 +45,18 @@ submit_here
 
 ### DNS RPZ Firewall
 If you like the rest of the world who knows just a bit about
-[DNS](https://www.mypdns.org/w/dns/) and how a OS (Operating System) is
+[DNS](https://mypdns.org/w/dns/) and how a OS (Operating System) is
 doing it's queries over the network protocols, you have of curse updated
 your local network with a
-[DNS resolver](https://www.mypdns.org/w/dnsresolver/) that do support
-the [Response Policy zones](https://www.mypdns.org/w/rpz/) in full, such
-as the [PowerDNS Recursor](https://www.mypdns.org/source/pdns-recursor/)
-or [ICS Bind9+](https://www.mypdns.org/source/dns-rpz-integration/browse/master/Bind_9/),
+[DNS resolver](https://mypdns.org/w/dnsresolver/) that do support
+the [Response Policy zones](https://mypdns.org/w/rpz/) in full, such
+as the [PowerDNS Recursor](https://mypdns.org/source/pdns-recursor/)
+or [ICS Bind9+](https://mypdns.org/source/dns-rpz-integration/browse/master/Bind_9/),
 while unbound only have partial support of DNS RPZ you will be excluded
 from the benefits of the `wildcard.rpz-nsdname`.
 
 In this case you'll only need to combine the following files, preferred
-by [The "NXDOMAIN" Action](https://www.mypdns.org/w/rpz_record_types/#the-quot-nxdomain-quot-action):
+by [The "NXDOMAIN" Action](https://mypdns.org/w/rpz_record_types/#the-quot-nxdomain-quot-action):
 
   - `domains.list`
   - `snuff.txt`
@@ -66,7 +66,7 @@ by [The "NXDOMAIN" Action](https://www.mypdns.org/w/rpz_record_types/#the-quot-n
 
 ### Hosts files
 If you are stocked on the very weird and extremely outdated way of
-blocking DNS queries with a [hosts](https://www.mypdns.org/w/dnshosts/)
+blocking DNS queries with a [hosts](https://mypdns.org/w/dnshosts/)
 file. You'll need to combine all the above files into a flat `hosts`
 file with the exception of `README.md`, `rpz-ip` and
 `wildcard.rpz-nsdname`, however, this //WILL// gives you to many records,

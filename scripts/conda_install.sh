@@ -1,30 +1,30 @@
 #!/usr/bin/env bash
 
 # We use git dir to make it CI independent
-git_dir="$(git rev-parse --show-toplevel)"
+GIT_DIR="$(git rev-parse --show-toplevel)"
 
 echo "..."
 echo "Let's install conda to prevent MicroShit"
 echo "Interfering to much with linux"
 echo ""
-echo "Any surprises that Microsoft brakes everything they haven't stolen!!"
+echo "Any surprises that Microsoft brakes everything they haven't stolen??"
 echo "..."
 echo ""
 
-export PATH="${git_dir}/miniconda/bin:${PATH}"
+export PATH="${GIT_DIR}/miniconda/bin:${PATH}"
 wget 'https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh' -O 'miniconda.sh'
-bash miniconda.sh -b -p "${git_dir}/miniconda"
+bash miniconda.sh -b -p "${GIT_DIR}/miniconda"
 hash -r
 
-source "${git_dir}/miniconda/etc/profile.d/conda.sh"
+source "${GIT_DIR}/miniconda/etc/profile.d/conda.sh"
 
 conda config --set always_yes yes --set changeps1 no
 conda config --add channels conda-forge
 conda update -q conda
-conda create -q -n test-environment python="3.9.1"
-source activate test-environment
+conda create -q -n pyfunceble python="3.10"
+conda activate pyfunceble
 
-echo "List conda env"
+echo "Conda env list:"
 conda env list
 
 python --version --version

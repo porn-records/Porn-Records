@@ -1,0 +1,57 @@
+cli_testing:
+  autocontinue: true
+  cidr_expand: true
+  db_type: mariadb
+  display_mode:
+    all: true
+    colour: true
+    dots: false
+    execution_time: true
+    less: false
+    percentage: true
+    quiet: false
+    simple: false
+    status: all
+  file_generation:
+    analytic: true
+    hosts: false
+    merge_output_dirs: false
+    no_file: false
+    plain: true
+    unified_results: false
+  local_network: true
+  sorting_mode:
+    hierarchical: true
+debug:
+  active: true
+  level: critical
+lookup:
+  collection: false
+  dns: true
+  http_status_code: true
+  netinfo: true
+  reputation: false
+  special: true
+  timeout: 5
+  whois: true
+user_agent:
+  browser: firefox
+  custom: null
+  platform: linux
+dns:
+  follow_server_order: false
+  trust_server: false
+  protocol: UDP
+  server:
+    - 130.226.161.34
+    - 89.233.43.71
+    - 185.121.177.177
+    - 163.172.168.171
+    - "192.168.1.100:5302"
+    - 192.168.1.6
+    - 9.9.9.10
+    - 149.112.112.10
+collection:
+   preferred_status_origin: recommended
+   push: true
+   url_base: https://collection.dead-hosts.funilrys.com

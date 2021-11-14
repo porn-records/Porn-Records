@@ -19,20 +19,44 @@ after_script:
   - echo "After script section"
   - echo "For example you might do some clean up here"
   - echo -e "After script section...\n"
-  - git add .
-  - git commit -m "Domains sorted by CI runner `date '+%F %T %Z %z'`"
-  - git status
-  - git push "https://mypdns:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
+  
 
-build:
+build1:
   stage: build
   only:
     refs:
       - master
       - merge_requests
     changes:
+<<<<<<< HEAD
       - ${PROJECT_FOLDER}/submit_here/**
+=======
+      - submit_here/**
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+>>>>>>> fadeb31a6 (Updating links and update to pyfunceble 4)
   script:
     - echo "Do your build here"
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
     - find "$CI_PROJECT_DIR/submit_here/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+    - git add .
+    - git commit -m "Domains sorted by CI runner `date '+%F %T %Z %z'`"
+    - git status
+    - git push "https://mypdns:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
+
+build2:
+  stage: build
+  only:
+    refs:
+      - master
+      - merge_requests
+    # changes:
+    #   - submit_here/**
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: never
+  script:
+    - echo "Do your build here"
+    - bash "$CI_PROJECT_DIR/scripts/conda_install.sh"
+    - bash "$CI_PROJECT_DIR/scripts/DataTesting.bash -ci"

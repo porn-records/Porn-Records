@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-# Copyright: https://www.mypdns.org/
-# Content: https://www.mypdns.org/p/Spirillen/
-# Source: https://github.com/Import-External-Sources/pornhosts
-# License: https://www.mypdns.org/w/license
-# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+# Copyright: https://mypdns.org/
+# Content: https://mypdns.org/spirillen/
+# Source: https://mypdns.org/my-privacy-dns/porn-records
+# License: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE
+# License Comment: Creative Commons Attribution Share Alike 4.0 International
 #
 # License in short:
 # You are free to copy and distribute this file for non-commercial uses,
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://www.mypdns.org/maniphest/
+# issue at https://mypdns.org/my-privacy-dns/porn-records/-/issues
 
 set -e
 
@@ -71,7 +71,7 @@ exit ${?}
 # it under the terms of the modified GNU Affero General Public License as
 # published by the My Privacy DNS, either version 3 of the
 # License, or any later version released at
-# https://www.mypdns.org/w/License.
+# https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE.
 
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -79,9 +79,9 @@ exit ${?}
 # modified GNU Affero General Public License for more details.
 
 # You should have received a copy of the modified GNU Affero General Public License
-# along with this program. If not, see https://www.mypdns.org/w/License.
+# along with this program. If not, see https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE.
 
 # The modification: The standard AGPLv3 have been altered to NOT allow
 # any to generate profit from our work. You are however free to use it to any
 # NON PROFIT purpose. If you would like to use any of our code for profiteering
-# YOU are obliged to contact https://www.mypdns.org/ for profit sharing.
+# YOU are obliged to contact https://mypdns.org/ for profit sharing.

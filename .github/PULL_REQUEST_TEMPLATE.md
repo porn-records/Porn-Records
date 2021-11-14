@@ -13,7 +13,7 @@ www.example.net
 
 <!-- Required for even consider not just closing this PR -->
 
-This Merge Request covers <https://www.mypdns.org/T>
+This Merge Request covers <https://mypdns.org/T>
 
   - [ ] I have added the information to the proper Maniphest board.
 
@@ -33,4 +33,4 @@ link here --->
 
 ### Todo
   - [ ] Added to [Source file](submit_here/hosts.txt)?
-  - [ ] Added to the RPZ zone [adult.mypdns.cloud](https://www.mypdns.org/w/rpzlist/#adult-mypdns-cloud) (@spirillen)
+  - [ ] Added to the RPZ zone [adult.mypdns.cloud](https://mypdns.org/w/rpzlist/#adult-mypdns-cloud) (@spirillen)

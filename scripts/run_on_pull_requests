@@ -49,17 +49,17 @@ rm -f "${testFile}"
 exit ${?}
 
 
-# Copyright: https://www.mypdns.org/
-# Content: https://www.mypdns.org/p/Spirillen/
-# Source: https://www.mypdns.org/source/PornHosts/
-# License: https://www.mypdns.org/w/License
-# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+# Copyright: https://mypdns.org/
+# Content: https://mypdns.org/spirillen/
+# Source: https://mypdns.org/source/PornHosts/
+# License: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE
+# License Comment: Creative Commons Attribution Share Alike 4.0 International
 #
 # License in short:
 # You are free to copy and distribute this file for non-commercial uses,
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://www.mypdns.org/maniphest/
+# issue at https://mypdns.org/my-privacy-dns/porn-records/-/issues
 
 # Execute this script as bash porn/porn.sh from the root folder

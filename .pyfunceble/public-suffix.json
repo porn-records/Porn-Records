@@ -176,6 +176,7 @@
         "noop.app",
         "northflank.app",
         "ondigitalocean.app",
+        "onflashdrive.app",
         "platform0.app",
         "run.app",
         "telebit.app",
@@ -1047,9 +1048,6 @@
         "dynns.com",
         "elasticbeanstalk.com",
         "elb.amazonaws.com",
-        "elluciancrmadvance.com",
-        "elluciancrmadvise.com",
-        "elluciancrmrecruit.com",
         "est-a-la-maison.com",
         "est-a-la-masion.com",
         "est-le-patron.com",
@@ -1071,6 +1069,7 @@
         "fentiger.mythic-beasts.com",
         "firebaseapp.com",
         "firewall-gateway.com",
+        "fldrv.com",
         "forgeblocks.com",
         "framercanvas.com",
         "freebox-os.com",
@@ -1123,7 +1122,6 @@
         "from-wi.com",
         "from-wv.com",
         "from-wy.com",
-        "gb.com",
         "geekgalaxy.com",
         "gentapps.com",
         "gentlentapis.com",
@@ -1155,6 +1153,7 @@
         "impertrixcdn.com",
         "indowapblog.com",
         "instance.datadetect.com",
+        "ip.linodeusercontent.com",
         "is-a-anarchist.com",
         "is-a-blogger.com",
         "is-a-bookkeeper.com",
@@ -1379,6 +1378,7 @@
         "servequake.com",
         "servesarcasm.com",
         "shopitsite.com",
+        "siiites.com",
         "simple-url.com",
         "sinaapp.com",
         "skygearapp.com",
@@ -1459,7 +1459,12 @@
         "org.cu"
     ],
     "cv": [
-        "blogspot.cv"
+        "blogspot.cv",
+        "com.cv",
+        "edu.cv",
+        "int.cv",
+        "nome.cv",
+        "org.cv"
     ],
     "cw": [
         "com.cw",
@@ -1871,7 +1876,8 @@
     ],
     "goog": [
         "cloud.goog",
-        "translate.goog"
+        "translate.goog",
+        "usercontent.goog"
     ],
     "gp": [
         "app.gp",
@@ -2220,7 +2226,9 @@
         "stolos.io",
         "sys.qcx.io",
         "telebit.io",
+        "tickets.io",
         "uk0.bigv.io",
+        "upli.io",
         "utwente.io",
         "vaporcloud.io",
         "virtualserver.io",
@@ -5621,6 +5629,7 @@
         "bar1.net",
         "bar2.net",
         "barsy.net",
+        "beta.tailscale.net",
         "bitbridge.net",
         "blackbaudcdn.net",
         "blogdns.net",
@@ -5635,7 +5644,6 @@
         "cdn77-ssl.net",
         "centralus.azurestaticapps.net",
         "channelsdvr.net",
-        "clic2000.net",
         "clickrising.net",
         "cloudaccess.net",
         "cloudapp.net",
@@ -5767,6 +5775,7 @@
         "t3l3p0rt.net",
         "thruhere.net",
         "torproject.net",
+        "ts.net",
         "twmail.net",
         "u.channelsdvr.net",
         "uk.net",
@@ -7913,6 +7922,9 @@
         "oya.to",
         "rdv.to",
         "vpnplus.to"
+    ],
+    "today": [
+        "prequalifyme.today"
     ],
     "top": [
         "now-dns.top",

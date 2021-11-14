@@ -3,18 +3,18 @@
 
 # You are allowed to use this file on the following terms of condition:
 #
-# Copyright: https://www.mypdns.org/
-# Content: https://gitlab.com/spirillen
-# Source: https://github.com/Import-External-Sources/pornhosts
-# License: https://www.mypdns.org/wiki/License
-# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+# Copyright: https://mypdns.org/
+# Content: https://mypdns.org/spirillen
+# Source: https://mypdns.org/my-privacy-dns/porn-records
+# License: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE
+# License Comment: Creative Commons Attribution Share Alike 4.0 International
 #
 # License in short:
 # You are free to copy and distribute this file for non-commercial uses,
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an 
-# issue at https://www.mypdns.org/maniphest/
+# issue at https://mypdns.org/my-privacy-dns/porn-records/-/issues
 #
 # You should be able to include this file by placing it inside /etc/dnsmasq.d
 # According to http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
@@ -22,4 +22,3 @@
 # but server=/example.net/ as the address directive will be overruled 
 # by DHCP and /etc/hosts. Read more at:
 # https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/dnsmasq/issues/1
-
