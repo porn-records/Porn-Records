@@ -38,12 +38,8 @@ build1:
 
 build2:on-schedule:
   stage: build
-  only:
-    refs:
-      - master
-    changes:
-      - .pyfunceble/**
-      - active_domains/**
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
   script:
     - echo "Running scheduled PyFunceble"
     - bash "$CI_PROJECT_DIR/scripts/conda_install.sh"
