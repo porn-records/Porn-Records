@@ -29,8 +29,8 @@ build:
   only:
     - master
     - merge_requests
-    changes:
-      - submit_here/**
+  changes:
+    - ${PROJECT_FOLDER}/submit_here/**
   script:
     - echo "Do your build here"
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
