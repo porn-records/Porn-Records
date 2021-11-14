@@ -76,7 +76,7 @@ function pyf_basic () {
 function pyf_ci () {
   # commands for CI/CD
   export PYFUNCEBLE_CONFIG_DIR="${GIT_DIR}/.pyfunceble"
-  pyf_basic --ci --ci-max-minutes 45
+  pyf_basic --ci --ci-max-minutes 45 --dots -q
 }
 
 
