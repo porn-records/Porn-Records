@@ -150,7 +150,7 @@ Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
 ### Browser history
 Don't forget to clear your browser history when you have bypassed this filter!!!
 
-![browser history](http://joyreactor.com/post/716777 "clear your browser history")
+[![browser history](.assets/browser-history.jpeg)](http://joyreactor.com/post/716777 "clear your browser history")
 
 [DNS_RPZ]: https://mypdns.org/MypDNS/support/-/wikis/rpz/
 [DNS_recursor]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver
