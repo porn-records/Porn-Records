@@ -157,7 +157,7 @@ Don't forget to clear your browser history when you have bypassed this filter!!!
 [adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud
 [IP_Addresses]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip
 [NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn
-[rfc_952]: (http://tools.ietf.org/html/rfc952)
+[rfc_952]: http://tools.ietf.org/html/rfc952 "DOD INTERNET HOST TABLE SPECIFICATION"
 [wiki_DNS_host]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts
 [wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname
 [disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415
