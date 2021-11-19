@@ -8,8 +8,8 @@ configured output zone files in this project, we are simply only storing,
 and verifying the availability's of the records.
 
 We do however serve a full DNS RPZ Firewall zone from
-[adult.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud)
-purely based of the records from this repository.
+[adult.mypdns.cloud][adult.mypdns.cloud] purely based of the records
+from this repository.
 
 ## DNS zones
 If you are so lucky that you have updated your system to use a DNS resolver
@@ -70,14 +70,14 @@ submit_here
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------- |
 | **Intro**:             | The difference between the files inside the `submit_here/adult.mypdns.cloud` and the `submit_here/strict.adult.mypdns.cloud` is that the strict folder contains domains that otherwise hosts SFW contents, while records found in the `adult.mypdns.cloud` is mainly adult domains.<br>The description of the files contents is equal independent of the folder |                                          |                                                                  |
 | `domains.list`         | This file is only for domains that can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in ie. open blogs domains as `*.blogspot.TLD` or [disqus.com (Adult Only)][disqus.com].                                                                                              | :heavy_check_mark:                       | :heavy_check_mark:                                               |
-| `hosts.txt`            | This list is unrelated to `domains.list` and contains only supplementary records required by dumb hosts files, such as `lang.$domain.$TLD` or `cdn.$domain.$TLD` as hosts files requires exact match to function [rfc:952][rfc_952] and [rfc:1123][rfc_1123]. You should also take a look at this [wiki page][wiki_DNS_host]                                                             | :heavy_multiplication_x:                 | :heavy_check_mark:                                               |
+| `hosts.txt`            | This list is unrelated to `domains.list` and contains only supplementary records required by dumb hosts files, such as `lang.$domain.$TLD` or `cdn.$domain.$TLD` as hosts files requires exact match to function [rfc:952][rfc_952] and [rfc:1123][rfc_1123]. You should also take a look at this [wiki page][wiki_DNS_host]                                    | :heavy_multiplication_x:                 | :heavy_check_mark:                                               |
 | `mobile.txt`           | Same as `hosts.txt` but only mobile specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list`. This list is probably as good as dead, tanks to the responseble design nowadays. This list is swallowed by the ordinary hosts or subsidiary the domain.list                                                                      | :heavy_multiplication_x:                 | :heavy_check_mark:                                               |
-| `rpz-ip`               | To block any [#NSFW][NSFW] by there [ip addresses][IP_Addresses], yes, yet another cool DNS RPZ feature, hosts files doesn't have :smiley:                                                                                                                                                                                                                      | :heavy_check_mark:                       | :heavy_multiplication_x:                                         |
+| `rpz-ip`               | To block any [#NSFW][NSFW] by there [ip addresses][IP_Addresses], yes, yet another cool DNS RPZ feature, hosts files doesn't have.                                                                                                                                                                                                                              | :heavy_check_mark:                       | :heavy_multiplication_x:                                         |
 | `snuff.list`           | Snuff Porno (No wildcard this far as the zone is way to small for that) These records will be part of the [adult.mypdns.cloud][adult.mypdns.cloud] RPZ Firewall zone                                                                                                                                                                                            | :heavy_check_mark:                       | :heavy_check_mark:                                               |
 | `tld.list`             | This list contains Top Level Domains like `.xxx` which with wildcard allow us to make a huge impact on adult specific domain. A very short list, made to avoid FP while testing with @Pyfunceble.                                                                                                                                                               | :heavy_check_mark:                       | :heavy_multiplication_x:                                         |
 | `wildcard.list`        | This is the core domains for the rest of the "sub" files for which domains primarily hosting Porno and therefore can be in wildcard formats used by proper [DNS recursor's][DNS_recursor] that in full supports [DNS RPZ][DNS_RPZ]                                                                                                                              | :heavy_check_mark:                       | :heavy_check_mark:                                               |
 | `whitelist.list`       | The locally hosted list for domains that never should be put into any of the above categories or lists                                                                                                                                                                                                                                                          | :heavy_check_mark:                       | :heavy_multiplication_x:                                         |
-| `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire number of entries quit a bit, as ex. all `.xxx` domains is served from the same root server :smiley: Read more about how the rpz-nsdname records on this [wiki page][wiki_rpz-nsdname]                          | :heavy_check_mark:                       | :heavy_multiplication_x:                                         |
+| `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that is solely used for serving porn. By using a zone like this, we can actually minimize the entire number of entries quit a bit, as ex. all `.xxx` domains is served from the same root server. Read more about how the rpz-nsdname records on this [wiki page][wiki_rpz-nsdname]                                  | :heavy_check_mark:                       | :heavy_multiplication_x:                                         |
 | `README.md`            | See [submit_here/README.md](submit_here/README.md)                                                                                                                                                                                                                                                                                                              |                                          |                                                                  |
 
 
@@ -88,10 +88,9 @@ If you, like the rest of the world, who knows just a bit about
 [DNS](https://mypdns.org/MypDNS/support/-/wikis/dns/) and how a OS
 (Operating System) are handling DNS queries over the network protocols,
 you have of curse updated your local network to be using a local
-[DNS resolver](https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver)
-that have full support of the
-[Response Policy zones](https://mypdns.org/MypDNS/support/-/wikis/rpz/),
-such as the [PowerDNS Recursor](https://mypdns.org/source/pdns-recursor/)
+[DNS resolver][DNS_recursor] that have full support of the
+[Response Policy zones][DNS_RPZ], such as the
+[PowerDNS Recursor](https://mypdns.org/source/pdns-recursor/)
 or [ICS Bind9+](https://mypdns.org/rpz/dns-rpz-integration/-/tree/master/Bind_9),
 while unbound only have partial support of DNS RPZ you will be excluded
 from the benefits of the `wildcard.rpz-nsdname`.
@@ -144,8 +143,8 @@ More about that in the support
 ## Buzz words and keyword
 Adult Only, DNS Filter, DNS Firewall, Family Filter, Family Shield,
 FamilyShield, hosts file, hostsfile, Kids Safe, NSFW, parental control,
-Porn Block, Porn Blocker, Porn Detection, Porn Filter, Porn Records,
-Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
+Pi-Hole, PiHole, Porn Block, Porn Blocker, Porn Detection, Porn Filter,
+Porn Records, Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
 
 ### Browser history
 Don't forget to clear your browser history when you have bypassed this filter!!!
@@ -160,5 +159,5 @@ Don't forget to clear your browser history when you have bypassed this filter!!!
 [rfc_952]: https://www.rfc-editor.org/rfc/rfc952.html "DOD INTERNET HOST TABLE SPECIFICATION"
 [rfc_1123]: https://www.rfc-editor.org/rfc/rfc1123 "Requirements for Internet Hosts"
 [wiki_DNS_host]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts "DNS hostsfile wiki"
-[wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/ RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname "DNS RPZ rpz-nsdname record types"
+[wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname "DNS RPZ rpz-nsdname record types"
 [disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415 "disqus SpyWare"
