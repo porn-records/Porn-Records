@@ -112,7 +112,7 @@ Action:
 
 ### Hosts files
 If you are stocked on the very weird and extremely outdated way of
-blocking DNS queries with a [hosts](https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts)
+blocking DNS queries with a [hosts][wiki_DNS_host]
 file. You'll need to combine all the above files into a flat `hosts`
 file with the exception of `README.md`, `rpz-ip` and
 `wildcard.rpz-nsdname`, however, this _WILL_ gives you to many records,
@@ -124,21 +124,21 @@ as not necessary all domains are served over both `www.$domain.tld` and
 Since Pi-hole are crippled from using wildcard lists for blacklisting through
 they have support for regex, then this is capped to be used for internal 
 management only. Read more about it in
-[What lists to use in pi-hole](https://mypdns.org/mypdns/support/-/issues/253)
+[What lists to use in pi-hole](https://mypdns.org/mypdns/support/-/issues/253 "What lists to use in pi-hole")
 by @pallebone
 
 
 ## Contributing
-Any helpful [contributions](https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/CONTRIBUTING.md)
+Any helpful [contributions](https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/CONTRIBUTING.md "How to contribute to My Privacy DNS")
 are appreciated.
 
 
 ## Contact
 You can reach the team by
-[issue](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new) or
+[issue](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new "Contact My Privacy DNS") or
 in one of our IRC (Internet Relay Chat) channels on libera.chat.
 More about that in the support
-[wiki](https://mypdns.org/mypdns/support/-/wikis/home#internet-relay-chat-irc)
+[wiki](https://mypdns.org/mypdns/support/-/wikis/home#internet-relay-chat-irc "IRC Internet Relay Chat")
 
 
 ## Buzz words and keyword
@@ -152,13 +152,13 @@ Don't forget to clear your browser history when you have bypassed this filter!!!
 
 [![browser history](.assets/browser-history.jpeg)](http://joyreactor.com/post/716777 "clear your browser history")
 
-[DNS_RPZ]: https://mypdns.org/MypDNS/support/-/wikis/rpz/
-[DNS_recursor]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver
-[adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud
+[DNS_RPZ]: https://mypdns.org/MypDNS/support/-/wikis/rpz/ "DNS RPZ Firewall"
+[DNS_recursor]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver "DNS Recursor"
+[adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud "RPZ zone adult.mypdns.cloud"
 [IP_Addresses]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip
-[NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn
+[NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn "Not Safe For Weaklings"
 [rfc_952]: https://www.rfc-editor.org/rfc/rfc952.html "DOD INTERNET HOST TABLE SPECIFICATION"
 [rfc_1123]: https://www.rfc-editor.org/rfc/rfc1123 "Requirements for Internet Hosts"
-[wiki_DNS_host]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts
-[wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname
-[disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415
+[wiki_DNS_host]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts "DNS hostsfile wiki"
+[wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/ RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname "DNS RPZ rpz-nsdname record types"
+[disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415 "disqus SpyWare"
