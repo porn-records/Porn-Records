@@ -2,10 +2,12 @@
 
 If you feel like contributing there are a couple of ways to do this
 
-1. You can add new super high speed bash code, optimizing existing or
-   rewrite for broader support of bash environments across OS's
+1. You can add new super high speed code, optimizing existing code
+   or rewrite for broader support of bash environments across *nix
+   OS's
 
-1. You can add domains to either the `submit_here/` folder of this repo.
+1. You should **_not_** add domains to the `submit_here/` folder of
+   this repo.
 
 1. Please add you contribution to either the vary beginning of the file
    or the bottom, the CI/CD will do the sorting.
@@ -13,31 +15,52 @@ If you feel like contributing there are a couple of ways to do this
 ## Workflow
 
 ### Add new hosts
-The workflow is a bit clumsy, but the most reliable and fail-safe.
-   1. You add an issue with you question, feature request or contribution
-      via [this form](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents)
-      (This is the history of _why_ to blacklist a record)
+There is a couple scenarios for this (Preferred order):
 
-      ALL fields MOST be filled out, the questions is there for a
-      good reason...
+## The fastest and best covering
+This one is tooooo simple or therefore probably to good to be
+true... right?
 
-   2. Add your new domain record(s) to suitable file(s) in the `submit_here/`
-      folder.
-      A issue is required to be able to historically trace why you
-      have committed the records and for other to verify your commit
-      without having to visit a pornographic site, for which they actualle
-      try to avoid by using this list.
+Nope it is actually true. How can you be contribute to 4 Blacklist with
+one issue + several RPZ Zone?
 
-   3. If you added any content to any of the files in `submit_here/`l
-      You open a PR (Merge Request) where you'll add your contribution
-      (This is the _when_ we did the blacklisting)
+Simple, just commit your issue to the porn-records
+[here][issue]
 
-   4. You add the new domain record entry in the top or bottom of the list,
-      then it is easier to find.
-      The CI/CD code will make it appear in alphanumeric order
+IMPORTANT: Fill out any fields, or you will at first be requested to add
+missing values, if you fails to do this, you commitment can in sevier
+cases end up by being deleted.
 
-   5. Follow the [New commit](#new-commit) guide
+### The nearly as fast commit approach
+1. You open a [ISSUE][issue] (Preferred)
 
+   ### Issue comment
+   you should know a couple of things about the issue templates,
+   as I know a lot of people hates them as I suspect they don't
+   understand the long term and bigger idea behind them.
+
+   Hopefully the following text might help on that.
+   - It is 1 domain = 1 issue
+   - The templates are designed so nobody should have to visit any of the
+   domains to verify, it is a pornographic domain, hence why the small
+   screenshots of the site are required.
+   - Everything should, at best, be designed to help other in there goal
+   for maintaining and blacklisting adult related material.
+   - We shall always do our best to achieve this, so that no one have to
+   visit a pornographic site to verifying it, once the team behind the
+   project have done this.
+   - They are designed to match another project (Long term), currently known
+   as the matrix, yes because of a $2 domain while watching the matrix
+   movie. https://mypdns.org/infrastructure/matrix-rocks/www.matrix.rocks/-/blob/master/README.md
+
+
+2. @spirillen will handle these on a regular basis, which usual
+   would be a couple of times a week.
+
+## Screenshot
+Why @spirillen is so picky about the screenshots is do to the time
+available for him to to handle this. You should also have read this
+[comment](#issue-comment)
 
 ### New code
 If you feel like adding new code or modify existing code to make it run
@@ -74,13 +97,13 @@ Only exception to this rule is the CI/CD bot
 
 ### How to sign with GPG
 If you know nothing about GPG keys I really suggest you search on
-[duckduckgo](https://safe.duckduckgo.com) for the best way to do it, on
-your current OS.
+[duckduckgo][duckduckgo] for the best way to do it, on your
+current OS.
 
 However if you do have a GPG key, add it to you submission profile add a
 `-S` to the `git commit -S -m "Some very cool enhancements"` and that's
 is. You can set this globally or pr git. Do a search on
-[duckduckgo](https://duckduckgo.com) to figure out the current way.
+[duckduckgo][duckduckgo] to figure out the current way.
 
 ### Encoding when writing files/lines
   - All files most end with a newline `\n`(LF) UTF-8.
@@ -90,6 +113,12 @@ is. You can set this globally or pr git. Do a search on
   - Line length should not be any longer than 80 chars for supporting
     terminals.
 
+
+<!-- Document links -->
+
+[duckduckgo]: https://safe.duckduckgo.com
+[issue]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/new
+
 This version supersedes <https://mypdns.org/MypDNS/support/-/wikis/Contributing>
 
 Revision date: 26. June 2021.
@@ -98,4 +127,4 @@ Last edited by: <https://mypdns.org/Spirillen/>
 
 Approved by: <https://mypdns.org/Spirillen/>
 
-Version: rPD 1.0
+Version: rPD 1.1
