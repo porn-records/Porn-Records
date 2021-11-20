@@ -165,6 +165,33 @@ Pi-Hole, PiHole, Porn Block, Porn Blocker, Porn Detection, Porn Filter,
 Porn Records, Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
 
 
+## Why should I contribute
+You should contribute to this list because it does matter for those who
+have to block this kind of content.
+
+Let's have a look at Cloudflares <https://cloudflare-dns.com/family/>
+so called adult filter running on `1.1.1.3`
+
+![Cloudflare-dns adult filtering](https://archive.mypdns.org/file/data/lethgvoookfqugdffqjk/PHID-FILE-fsnlpmklbe5rnalbjlip/preview-image.png)
+
+From the test file
+<https://mypdns.org/clefspeare13/pornhosts/-/blob/master/0.0.0.0/hosts>
+which we are going to use for our test we see the following result and
+why it matters you are contributing.
+
+## Test result
+
+| Status   | Percentage | Numbers |
+| :------- | ---------: | ------: |
+| ACTIVE   |        96% |    8615 |
+| INACTIVE |         3% |     356 |
+| INVALID  |         0% |       0 |
+
+## Conclusion
+We can hereby conclude this project have knowledge to 8615 domains, which
+CloudFlare-dns do not know about
+
+
 ### Browser history
 
 Don't forget to clear your browser history when you have bypassed these
