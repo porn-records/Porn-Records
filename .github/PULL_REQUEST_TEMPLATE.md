@@ -29,7 +29,7 @@ link here --->
   - [ ] Have you checked to ensure there aren't other open
         [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
         same update/change?
-  - [ ] Added Screenshot to the above mentioned issue for prove of submission?
+  - [ ] Added Screenshot to the above mentioned issue for proof of submission?
 
 ### Todo
   - [ ] Added to [Source file](submit_here/hosts.txt)?

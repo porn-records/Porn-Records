@@ -37,7 +37,7 @@ www.?
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [x] Added screenshot for prove of False Negative
+- [x] Added screenshot for proof of False Negative
 
 ### Todo
 - [ ] Added to Source file?
