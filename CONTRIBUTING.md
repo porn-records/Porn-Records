@@ -147,4 +147,4 @@ Last edited by: <https://mypdns.org/Spirillen/>
 
 Approved by: <https://mypdns.org/Spirillen/>
 
-Version: rPD 1.1
+Version: rPD 1.2
