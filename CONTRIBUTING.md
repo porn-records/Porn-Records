@@ -12,6 +12,26 @@ If you feel like contributing there are a couple of ways to do this
 1. Please add you contribution to either the vary beginning of the file
    or the bottom, the CI/CD will do the sorting.
 
+# Submit - Contribute
+
+All commits of new NSFW adult records should be done to
+[Porn Records][PR]
+
+You can use the following quick links
+
+| Category              | Commit issue                                                                                        |
+| :-------------------- | :-------------------------------------------------------------------------------------------------- |
+| Adult contents        | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
+| Adult CDN             | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_CDN             |
+| Strict Adult contents | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_contents |
+| Strict Adult CDN      | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_CDN      |
+| Snuff & gore          | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff                 |
+| Common support        | https://mypdns.org/MypDNS/support/-/wikis/-/issues/new                                              |
+| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                          |
+
+
+[PR]: https://mypdns.org/my-privacy-dns/porn-records
+
 ## Workflow
 
 ### Add new hosts
@@ -121,7 +141,7 @@ is. You can set this globally or pr git. Do a search on
 
 This version supersedes <https://mypdns.org/MypDNS/support/-/wikis/Contributing>
 
-Revision date: 26. June 2021.
+Revision date: 26. Nov 2021.
 
 Last edited by: <https://mypdns.org/Spirillen/>
 
