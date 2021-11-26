@@ -51,6 +51,23 @@ The specific readme,md for this is located [here][strict_readme.md]
 
 ## Submitting
 
+# Submit - Contribute
+
+You can use the following quick links
+
+| Category              | Commit issue                                                                                        |
+| :-------------------- | :-------------------------------------------------------------------------------------------------- |
+| Adult contents        | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
+| Adult CDN             | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_CDN             |
+| Strict Adult contents | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_contents |
+| Strict Adult CDN      | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_CDN      |
+| Snuff & gore          | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff                 |
+| Common support        | https://mypdns.org/MypDNS/support/-/wikis/-/issues/new                                              |
+| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                          |
+
+
+[PR]: https://mypdns.org/my-privacy-dns/porn-records
+
 This is where you contributes with new domains matching any of these sub
 files.
 
