@@ -30,7 +30,7 @@ www.
 
 
 ## Relevant External sources
-- ``
+- `https://github.com/tiuxo/hosts/pull/33`
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
