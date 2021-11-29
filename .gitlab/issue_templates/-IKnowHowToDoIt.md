@@ -8,7 +8,7 @@ domain   CNAME . ; Adult
 *.domain   CNAME . ; Adult
 ```
 
-### Additional requirements for dumb hosts-files
+### Additional requirements for hosts and Pi-hole
 
 ```python
 

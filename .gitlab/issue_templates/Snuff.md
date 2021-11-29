@@ -9,7 +9,7 @@ domain   CNAME . ; Snuff
 *.domain   CNAME . ; Snuff
 ```
 
-## Additional requirements for dumb hosts-files
+### Additional requirements for hosts and Pi-hole
 
 ```python
 

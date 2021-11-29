@@ -12,7 +12,7 @@ domain   CNAME . ; Adult
 
 CDN See [Linked issues](#related-issues) for details
 
-### Additional requirements for dumb hosts-files
+### Additional requirements for hosts and Pi-hole
 
 ```python
 

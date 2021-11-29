@@ -11,7 +11,7 @@ domain   CNAME . ; Strict.Adult
 *.domain   CNAME . ; Strict.Adult
 ```
 
-### Additional requirements for dumb hosts-files
+### Additional requirements for hosts and Pi-hole
 
 ```python
 
