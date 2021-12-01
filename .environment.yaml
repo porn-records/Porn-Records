@@ -3,5 +3,5 @@ dependencies:
   - python=3.10
   - pip
   - pip:
-      - pyfunceble>=4.0.1
+      - pyfunceble-dev>=4.0.2b5
       - mypdns

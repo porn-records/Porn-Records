@@ -4,7 +4,10 @@
 
 GIT_DIR="$(git rev-parse --show-toplevel)"
 
+POL_LIBRARY="/tmp/pyfunceble"
+
 ADULT_DIR="${GIT_DIR}/submit_here/adult.mypdns.cloud"
+IMPORT_LIBRARY="${GIT_DIR}/submit_here/imported"
 STRICT_DIR="${GIT_DIR}/submit_here/strict.adult.mypdns.cloud"
 
 DOMAINS="${ADULT_DIR}/domains.list"
@@ -14,6 +17,12 @@ RPZIP="${ADULT_DIR}/rpz-ip"
 SNUFF="${ADULT_DIR}/snuff.list"
 WILDCARD="${ADULT_DIR}/wildcard.list"
 RPZNSDNAME="${ADULT_DIR}/wildcard.rpz-nsdname"
+
+IMP_DOMAINS="$IMPORT_LIBRARY/domains.matrix"
+IMP_HOSTS="$IMPORT_LIBRARY/hosts.clefspeare13"
+IMP_MOBILE="$IMPORT_LIBRARY/mobile.clefspeare13"
+IMP_PHIES="$IMPORT_LIBRARY/pornhosts.import-external-sources"
+IMP_STRICT="$IMPORT_LIBRARY/strict_adult.clefspeare13"
 
 STRICT_DOMAIN="${STRICT_DIR}/strict.domains.list"
 STRICT_HOSTS="${STRICT_DIR}/strict.hosts.list"
@@ -48,7 +57,7 @@ conda activate pyfunceble
 export PYFUNCEBLE_AUTO_CONFIGURATION=YES
 export PYFUNCEBLE_DEBUG=True
 export PYFUNCEBLE_DEBUG_LVL=critical
-export PYFUNCEBLE_OUTPUT_LOCATION="${GIT_DIR}/active_domains/"
+
 
 hash pyfunceble
 
@@ -57,25 +66,40 @@ pyfunceble --version
 printf "\n\tYou are running with RunFunceble\n\n"
 
 function pyf_basic () {
-  export PYFUNCEBLE_CONFIG_DIR="${HOME}/.config/PyFunceble/"
-  pyfunceble -w 40 \
-    -f "${DOMAINS}" \
-    "${HOSTS}" \
-    "${MOBILE}" \
-    "${RPZIP}" \
-    "${SNUFF}" \
-    "${WILDCARD}" \
-    "${RPZNSDNAME}" \
-    "${STRICT_DOMAIN}" \
-    "${STRICT_HOSTS}" \
-    "${STRICT_RPZIP}" \
-    "${STRICT_WILDCARD}" \
-    "${STRICT_RPZNSDNAME}"
+	export PYFUNCEBLE_CONFIG_DIR="${HOME}/.config/PyFunceble/"
+	export PYFUNCEBLE_OUTPUT_LOCATION="${POL_LIBRARY}"
+	mkdir -p "${POL_LIBRARY}"
+	# rm -fr "${POL_LIBRARY}"
+	mkdir -p "${POL_LIBRARY}"
+	rsync -avPq --delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
+	pyfunceble -w 40 \
+		--dns 192.168.1.6 9.9.9.10 \
+		--database-type csv \
+		-f "${DOMAINS}" \
+		"${HOSTS}" \
+		"${MOBILE}" \
+		"${RPZIP}" \
+		"${SNUFF}" \
+		"${WILDCARD}" \
+		"${RPZNSDNAME}" \
+		"${IMP_DOMAINS}" \
+		"${IMP_HOSTS}" \
+		"${IMP_MOBILE}" \
+		"${IMP_PHIES}" \
+		"${IMP_STRICT}" \
+		"${STRICT_DOMAIN}" \
+		"${STRICT_HOSTS}" \
+		"${STRICT_RPZIP}" \
+		"${STRICT_WILDCARD}" \
+		"${STRICT_RPZNSDNAME}"
+  
+	rsync -avPq "${POL_LIBRARY}/" "${GIT_DIR}/active_domains/"
 }
 
 function pyf_ci () {
   # commands for CI/CD
   export PYFUNCEBLE_CONFIG_DIR="${GIT_DIR}/.pyfunceble"
+  export PYFUNCEBLE_OUTPUT_LOCATION="${GIT_DIR}/active_domains/"
   pyf_basic --ci --ci-max-minutes 45 --dots -q
 }
 
@@ -90,6 +114,7 @@ fi
 
 conda deactivate
 # conda env remove -n pyfunceble
+
 
 exit ${?}
 
