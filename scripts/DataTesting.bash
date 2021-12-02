@@ -4,7 +4,7 @@
 
 GIT_DIR="$(git rev-parse --show-toplevel)"
 
-POL_LIBRARY="/tmp/pyfunceble"
+POL_LIBRARY="/tmp/pornRecords/"
 
 ADULT_DIR="${GIT_DIR}/submit_here/adult.mypdns.cloud"
 IMPORT_LIBRARY="${GIT_DIR}/submit_here/imported"
@@ -63,18 +63,28 @@ hash pyfunceble
 
 pyfunceble --version
 
-printf "\n\tYou are running with RunFunceble\n\n"
+printf "\n\tYou are running with Pyfunceble\n\n"
 
 function pyf_basic () {
 	export PYFUNCEBLE_CONFIG_DIR="${HOME}/.config/PyFunceble/"
 	export PYFUNCEBLE_OUTPUT_LOCATION="${POL_LIBRARY}"
-	mkdir -p "${POL_LIBRARY}"
-	# rm -fr "${POL_LIBRARY}"
-	mkdir -p "${POL_LIBRARY}"
-	rsync -avPq --delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
+
+	if [ ! -d "${POL_LIBRARY}" ]
+	then
+		mkdir -p "${POL_LIBRARY}"
+		mount "${POL_LIBRARY}"
+	else
+		rm -fr "${POL_LIBRARY}/*"
+		umount "${POL_LIBRARY}"
+		mkdir -p "${POL_LIBRARY}"
+		mount "${POL_LIBRARY}"
+	fi
+
+	rsync -avPq --exclude rpz.mypdns.cloud --delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
 	pyfunceble -w 40 \
 		--dns 192.168.1.6 9.9.9.10 \
 		--database-type csv \
+		--merge-output \
 		-f "${DOMAINS}" \
 		"${HOSTS}" \
 		"${MOBILE}" \
@@ -92,8 +102,8 @@ function pyf_basic () {
 		"${STRICT_RPZIP}" \
 		"${STRICT_WILDCARD}" \
 		"${STRICT_RPZNSDNAME}"
-  
-	rsync -avPq "${POL_LIBRARY}/" "${GIT_DIR}/active_domains/"
+
+	rsync -avPq --exclude rpz.mypdns.cloud "${POL_LIBRARY}/" "${GIT_DIR}/active_domains/"
 }
 
 function pyf_ci () {
