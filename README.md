@@ -156,7 +156,8 @@ internal management only. Read more about it in
 
 ### AdGuard
 These Adult filters are supported by the AdGuard project just as
-well as there are for Pi-Hole
+well as there are for Pi-Hole thanks to the
+[Domains-Only Syntax][Domains-Only Syntax]
 
 
 ## Contributing
@@ -232,3 +233,4 @@ filter!!!
 [CONTRIBUTING]: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/CONTRIBUTING.md "How to contribute to My Privacy DNS"
 [DNS-hosts]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts#location-in-the-file-system "hosts files locations"
 [pi-hole_combo]: https://mypdns.org/mypdns/support/-/issues/253 "What lists to use in pi-hole"
+[Domains-Only Syntax]: https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#domains-only-syntax
