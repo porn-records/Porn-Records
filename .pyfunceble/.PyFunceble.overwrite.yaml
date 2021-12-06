@@ -19,7 +19,7 @@ cli_testing:
     no_file: false
     plain: true
     unified_results: false
-  local_network: true
+  local_network: false
   sorting_mode:
     hierarchical: true
 debug:
