@@ -22,8 +22,12 @@ cli_testing:
   local_network: false
   sorting_mode:
     hierarchical: true
+  preload_file: true
+  days_between:
+        db_clean: 1
+        db_retest: 1
 debug:
-  active: true
+  active: false
   level: critical
 lookup:
   collection: false

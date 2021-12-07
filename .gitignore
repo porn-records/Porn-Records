@@ -7,6 +7,7 @@ test.tmp
 # .pyfunceble/db_types/
 # active_domains/db_types/
 local_scripts/
+active_domains/output/merged_results/**
 dir_structure.json
 ./output/**
 

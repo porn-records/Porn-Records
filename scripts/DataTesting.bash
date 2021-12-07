@@ -80,11 +80,12 @@ function pyf_basic () {
 		mount "${POL_LIBRARY}"
 	fi
 
+	cd "${POL_LIBRARY}"
+
 	rsync -avPq --exclude rpz.mypdns.cloud/ --delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
 	pyfunceble -w 40 \
-		--dns 192.168.1.6 9.9.9.10 \
+		--dns 192.168.1.6 \
 		--database-type csv \
-		--merge-output \
 		-f "${DOMAINS}" \
 		"${HOSTS}" \
 		"${MOBILE}" \
@@ -102,6 +103,8 @@ function pyf_basic () {
 		"${STRICT_RPZIP}" \
 		"${STRICT_WILDCARD}" \
 		"${STRICT_RPZNSDNAME}"
+
+	cd "$GIT_DIR"
 
 	rsync -avPq "${POL_LIBRARY}/" "${GIT_DIR}/active_domains/"
 }
