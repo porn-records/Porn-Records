@@ -6,3 +6,6 @@ Status      Percentage   Amount
 ACTIVE      100%         46          
 INACTIVE    0%           0           
 INVALID     0%           0           
+ACTIVE      100%         92          
+INACTIVE    0%           0           
+INVALID     0%           0           
