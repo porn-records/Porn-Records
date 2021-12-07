@@ -128,6 +128,7 @@ fi
 conda deactivate
 # conda env remove -n pyfunceble
 
+umount "${POL_LIBRARY}/"
 
 exit ${?}
 
