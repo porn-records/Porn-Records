@@ -11,7 +11,7 @@ domain   CNAME . ; Adult
 ### Additional requirements for hosts and Pi-hole
 
 ```python
-
+NULL
 
 + www
 - www
