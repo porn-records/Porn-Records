@@ -15,8 +15,11 @@ CDN See [Linked issues](#related-issues) for details
 ### Additional requirements for hosts and Pi-hole
 
 ```python
+NULL
 
-www.?
++ www
+- www
+www.
 ```
 
 ## Relevant logs or comments
@@ -24,8 +27,6 @@ www.?
 
 ## Relevant External sources
 <!-- If you found this domain on another issueboard -->
-
-
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
@@ -41,7 +42,7 @@ www.?
 
 /assign @spirillen 
 
-/label ~"CDN::NSFW"
+/label ~"CDN::NSFW-Strict"
 
 
 <!--
@@ -62,7 +63,6 @@ Tips & Tricks
 If you are using ie. uBlock Origin, you can sort the log output with this
 one-liner in bash.
 See snippet: https://mypdns.org/-/snippets/2
+
+Template url: https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult%20CDN
 -->
-
-
-<!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult%20CDN -->
