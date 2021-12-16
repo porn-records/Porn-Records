@@ -24,7 +24,7 @@ folder root [LICENSE][]
 The following Project, website, domains are banned (prohibited) from
 using **any** of our code is:
 
-- ``
+- `https://github.com/Sinfonietta/hostfiles`
 - ``
 
 
