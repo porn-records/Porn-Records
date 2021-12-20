@@ -1,9 +1,32 @@
-#!/usr/bin/python3.9
+#!/usr/local/bin/python3.10
 # -*- coding: utf-8 -*-
-import re
-import sys
-import os import getcwd, sep
+
+"""
+::
+Author:
+    @spirillen https://mypdns.org/spirillen/
+
+Copyright:
+    https://mypdns.org/
+
+Source:
+    https://mypdns.org/my-privacy-dns/porn-records
+License:
+::
+
+    https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+    You should have received a copy of the license along with this
+    work.
+"""
+
+# import re
+# import sys
+# import os
+import getcwd, sep
 from ..helpers import Command
+
 
 class Paths:
     """

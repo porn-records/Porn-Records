@@ -16,8 +16,16 @@
 # https://raw.githubusercontent.com/Import-External-Sources/pornhosts/master/download_here/safesearch/0.0.0.0/hosts
 # https://raw.githubusercontent.com/Import-External-Sources/pornhosts/master/download_here/safesearch/127.0.0.1/hosts
 #
-# License:
-# MIT (https://mypdns.org/my-privacy-dns/porn-records/blob/master/LICENSE)
+# You are allowed to use this file on the following terms of condition:
+#
+# Copyright: https://mypdns.org/my-privacy-dns/porn-records/blob/master/COPYRIGHT.md
+# Source: https://mypdns.org/my-privacy-dns/porn-records
+# License: 
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+#
+# You should have received a copy of the license along with this
+# work. If not, see:
+#   https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE.
 #
 # Contributions by:
 # @Spirillen: https://github.com/spirillen
@@ -26,8 +34,12 @@
 # https://mypdns.org/my-privacy-dns/porn-records/commits/master
 #
 # Contribute:
-# Create an issue at https://github.com/Clefspeare13/pornhosts/issues
+# Create an issue (rules only) at
+# https://mypdns.org/my-privacy-dns/porn-records/issues
 #
+# Common questions and support:
+# https://mypdns.org/MypDNS/support/issues
+
 
 # localhost
 127.0.0.1 local

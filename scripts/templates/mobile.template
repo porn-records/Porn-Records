@@ -4,8 +4,14 @@
 # regular versions of the domain are resolved separately and must therefore 
 # both be present.
 #
-# An updated version is always available at https://github.com/Clefspeare13/pornhosts
-# Submit complaints or suggestions here https://github.com/Clefspeare13/pornhosts/issues
+# An updated version is always available at
+# https://mypdns.org/Clefspeare13/pornhosts
+# Contribute:
+# Create an issue (rules only) at
+# https://mypdns.org/my-privacy-dns/porn-records/issues
+#
+# Common questions and support:
+# https://mypdns.org/MypDNS/support/issues
 
 # localhost
 127.0.0.1 local
@@ -14,6 +20,3 @@
 255.255.255.255 broadcasthost
 ::1 localhost
 fe80::1%lo0 localhost
-
-
-

@@ -4,7 +4,10 @@
 # Content: https://mypdns.org/spirillen/
 # Source: https://mypdns.org/my-privacy-dns/porn-records
 # License: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE
-# License Comment: Creative Commons Attribution Share Alike 4.0 International
+# License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+#
+# You should have received a copy of the license along with this
+# work.
 #
 # License in short:
 # You are free to copy and distribute this file for non-commercial uses,

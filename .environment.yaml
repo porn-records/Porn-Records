@@ -1,3 +1,12 @@
+# Copyright: https://mypdns.org/
+# Content: https://mypdns.org/spirillen/
+# Source: https://mypdns.org/my-privacy-dns/porn-records
+# License: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/LICENSE
+# License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+#
+# You should have received a copy of the license along with this
+# work.
+
 name: pyfunceble
 dependencies:
   - python=3.10
