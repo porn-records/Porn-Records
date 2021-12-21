@@ -358,3 +358,78 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/PyFunceble/checker/availability/extra_rules.py", line 267, in __handle_blogspot
     if self.status.subject.starts("http:"):
 AttributeError: 'str' object has no attribute 'starts'
+[2021-12-21 07:32:40,472 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py:978@start | PPID73531:MainProcess]:
+Fatal error.
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 756, in _write_bytes
+    self._sock.sendall(data)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+    self.dialect.do_execute(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 814, in _execute_command
+    self._write_bytes(packet)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 759, in _write_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionResetError(104, 'Connection reset by peer'))")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py", line 974, in start
+    self.run_standard_end_instructions()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py", line 838, in run_standard_end_instructions
+    self.remove_unwanted_files()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py", line 816, in remove_unwanted_files
+    remove_continue_dataset(protocol)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py", line 788, in remove_continue_dataset
+    self.continue_dataset.cleanup(  # pylint: disable=unexpected-keyword-arg
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/dataset/db_base.py", line 104, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/dataset/autocontinue/mariadb.py", line 84, in cleanup
+    self.db_session.query(self.ORM_OBJ).filter(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 3191, in delete
+    result = self.session.execute(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1692, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1845, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+    self.dialect.do_execute(
+  File "/home/joakim/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 547, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 814, in _execute_command
+    self._write_bytes(packet)
+  File "/home/joakim/.local/lib/python3.10/site-packages/pymysql/connections.py", line 759, in _write_bytes
+    raise err.OperationalError(
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2006, "MySQL server has gone away (ConnectionResetError(104, 'Connection reset by peer'))")
+[SQL: DELETE FROM pyfunceble_continue WHERE pyfunceble_continue.session_id = %(session_id_1)s]
+[parameters: {'session_id_1': '7a86375ad4e0b934c4d2db27'}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)

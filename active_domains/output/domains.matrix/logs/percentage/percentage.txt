@@ -9,3 +9,6 @@ INVALID     0%           1
 ACTIVE      90%          93140       
 INACTIVE    11%          10102       
 INVALID     0%           1           
+ACTIVE      92%          120065      
+INACTIVE    8%           10685       
+INVALID     0%           2           

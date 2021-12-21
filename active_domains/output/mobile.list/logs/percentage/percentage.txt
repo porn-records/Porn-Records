@@ -9,3 +9,6 @@ INVALID     0%           0
 ACTIVE      100%         35          
 INACTIVE    0%           0           
 INVALID     0%           0           
+ACTIVE      99%          962         
+INACTIVE    1%           10          
+INVALID     0%           0           
