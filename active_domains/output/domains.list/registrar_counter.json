@@ -1,0 +1,42 @@
+{
+    "counter": {
+        "CommuniGal Communication Ltd.": 1,
+        "Danesco Trading Ltd.": 5,
+        "DomainFalcon LLC": 1,
+        "DropCatch.com 800 LLC": 1,
+        "Dynadot": 1,
+        "Dynadot LLC": 2,
+        "GMO": 2,
+        "GoDaddy.com, LLC": 2,
+        "Host Europe GmbH ( https://nic.at/registrar/168 )": 2,
+        "Key-Systems GmbH": 4,
+        "NameCheap, Inc.": 2,
+        "NameSilo, LLC": 1,
+        "Namecheap": 3,
+        "Sav.com, LLC": 1,
+        "TLD Registrar Solutions Ltd.": 1,
+        "Tucows Domains Inc.": 1,
+        "hosttech GmbH ( https://nic.at/registrar/696 )": 2,
+        "total": 32
+    },
+    "percentage": {
+        "CommuniGal Communication Ltd.": 3.125,
+        "Danesco Trading Ltd.": 15.625,
+        "DomainFalcon LLC": 3.125,
+        "DropCatch.com 800 LLC": 3.125,
+        "Dynadot": 3.125,
+        "Dynadot LLC": 6.25,
+        "GMO": 6.25,
+        "GoDaddy.com, LLC": 6.25,
+        "Host Europe GmbH ( https://nic.at/registrar/168 )": 6.25,
+        "Key-Systems GmbH": 12.5,
+        "NameCheap, Inc.": 6.25,
+        "NameSilo, LLC": 3.125,
+        "Namecheap": 9.375,
+        "Sav.com, LLC": 3.125,
+        "TLD Registrar Solutions Ltd.": 3.125,
+        "Tucows Domains Inc.": 3.125,
+        "hosttech GmbH ( https://nic.at/registrar/696 )": 6.25,
+        "total": 100.0
+    }
+}

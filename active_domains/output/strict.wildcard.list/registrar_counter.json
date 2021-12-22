@@ -1,0 +1,24 @@
+{
+    "counter": {
+        "DYNADOT, LLC": 1,
+        "DropCatch.com 821 LLC": 1,
+        "GoDaddy.com, LLC": 2,
+        "Gransy, s.r.o.": 1,
+        "PCHOME": 1,
+        "Regional Network Information Center, JSC dba RU-CENTER": 1,
+        "Tucows Domains Inc.": 6,
+        "United-Domains AG": 1,
+        "total": 14
+    },
+    "percentage": {
+        "DYNADOT, LLC": 7.142857142857143,
+        "DropCatch.com 821 LLC": 7.142857142857143,
+        "GoDaddy.com, LLC": 14.285714285714286,
+        "Gransy, s.r.o.": 7.142857142857143,
+        "PCHOME": 7.142857142857143,
+        "Regional Network Information Center, JSC dba RU-CENTER": 7.142857142857143,
+        "Tucows Domains Inc.": 42.857142857142854,
+        "United-Domains AG": 7.142857142857143,
+        "total": 100.0
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "counter": {
+        "DYNADOT, LLC": 2,
+        "Danesco Trading Ltd.": 3,
+        "Dynadot6 LLC": 1,
+        "Gandi SAS": 1,
+        "Gname.com Pte. Ltd.": 1,
+        "Go Daddy, LLC": 1,
+        "GoDaddy.com, LLC": 5,
+        "NameCheap, Inc.": 3,
+        "Porkbun LLC": 1,
+        "Tucows Domains Inc.": 1,
+        "Xiamen 35.Com Technology Co., Ltd.": 1,
+        "total": 20
+    },
+    "percentage": {
+        "DYNADOT, LLC": 10.0,
+        "Danesco Trading Ltd.": 15.0,
+        "Dynadot6 LLC": 5.0,
+        "Gandi SAS": 5.0,
+        "Gname.com Pte. Ltd.": 5.0,
+        "Go Daddy, LLC": 5.0,
+        "GoDaddy.com, LLC": 25.0,
+        "NameCheap, Inc.": 15.0,
+        "Porkbun LLC": 5.0,
+        "Tucows Domains Inc.": 5.0,
+        "Xiamen 35.Com Technology Co., Ltd.": 5.0,
+        "total": 100.0
+    }
+}
