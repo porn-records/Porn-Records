@@ -12,3 +12,6 @@ INVALID     0%           0
 ACTIVE      100%         2223        
 INACTIVE    0%           4           
 INVALID     0%           0           
+ACTIVE      100%         2956        
+INACTIVE    0%           6           
+INVALID     0%           0           
