@@ -18,6 +18,7 @@ SNUFF="${ADULT_DIR}/snuff.list"
 WILDCARD="${ADULT_DIR}/wildcard.list"
 RPZNSDNAME="${ADULT_DIR}/wildcard.rpz-nsdname"
 
+IMP_SW="$IMPORT_LIBRARY/adult.ShadowWhisperer"
 IMP_DOMAINS="$IMPORT_LIBRARY/domains.matrix"
 IMP_HOSTS="$IMPORT_LIBRARY/hosts.clefspeare13"
 IMP_MOBILE="$IMPORT_LIBRARY/mobile.clefspeare13"
@@ -82,7 +83,9 @@ function pyf_basic () {
 
 	cd "${POL_LIBRARY}"
 
-	rsync -avPq --exclude rpz.mypdns.cloud/ --delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
+	rsync -avPq --exclude rpz.mypdns.cloud/ \
+		--delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
+	
 	pyfunceble -w 40 \
 		--dns 192.168.1.6 9.9.9.10 \
 		--database-type csv \
@@ -93,6 +96,7 @@ function pyf_basic () {
 		"${SNUFF}" \
 		"${WILDCARD}" \
 		"${RPZNSDNAME}" \
+		"${IMP_SW}" \
 		"${IMP_DOMAINS}" \
 		"${IMP_HOSTS}" \
 		"${IMP_MOBILE}" \
