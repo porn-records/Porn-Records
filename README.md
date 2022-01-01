@@ -71,24 +71,24 @@ files.
 ```shell
 submit_here
 ├── submit_here/adult.mypdns.cloud
-│   ├── submit_here/adult.mypdns.cloud/domains.list
-│   ├── submit_here/adult.mypdns.cloud/hosts.list
-│   ├── submit_here/adult.mypdns.cloud/mobile.list
-│   ├── submit_here/adult.mypdns.cloud/rpz-ip
-│   ├── submit_here/adult.mypdns.cloud/snuff.list
-│   ├── submit_here/adult.mypdns.cloud/tld.list
-│   ├── submit_here/adult.mypdns.cloud/white.list
-│   ├── submit_here/adult.mypdns.cloud/wildcard.list
-│   └── submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname
+│   ├── submit_here/adult.mypdns.cloud/domains.list
+│   ├── submit_here/adult.mypdns.cloud/hosts.list
+│   ├── submit_here/adult.mypdns.cloud/mobile.list
+│   ├── submit_here/adult.mypdns.cloud/rpz-ip
+│   ├── submit_here/adult.mypdns.cloud/snuff.list
+│   ├── submit_here/adult.mypdns.cloud/tld.list
+│   ├── submit_here/adult.mypdns.cloud/white.list
+│   ├── submit_here/adult.mypdns.cloud/wildcard.list
+│   └── submit_here/adult.mypdns.cloud/wildcard.rpz-nsdname
 ├── submit_here/README.md
 ├── submit_here/strict.adult.mypdns.cloud
-│   ├── submit_here/strict.adult.mypdns.cloud/README.md
-│   ├── submit_here/strict.adult.mypdns.cloud/strict.domains.list
-│   ├── submit_here/strict.adult.mypdns.cloud/strict.hosts.list
-│   ├── submit_here/strict.adult.mypdns.cloud/strict.rpz-ip
-│   ├── submit_here/strict.adult.mypdns.cloud/strict.white.list
-│   ├── submit_here/strict.adult.mypdns.cloud/strict.wildcard.list
-│   └── submit_here/strict.adult.mypdns.cloud/strict.wildcard.rpz-nsdname
+│   ├── submit_here/strict.adult.mypdns.cloud/README.md
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.domains.list
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.hosts.list
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.rpz-ip
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.white.list
+│   ├── submit_here/strict.adult.mypdns.cloud/strict.wildcard.list
+│   └── submit_here/strict.adult.mypdns.cloud/strict.wildcard.rpz-nsdname
 └── submit_here/whitelist.list
 ```
 
