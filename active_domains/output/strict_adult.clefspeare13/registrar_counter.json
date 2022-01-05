@@ -3,16 +3,16 @@
         "GoDaddy.com, LLC": 1,
         "Gransy, s.r.o.": 1,
         "NameSilo, LLC": 1,
-        "PCHOME": 1,
+        "PCHOME": 2,
         "Tucows Domains Inc.": 6,
-        "total": 10
+        "total": 11
     },
     "percentage": {
-        "GoDaddy.com, LLC": 10.0,
-        "Gransy, s.r.o.": 10.0,
-        "NameSilo, LLC": 10.0,
-        "PCHOME": 10.0,
-        "Tucows Domains Inc.": 60.0,
+        "GoDaddy.com, LLC": 9.090909090909092,
+        "Gransy, s.r.o.": 9.090909090909092,
+        "NameSilo, LLC": 9.090909090909092,
+        "PCHOME": 18.181818181818183,
+        "Tucows Domains Inc.": 54.54545454545455,
         "total": 100.0
     }
 }

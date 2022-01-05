@@ -33,3 +33,18 @@ EuroDNS S.A.                   1%           22
 Tucows Domains Inc.            1%           22          
 Key-Systems GmbH               1%           20          
 Porkbun LLC                    1%           20          
+Danesco Trading Ltd.           30%          745         
+NameCheap, Inc.                23%          575         
+NameSilo, LLC                  12%          303         
+GoDaddy.com, LLC               6%           153         
+PDR Ltd. d/b/a PublicDomainRegistry.com 4%           91          
+Name.com, Inc.                 2%           57          
+DYNADOT, LLC                   1%           35          
+Moniker Online Services LLC    1%           34          
+Internet Domain Service BS Corp 1%           29          
+URL Solutions, Inc.            1%           28          
+eNom, LLC                      1%           25          
+EuroDNS S.A.                   1%           22          
+Tucows Domains Inc.            1%           22          
+Key-Systems GmbH               1%           21          
+GoDaddy Online Services Cayman Islands Ltd. 1%           20          

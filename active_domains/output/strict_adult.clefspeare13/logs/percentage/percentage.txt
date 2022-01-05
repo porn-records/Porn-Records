@@ -15,3 +15,6 @@ INVALID     0%           0
 ACTIVE      100%         184         
 INACTIVE    0%           0           
 INVALID     0%           0           
+ACTIVE      100%         230         
+INACTIVE    0%           0           
+INVALID     0%           0           

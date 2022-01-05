@@ -33,3 +33,18 @@ DYNADOT, LLC                   1%           19
 eNom, LLC                      1%           19          
 Internet Domain Service BS Corp 1%           17          
 CloudFlare, Inc.               1%           16          
+NameCheap, Inc.                26%          392         
+Danesco Trading Ltd.           14%          217         
+GoDaddy.com, LLC               12%          188         
+NameSilo, LLC                  6%           84          
+Namecheap                      4%           62          
+PDR Ltd. d/b/a PublicDomainRegistry.com 4%           61          
+Name.com, Inc.                 3%           51          
+Tucows Domains Inc.            2%           30          
+Moniker Online Services LLC    2%           29          
+1API GmbH                      2%           23          
+Internet Domain Service BS Corp 2%           23          
+EuroDNS S.A.                   1%           22          
+eNom, LLC                      1%           22          
+DYNADOT, LLC                   1%           21          
+URL Solutions, Inc.            1%           20          

@@ -15,3 +15,6 @@ INVALID     0%           2
 ACTIVE      93%          146997      
 INACTIVE    7%           10733       
 INVALID     0%           2           
+ACTIVE      94%          173883      
+INACTIVE    6%           10844       
+INVALID     0%           2           

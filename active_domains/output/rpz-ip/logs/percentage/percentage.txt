@@ -15,3 +15,6 @@ INVALID     49%          21
 ACTIVE      5%           2           
 INACTIVE    100%         21          
 INVALID     49%          21          
+ACTIVE      7%           3           
+INACTIVE    100%         21          
+INVALID     49%          21          

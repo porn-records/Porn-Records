@@ -4,21 +4,27 @@
         "DropCatch.com 821 LLC": 1,
         "GoDaddy.com, LLC": 2,
         "Gransy, s.r.o.": 1,
-        "PCHOME": 1,
+        "Key-Systems GmbH": 1,
+        "NameCheap, Inc.": 1,
+        "PCHOME": 2,
         "Regional Network Information Center, JSC dba RU-CENTER": 1,
+        "TLD Registrar Solutions Ltd.": 1,
         "Tucows Domains Inc.": 6,
         "United-Domains AG": 1,
-        "total": 14
+        "total": 18
     },
     "percentage": {
-        "DYNADOT, LLC": 7.142857142857143,
-        "DropCatch.com 821 LLC": 7.142857142857143,
-        "GoDaddy.com, LLC": 14.285714285714286,
-        "Gransy, s.r.o.": 7.142857142857143,
-        "PCHOME": 7.142857142857143,
-        "Regional Network Information Center, JSC dba RU-CENTER": 7.142857142857143,
-        "Tucows Domains Inc.": 42.857142857142854,
-        "United-Domains AG": 7.142857142857143,
+        "DYNADOT, LLC": 5.555555555555555,
+        "DropCatch.com 821 LLC": 5.555555555555555,
+        "GoDaddy.com, LLC": 11.11111111111111,
+        "Gransy, s.r.o.": 5.555555555555555,
+        "Key-Systems GmbH": 5.555555555555555,
+        "NameCheap, Inc.": 5.555555555555555,
+        "PCHOME": 11.11111111111111,
+        "Regional Network Information Center, JSC dba RU-CENTER": 5.555555555555555,
+        "TLD Registrar Solutions Ltd.": 5.555555555555555,
+        "Tucows Domains Inc.": 33.333333333333336,
+        "United-Domains AG": 5.555555555555555,
         "total": 100.0
     }
 }
