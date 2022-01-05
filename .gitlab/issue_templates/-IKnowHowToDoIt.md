@@ -48,7 +48,7 @@ www.
 <details><summary>Domains ONLY</summary>
 
 ```python
-
+N/A
 ```
 
 </details>

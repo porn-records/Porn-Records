@@ -47,7 +47,7 @@ Not for the faint hearten...
 <details><summary>Domains **ONLY**</summary>
 
 ```python
-
+N/A
 ```
 
 </details>

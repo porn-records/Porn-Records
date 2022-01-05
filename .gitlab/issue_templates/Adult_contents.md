@@ -13,7 +13,10 @@ domain   CNAME . ; Adult
 ### Additional requirements for hosts and Pi-hole
 
 ```python
+null
 
++ www
+- www
 www.?
 ```
 
@@ -47,7 +50,7 @@ www.?
 <details><summary>Domains **ONLY**</summary>
 
 ```python
-
+N/A
 ```
 
 </details>
@@ -77,6 +80,3 @@ If you are using ie. uBlock Origin, you can sort the log output with this
 one-liner in bash.
 See snippet: https://mypdns.org/-/snippets/30
 -->
-
-
-<!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult%20contents -->
