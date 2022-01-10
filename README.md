@@ -21,27 +21,13 @@ porno domains with wildcard's.
 
 ### DNS RPZ Firewall
 If you, like the rest of the world, who knows just a bit about
-[DNS][DNS] and how a OS
-(Operating System) are handling DNS queries over the network protocols,
-you have of curse updated your local network to be using a local
-[DNS resolver][DNS_recursor] that have full support of the
+[DNS][DNS] and how a OS (Operating System) are handling DNS queries over
+the network protocols, you have of curse updated your local network to
+usa a local [DNS resolver][DNS_recursor] that have full support of the
 [Response Policy zones][DNS_RPZ], such as the
 [PowerDNS Recursor][PowerDNS-Recursor] or [ICS Bind9+][ICS-Bind9],
-while unbound only have partial support of DNS RPZ you will be excluded
+while unbound only have partial support of DNS RPZ, you will be excluded
 from the benefits of the `wildcard.rpz-nsdname`.
-
-In this case you'll only need to combine the following files.
-Preferred response rule is the
-["NXDOMAIN"](https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nxdomain-action-cname-)
-Action:
-
-  - `domains.list`
-  - `rpz-ip`
-  - `snuff.list`
-  - `strict.wildcard.list` (Optional as this is tight blocking and 
-    contains a lot of SFW domains)
-  - `wildcard.list`
-  - `wildcard.rpz-nsdname`
 
 
 ### Hosts files
@@ -55,6 +41,7 @@ as not necessary all domains are served over both `www.$domain.tld` and
 
 You can see the full matrix for where your hosts file is located
 [here][DNS-hosts].
+
 
 ### Pi-Hole
 Since Pi-hole are crippled from using wildcard lists for blacklisting
@@ -148,15 +135,15 @@ DNS resolver, please read this [wiki][DNS-resolver]
 
 
 ### Safe search enabled
-Additionally, there is a new source file which will enforce Safe Search
-in the safer and more privacy aware [duckduckgo](https://safe.duckduckgo.com).
+Additionally, there is a source file which will enforce Safe Search in
+the safer and more privacy aware [duckduckgo](https://safe.duckduckgo.com).
 
 For unsafe search portals, we have added `Bing` and `Google` "safe search
 IP's".
 
 However it has not been tested yet as both are blocked privately for
 [Spywares][SpyWare] issues with both domains in question. It can be found
-[here](SafeSearch/hosts)
+[here](https://mypdns.org/my-privacy-dns/matrix/-/tree/master/safesearch)
 
 
 ## How to Contribute
@@ -227,16 +214,8 @@ submit_here
 | strict.wildcard.rpz-nsdname               | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
 
 
-## Contributing
-Any helpful [contributions][CONTRIBUTING] are appreciated.
-
-
-## Contact
-Please see [contact information][contact]
-
-
-## Why should you contribute
-You should contribute to this list because it does matter for those who
+## Why contributing
+You should [contribute][CONTRIBUTING] to this list because it does matter for those who
 have to block this kind of content.
 
 Let's compare our work against Cloudflares <https://cloudflare-dns.com/family/>
@@ -274,6 +253,10 @@ Adult Only, DNS Filter, DNS Firewall, Family Filter, Family Shield,
 FamilyShield, hosts file, hosts-file, Kids Safe, NSFW, parental control,
 Pi-Hole, PiHole, Porn Block, Porn Blocker, Porn Detection, Porn Filter,
 Porn Records, Pornhost, Pornographic, Pornography, PyFunceble, Safe Kids
+
+
+## Contact
+Please see [contact information][contact]
 
 
 <!-- The Link section -->
