@@ -124,6 +124,18 @@ What should be considered as artistic is content that could be found at
 a museum for arts
 
 
+### Not to include in black- blocklist
+The following is examples of what [My Privacy DNS][matrix] projects will
+not be blocking access to domains who hosts contents for which it isn't
+hard to find in the western public sphere and for which is NOT intended
+as Adult entertainment; such as girls in bikini's, go to the beach a
+summer day and there are plenty of topless humans there as well.
+
+This kind of new religious and amish/mormons/muslim perception of
+acceptable behaviours or endangerments for which should be "parental"
+blacklisted is falling outside of this project.
+
+
 ## DNS zones
 If you are so lucky that you have updated your system to use a DNS
 resolver rather than abusing your disk-IO with the `hosts` file, we also
