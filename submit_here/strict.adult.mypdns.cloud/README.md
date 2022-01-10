@@ -6,7 +6,7 @@ As written in this document you should be maintaining your own
 # The strict anti adult files
 These files will contain domains which primary is used to host non-adult
 related contents and for that you might feel like experience a number of
-[FalsePositive][FalsePositive]s while they are in there right blacklists.
+[FalsePositive][FalsePositive]s while they are in the right blacklists.
 
 You will find records like `*.blogspot.TLD` including subdomains like:
 
