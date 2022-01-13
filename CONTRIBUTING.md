@@ -7,10 +7,11 @@ If you feel like contributing there are a couple of ways to do this
    OS's
 
 1. You should **_not_** add domains to the `submit_here/` folder of
-   this repo.
+   this repo. It have to be committed via a ISSUE.
 
-1. Please add you contribution to either the vary beginning of the file
-   or the bottom, the CI/CD will do the sorting.
+   Because I do have some scripts that handle/maintains several things
+   each time a issue is confirmed, like the DNS RPZ zone and the
+   repository at once.
 
 # Submit - Contribute
 
@@ -30,29 +31,16 @@ You can use the following quick links
 | Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                          |
 
 
-[PR]: https://mypdns.org/my-privacy-dns/porn-records
-
 ## Workflow
 
-### Add new hosts
-There is a couple scenarios for this (Preferred order):
-
-## The fastest and best covering
+## Add new domains
 This one is tooooo simple or therefore probably to good to be
 true... right?
 
 Nope it is actually true. How can you be contribute to 4 Blacklist with
 one issue + several RPZ Zone?
 
-Simple, just commit your issue to the porn-records
-[here][issue]
-
-IMPORTANT: Fill out any fields, or you will at first be requested to add
-missing values, if you fails to do this, you commitment can in sevier
-cases end up by being deleted.
-
-### The nearly as fast commit approach
-1. You open a [ISSUE][issue] (Preferred)
+1. You open a issue from the list above
 
    ### Issue comment
    you should know a couple of things about the issue templates,
@@ -64,7 +52,7 @@ cases end up by being deleted.
    - The templates are designed so nobody should have to visit any of the
    domains to verify, it is a pornographic domain, hence why the small
    screenshots of the site are required.
-   - Everything should, at best, be designed to help other in there goal
+   - Everything should, at best, be designed to help other in their goal
    for maintaining and blacklisting adult related material.
    - We shall always do our best to achieve this, so that no one have to
    visit a pornographic site to verifying it, once the team behind the
@@ -73,9 +61,30 @@ cases end up by being deleted.
    as the matrix, yes because of a $2 domain while watching the matrix
    movie. https://mypdns.org/infrastructure/matrix-rocks/www.matrix.rocks/-/blob/master/README.md
 
-
 2. @spirillen will handle these on a regular basis, which usual
    would be a couple of times a week.
+
+IMPORTANT: Fill out any fields, or you will at first be requested to add
+missing values, if you fails to do this, you commitment can in sevier
+cases end up by being deleted.
+
+## Manage sub-domain in existing issue domains
+Add then in same style and with the usual minimum of need data in a
+comment to the primary domain, then if the report is confirmed, it will
+be edited into the original issue.
+
+Each individual subdomain should have it's own "master" comment.
+
+As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
+
+In that way you can challenge/comment to each sub-domain as things will change over time.
+
+As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
+
+In that way you can challenge/comment to each sub-domain as things will change over time.
+
+![Manage sub-domains](https://mypdns.org/mypdns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
+
 
 ## Screenshot
 Why @spirillen is so picky about the screenshots is do to the time
@@ -88,7 +97,6 @@ better, faster, smarter etc. You will by editing and contributing to the
 code, automatically be redirected to a fork of the main repo, from where
 you add and/or modify the code.
 
-### New commit
 When you are done with your contribution, you will save the file in
 a new branch. Don't forget to make a full reference to the issue in
 your commit message as a full url to issue:
@@ -98,7 +106,7 @@ https://mypdns.org/my-privacy-dns/porn-records/-/issues/<ID>
 ```
 
 Replace the `<ID>` with the issue id from
-<https://mypdns.org/my-privacy-dns/porn-records/-/issues>
+https://mypdns.org/my-privacy-dns/porn-records/-/issues
 
 ![new commit](https://user-images.githubusercontent.com/44526987/134584727-5ce2cc04-6eac-485d-a934-1b730cb1fe44.png)
 
@@ -106,8 +114,8 @@ Next you'll be taken to the `Open a pull request`
 
 ![Open a pull request](https://user-images.githubusercontent.com/44526987/134584048-51c583f1-8fe8-4536-831d-8b821077fe57.png)
 
-When everything is filled out curectly, you just hit the `Create pull request`
-and you are done.
+When everything is filled out correctly, you just hit the
+`Create pull request` and you are done.
 
 
 ## GPG signed
@@ -135,9 +143,9 @@ is. You can set this globally or pr git. Do a search on
 
 
 <!-- Document links -->
-
+[PR]: https://mypdns.org/my-privacy-dns/porn-records
 [duckduckgo]: https://safe.duckduckgo.com
-[issue]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/new
+
 
 This version supersedes <https://mypdns.org/MypDNS/support/-/wikis/Contributing>
 
