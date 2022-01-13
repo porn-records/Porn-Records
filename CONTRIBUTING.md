@@ -75,13 +75,10 @@ be edited into the original issue.
 
 Each individual subdomain should have it's own "master" comment.
 
+In that way you can challenge/comment to each sub-domain as things will
+change over time.
+
 As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
-
-In that way you can challenge/comment to each sub-domain as things will change over time.
-
-As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
-
-In that way you can challenge/comment to each sub-domain as things will change over time.
 
 ![Manage sub-domains](https://mypdns.org/mypdns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
 
