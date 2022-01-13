@@ -80,7 +80,12 @@ change over time.
 
 As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
 
+<details><summary>Click to expand</summary>
+
 ![Manage sub-domains](https://mypdns.org/mypdns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
+
+</details>
+
 
 
 ## Screenshot
