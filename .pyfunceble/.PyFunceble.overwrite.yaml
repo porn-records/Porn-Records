@@ -30,7 +30,7 @@ debug:
   active: false
   level: critical
 lookup:
-  collection: false
+  collection: true
   dns: true
   http_status_code: true
   netinfo: true
