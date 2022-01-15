@@ -165,6 +165,14 @@ You can use the following quick links to open the proper domain report.
 Please do use our [Support board][support] for any non Blacklist rules
 questions
 
+**NOTE**: When you first starts to commit issues, the [akismet][akismet]
+unfortunately very fast to mark you as a spammer, but don't this
+includes everyone even admin accounts.
+
+When this happens, please add this 'Ping @spirillen, i've got mark as spam`
+to this [issue](https://mypdns.org/mypdns/support/-/issues/268) and we will
+get your account back on track.
+
 | Category              | Commit issue                                                                                        |
 | :-------------------- | :-------------------------------------------------------------------------------------------------- |
 | Adult contents        | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
@@ -300,3 +308,4 @@ Please see [contact information][contact]
 [contact]: https://mypdns.org/mypdns/support/-/wikis/home#contact "Get in touch with My Privacy DNS"
 [uBlockOrigin]: https://ublockorigin.com/ "uBlock Origin is a free and open-source, cross-platform browser extension for content-filtering, including ad-blocking."
 [PR]: https://mypdns.org/my-privacy-dns/porn-records
+[akismet]: https://mypdns.org/help/integration/akismet.md
