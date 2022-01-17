@@ -64,8 +64,8 @@ one issue + several RPZ Zone?
 2. @spirillen will handle these on a regular basis, which usual
    would be a couple of times a week.
 
-IMPORTANT: Fill out any fields, or you will at first be requested to add
-missing values, if you fails to do this, you commitment can in sevier
+**IMPORTANT**: Fill out any fields, or you will at first be requested to
+add missing values, if you fails to do this, you commitment can in sever
 cases end up by being deleted.
 
 ## Manage sub-domain in existing issue domains
