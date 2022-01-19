@@ -123,6 +123,9 @@ redirected to the [Matrix][matrix] project instead.
 What should be considered as artistic is content that could be found at
 a museum for arts
 
+### News- Articles -like
+Content that support a article based on facts or reporting an accident
+should have a wide range of acceptant for using NSFW contents.
 
 ### Not to include in black- blocklist
 The following is examples of what [My Privacy DNS](https://mypdns.org/)
