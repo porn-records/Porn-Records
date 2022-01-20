@@ -139,6 +139,21 @@ This kind of new religious and amish/mormons/muslim perception of
 acceptable behaviours or endangerments for which should be "parental"
 blacklisted is falling outside of this project.
 
+## Underage material
+If you find any underage material online and you thinking of committing
+it to our project, we will honoured and respectfully ask you to mention
+this in the very beginning of the issue with big letter a single `#` at
+the beginning of the text and please do NOT posts any media as proofs.
+
+If you choose to all resources please do inform them about the issue here
+at mypdns.org to keep track of the situation.
+
+Second you should report the find to any of the following projects.
+
+- Red Barnet (safe the children) online service at https://redbarnet.dk/anmelddet/
+- Arachnid Project at https://projectarachnid.ca/en/
+- Your local (uncorrupted) police authority if there is such thing in
+  your country or region.
 
 ## DNS zones
 If you are so lucky that you have updated your system to use a DNS
