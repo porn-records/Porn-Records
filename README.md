@@ -142,13 +142,13 @@ blacklisted is falling outside of this project.
 ## Underage material (CSAM)
 If you find any underage material online and you thinking of committing
 it to our project, we will honoured and respectfully ask you to mention
-this in the very beginning of the issue with big letter a single `#` at
+this in the very beginning of the issue with big letter, a single `#` at
 the beginning of the text and please do NOT posts any media as proofs.
 
-If you choose to all resources please do inform them about the issue here
-at mypdns.org to keep track of the situation.
+If you choose to report to all resources please do inform them about
+the issue here at [mypdns.org][mypdns] to keep track of the situation.
 
-Second you should report the find to any of the following projects.
+Second you should report your found to any of the following projects.
 
 - Red Barnet (safe the children) online service at https://redbarnet.dk/anmelddet/
 - Arachnid Project at https://projectarachnid.ca/en/
@@ -312,6 +312,7 @@ Please see [contact information][contact]
 [ICS-Bind9]: https://mypdns.org/rpz/dns-rpz-integration/-/tree/master/Bind_9
 [IP_Addresses]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip
 [matrix]: https://mypdns.org/my-privacy-dns/matrix "My Privacy DNS is aiming to be the most intelligent DNS Firewall throughout using the modern DNS RPZ approach"
+[mypdns]: https://mypdns.org/
 [NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn "Not Safe For Weaklings"
 [pi-hole_combo]: https://mypdns.org/mypdns/support/-/issues/253 "What lists to use in pi-hole"
 [PowerDNS-Recursor]: https://mypdns.org/source/pdns-recursor/ "PowerDNS Recursor"
