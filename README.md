@@ -139,7 +139,7 @@ This kind of new religious and amish/mormons/muslim perception of
 acceptable behaviours or endangerments for which should be "parental"
 blacklisted is falling outside of this project.
 
-## Underage material
+## Underage material (CSAM)
 If you find any underage material online and you thinking of committing
 it to our project, we will honoured and respectfully ask you to mention
 this in the very beginning of the issue with big letter a single `#` at
