@@ -1,6 +1,33 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3edd253ce42f4f0d8f51fbf81095090d)](https://app.codacy.com/gh/mypdns/porn-records/dashboard)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
 
+- [Porn Records](#porn-records)
+  - [Who can use this project.](#who-can-use-this-project)
+    - [DNS RPZ Firewall](#dns-rpz-firewall)
+    - [Hosts files](#hosts-files)
+    - [Pi-Hole](#pi-hole)
+    - [AdGuard](#adguard)
+    - [Ad blockers](#ad-blockers)
+  - [Combining the Source Matrix](#combining-the-source-matrix)
+  - [Classifications Definitions](#classifications-definitions)
+    - [Porn](#porn)
+    - [Strict Porn](#strict-porn)
+    - [Educational](#educational)
+    - [Artistic - Art](#artistic---art)
+    - [News- Articles -like](#news--articles--like)
+    - [Not to include in black- blocklist](#not-to-include-in-black--blocklist)
+  - [Underage material (CSAM)](#underage-material-csam)
+  - [DNS zones](#dns-zones)
+    - [Safe search enabled](#safe-search-enabled)
+  - [How to Contribute](#how-to-contribute)
+  - [File structure explained](#file-structure-explained)
+  - [Why contributing](#why-contributing)
+  - [Test result](#test-result)
+  - [Conclusion](#conclusion)
+    - [Browser history](#browser-history)
+  - [Buzz words and keyword](#buzz-words-and-keyword)
+  - [Contact](#contact)
+
 # Porn Records
 This is an endeavor to find porn domains and list them in the shortest
 as possible format it can be done. This means we are not generating any
