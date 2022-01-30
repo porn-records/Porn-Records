@@ -20,6 +20,7 @@
   - [DNS zones](#dns-zones)
     - [Safe search enabled](#safe-search-enabled)
   - [How to Contribute](#how-to-contribute)
+  - [Reporting tool](#reporting-tool)
   - [File structure explained](#file-structure-explained)
   - [Why contributing](#why-contributing)
   - [Test result](#test-result)
@@ -232,6 +233,11 @@ get your account back on track.
 This is where you contributes with new domains matching any of these sub
 files.
 
+## Reporting tool
+You can also use our new [Porn Report Tool][PornReport], which is both
+a Browser based add-on and a CLI (Command LIne Interface), for which you
+can choose between as you prefer.
+
 ## File structure explained
 
 ```shell
@@ -327,6 +333,8 @@ Please see [contact information][contact]
 
 <!-- The Link section -->
 [adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud "RPZ zone adult.mypdns.cloud"
+[akismet]: https://mypdns.org/help/integration/akismet.md
+[contact]: https://mypdns.org/mypdns/support/-/wikis/home#contact "Get in touch with My Privacy DNS"
 [CONTRIBUTING]: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/CONTRIBUTING.md "How to contribute to My Privacy DNS"
 [disqus.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1415 "disqus SpyWare"
 [DNS_recursor]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsResolver "DNS Recursor"
@@ -342,16 +350,15 @@ Please see [contact information][contact]
 [mypdns]: https://mypdns.org/
 [NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn "Not Safe For Weaklings"
 [pi-hole_combo]: https://mypdns.org/mypdns/support/-/issues/253 "What lists to use in pi-hole"
+[PornReport]: https://mypdns.org/infrastructure/porn-report "Awesome tool to commit porn sites"
 [PowerDNS-Recursor]: https://mypdns.org/source/pdns-recursor/ "PowerDNS Recursor"
+[PR]: https://mypdns.org/my-privacy-dns/porn-records
 [rfc_1123]: https://www.rfc-editor.org/rfc/rfc1123 "Requirements for Internet Hosts"
 [rfc_952]: https://www.rfc-editor.org/rfc/rfc952.html "DOD INTERNET HOST TABLE SPECIFICATION"
 [SpyWare]: https://mypdns.org/mypdns/support/-/wikis/SpyWare "What is SpyWare"
 [strict_readme.md]: https://mypdns.org/my-privacy-dns/porn-records/-/blob/master/submit_here/strict.adult.mypdns.cloud/README.md
 [support]: https://mypdns.org/mypdns/support/-/issues "Support Forum for all non blacklisting questions"
 [TLD]: https://mypdns.org/mypdns/support/-/wikis/TLD-Top-level-domain "What is a Top level domain"
+[uBlockOrigin]: https://ublockorigin.com/ "uBlock Origin is a free and open-source, cross-platform browser extension for content-filtering, including ad-blocking."
 [wiki_DNS_host]: https://mypdns.org/mypdns/support/-/wikis/DNS-Hosts "DNS hostsfile wiki"
 [wiki_rpz-nsdname]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname "DNS RPZ rpz-nsdname record types"
-[contact]: https://mypdns.org/mypdns/support/-/wikis/home#contact "Get in touch with My Privacy DNS"
-[uBlockOrigin]: https://ublockorigin.com/ "uBlock Origin is a free and open-source, cross-platform browser extension for content-filtering, including ad-blocking."
-[PR]: https://mypdns.org/my-privacy-dns/porn-records
-[akismet]: https://mypdns.org/help/integration/akismet.md
