@@ -1,6 +1,12 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3edd253ce42f4f0d8f51fbf81095090d)](https://app.codacy.com/gh/mypdns/porn-records/dashboard)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
 
+# Porn Records
+This is an endeavor to find porn domains and list them in the shortest
+as possible format it can be done. This means we are not generating any
+pre-configured output zone files in this project, we are simply only
+storing, and verifying the availability's of the records.
+
 - [Porn Records](#porn-records)
   - [Who can use this project.](#who-can-use-this-project)
     - [DNS RPZ Firewall](#dns-rpz-firewall)
@@ -29,11 +35,6 @@
   - [Buzz words and keyword](#buzz-words-and-keyword)
   - [Contact](#contact)
 
-# Porn Records
-This is an endeavor to find porn domains and list them in the shortest
-as possible format it can be done. This means we are not generating any
-pre-configured output zone files in this project, we are simply only
-storing, and verifying the availability's of the records.
 
 We do however serve a full DNS RPZ Firewall zone from
 [adult.mypdns.cloud][adult.mypdns.cloud] purely based of the records
