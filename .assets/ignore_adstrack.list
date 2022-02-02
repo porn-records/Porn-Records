@@ -1,5 +1,7 @@
 *.cloudflareinsights.com
 *.doubleclick.net
+*.eroadvertising.com
+*.exosrv.com
 *.facebook.com
 *.facebook.net
 *.google-analytics.com
@@ -7,6 +9,9 @@
 *.google.de
 *.googleapis.com
 *.googletagmanager.com
+*.jads.co
+*.juicyads.com
+*.realsrv.com
 *.tsyndicate.com
 informer.yandex.ru
 mc.yandex.ru
