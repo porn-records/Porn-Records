@@ -10,7 +10,7 @@ domain   CNAME . ; Adult
 
 ### Additional requirements for hosts and Pi-hole
 
-```python
+```css
 NULL
 
 + www
