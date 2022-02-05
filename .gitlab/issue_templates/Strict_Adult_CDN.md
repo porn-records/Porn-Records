@@ -5,7 +5,7 @@ I believe this domain is an Adult(-related) domain --> that have to be blocked a
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Adult
 *.domain   CNAME . ; Adult
 ```
@@ -14,7 +14,7 @@ CDN See [Linked issues](#related-issues) for details
 
 ### Additional requirements for hosts and Pi-hole
 
-```python
+```css
 www.
 ```
 
