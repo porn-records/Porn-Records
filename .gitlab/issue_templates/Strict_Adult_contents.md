@@ -6,14 +6,14 @@ I believe this domain is an Adult(-related) domain --> that have to be blocked a
 - [ ] Single domain blocking
 
 
-```python
+```css
 domain   CNAME . ; Strict.Adult
 *.domain   CNAME . ; Strict.Adult
 ```
 
 ### Additional requirements for hosts and Pi-hole
 
-```python
+```css
 null
 
 + www
