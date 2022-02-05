@@ -4,14 +4,14 @@ I believe this domain is an ~snuff domain --> that have to be blocked as..
 - [ ] Single domain blocking
 
 
-```python
+```css
 domain   CNAME . ; Snuff
 *.domain   CNAME . ; Snuff
 ```
 
 ### Additional requirements for hosts and Pi-hole
 
-```python
+```css
 
 www.?
 ```
