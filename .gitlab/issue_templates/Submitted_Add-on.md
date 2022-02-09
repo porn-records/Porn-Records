@@ -39,8 +39,8 @@ www.?
 - [X] Added screenshot for proof of False Negative
 
 ### Todo
-- [ ] Added to Source file?
-- [ ] Added to the RPZ zone [adult.mypdns.cloud][adultmypdnscloud] (@spirillen)
+- [X] Added to Source file?
+- [X] Added to the RPZ zone [adult.mypdns.cloud][adultmypdnscloud] (@spirillen)
 
 #### Logger output
 
