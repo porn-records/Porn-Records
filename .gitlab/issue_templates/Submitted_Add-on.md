@@ -1,21 +1,24 @@
-I believe this domain is an Adult(-related) domain --> that have to be blocked as..
+Submitted via My privacy DNS Add-on
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
+- **Submitted by @dante**
+
 ```css
-domain   CNAME . ; Adult
-*.domain   CNAME . ; Adult
+domain
 ```
 
 ### Additional requirements for hosts and Pi-hole
 
 ```css
-NULL
+null?
+```
 
+```css
 + www
 - www
-www.
+www.?
 ```
 
 ## Screenshots
@@ -26,11 +29,7 @@ www.
 
 </details>
 
-## Relevant comments
-
-
-## Relevant External sources
-- ``
+## Relevant logs or comments
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
@@ -40,8 +39,8 @@ www.
 - [X] Added screenshot for proof of False Negative
 
 ### Todo
-- [X] Added to Source file?
-- [X] Added to the RPZ zone [adult.mypdns.cloud][adultmypdnscloud] (@spirillen)
+- [ ] Added to Source file?
+- [ ] Added to the RPZ zone [adult.mypdns.cloud][adultmypdnscloud] (@spirillen)
 
 #### Logger output
 
@@ -52,6 +51,8 @@ N/A
 ```
 
 </details>
+
+/assign @spirillen 
 
 /label ~"NSFW::Porn"
 

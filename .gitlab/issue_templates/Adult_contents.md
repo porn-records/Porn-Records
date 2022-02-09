@@ -47,7 +47,7 @@ www.?
 
 #### Logger output
 
-<details><summary>Domains **ONLY**</summary>
+<details><summary>3rd party Domains</summary>
 
 ```python
 N/A
