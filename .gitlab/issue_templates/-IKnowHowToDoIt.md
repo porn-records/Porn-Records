@@ -12,7 +12,10 @@ domain   CNAME . ; Adult
 
 ```css
 NULL
+```
 
+### www usage
+```css
 + www
 - www
 www.
