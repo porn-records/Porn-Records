@@ -14,7 +14,6 @@ domain   CNAME . ; Adult
 NULL
 ```
 
-### www usage
 ```css
 + www
 - www
