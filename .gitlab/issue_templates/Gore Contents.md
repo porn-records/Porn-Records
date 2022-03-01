@@ -4,8 +4,8 @@ I believe this domain is a NSFW Gore domain --> that have to be blocked as..
 - [ ] Single domain blocking
 
 ```css
-domain   CNAME . ; Adult
-*.domain   CNAME . ; Adult
+domain   CNAME . ; Gore
+*.domain   CNAME . ; Gore
 ```
 
 ### Additional requirements for hosts and Pi-hole
