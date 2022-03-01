@@ -1,4 +1,4 @@
-I believe this domain is an NSFW Snuff domain --> that have to be blocked as..
+I believe this domain is a NSFW Snuff domain --> that have to be blocked as..
 
 - [X] Wildcard
 - [ ] Single domain blocking
