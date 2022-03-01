@@ -58,19 +58,19 @@ N/A
 
 /assign @spirillen 
 
-/label ~"NSFW::Porn"
+/label ~"NSFW::Gore"
 
 
 <!--
 usage of www or not
 
-Please check if you submission is using the the www or not and put that into
-the section of
+Please check if you submission is using the the www or not
+and put that into the section
 
 You can tell us you have checked this by adding either a {key +}, a {key -} or `none` in front of the `www`
 
 + www  The domain uses **both** the `www` and the _none_ `www` names.
-- www  The domain uses **only** the _none_ `www` name.
+- www  The domain is not using `www` name _or_ `www` is redirecting.
 www.domain  The domain uses **only** the `www.` name.
 www.? Leaving the question mark tells us you haven't tested this
 
