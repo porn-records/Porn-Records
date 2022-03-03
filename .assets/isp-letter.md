@@ -1,36 +1,32 @@
-.. note::
-        Use code black style
-        Line lenth should not be more than 72 chars long.
-
-
-Email Draft Need to be reviewed
-
 Subject: mypdns.org Adult Blocklist use and contribute
 
-I am `@?` from mypdns.org. 
 
-At My Privacy DNS every domain is reviews by the maintainer reviewed
-discussed with screenshots for proof. This **blacklist has websites other
-projects miss with 0 false positives**. This _blocklist does not import from other
-sources_ and hence has little to none false positives.
+Dear [Department Name Here],
 
-We believe you would like that porn might have to be blocked and we are
-can provide help you. Because of the contributors we have this list
-contains domains other lists don't have and domain when it is not clear
-should be added is discussed and we have a simple philosophy
-https://mypdns.org/my-privacy-dns/porn-records#not-to-include-in-black-blocklist
+I am Rexadev from MyPDNS project.
+Would you be interested in our subproject named "porn-records"[1], which is an Anti-porn listing project? We know about many domains which Cloudflare's "Family Safety"[2] Adult-filtering DNS failed to filter.
 
+Every record is reviewed by maintainers and discussed with proof such as screenshots.
+Our blocklist has domains other projects miss with 0 false positives.
+We do not import from other sources therefore the rate of false-positive is extremely low.
 
-Something about the price and don't be cheap
+We do believe we can help each other by using and collaborating on this data.
+Please do not hesitate to reply to us.
 
 
-Would you be interested in our project porn-records
-(`https://mypdns.org/my-privacy-dns/porn-records`) to use and contribute
-to it either by donating or contributing to it. 
+Some links to compiled blocklists:
 
-Link to License
+    https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/wildcard.list
 
-Link to RPZ zones 
+    https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/hosts.list
+
+    https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/domains.list
 
 
-Maybe lists to record files
+
+[1] Porn Records, https://mypdns.org/my-privacy-dns/porn-records
+[2] Cloudflare DNS, https://cloudflare-dns.com/family/
+
+
+Rexadev
+https://mypdns.org
