@@ -1,6 +1,10 @@
-Subject: mypdns.org Adult Blacklist use and contribute
+Subject:
+```
+mypdns.org Adult Blacklist use and contribute
+```
 
-
+Body:
+```
 Dear [Department Name Here],
 
 I am Rexadev from MyPDNS project.
@@ -24,10 +28,10 @@ Please do not hesitate to reply to us.
 - https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/domains.list
 
 
-
 [1] Porn Records, https://mypdns.org/my-privacy-dns/porn-records  
 [2] Cloudflare DNS, https://cloudflare-dns.com/family/
 
 
 Rexadev
 https://mypdns.org
+```
