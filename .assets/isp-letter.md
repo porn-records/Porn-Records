@@ -21,8 +21,7 @@ We do believe we can help each other by using and collaborating on this
 data.  
 Please do not hesitate to reply to us.
 
-## Some links to compiled blocklists:
-
+Some links to compiled blocklists:
 - https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/wildcard.list
 - https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/hosts.list
 - https://mypdns.org/my-privacy-dns/porn-records/-/raw/master/submit_here/adult.mypdns.cloud/domains.list
