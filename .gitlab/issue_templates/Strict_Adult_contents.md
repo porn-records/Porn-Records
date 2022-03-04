@@ -1,6 +1,6 @@
 <!-- Find tips in the bottom -->
 
-I believe this domain is an Adult(-related) domain --> that have to be blocked as..
+I believe this domain is a Strict Adult(-related) domain --> that have to be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
