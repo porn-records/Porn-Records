@@ -3,12 +3,12 @@
 
 # Porn Records
 This is an endeavor to find porn domains and list them in the shortest
-as possible format it can be done. This means we are not generating any
+possible format it can be done. This means we are not generating any
 pre-configured output zone files in this project, we are simply only
-storing, and verifying the availability's of the records.
+storing, and verifying the availability of the records.
 
 - [Porn Records](#porn-records)
-  - [Who can use this project.](#who-can-use-this-project)
+  - [Who can use this project](#who-can-use-this-project)
     - [DNS RPZ Firewall](#dns-rpz-firewall)
     - [Hosts files](#hosts-files)
     - [Pi-Hole](#pi-hole)
@@ -37,22 +37,22 @@ storing, and verifying the availability's of the records.
 
 
 We do however serve a full DNS RPZ Firewall zone from
-[adult.mypdns.cloud][adult.mypdns.cloud] purely based of the records
+[adult.mypdns.cloud][adult.mypdns.cloud] purely based on the records
 from this repository.
 
 This said we will maintain a [RFC:952][rfc_952] (Hosts files) do to
 numerous requests, as unfortunately a significant lack of support
 for DNS RPZ and just in general, the capability to block unwanted adult 
-porno domains with wildcard's.
+porno domains with wildcards.
 
 
-## Who can use this project.
+## Who can use this project
 
 ### DNS RPZ Firewall
 If you, like the rest of the world, who knows just a bit about
-[DNS][DNS] and how a OS (Operating System) are handling DNS queries over
+[DNS][DNS] and how an OS (Operating System) is handling DNS queries over
 the network protocols, you have of curse updated your local network to
-usa a local [DNS resolver][DNS_recursor] that have full support of the
+use a local [DNS resolver][DNS_recursor] that have the full support of the
 [Response Policy zones][DNS_RPZ], such as the
 [PowerDNS Recursor][PowerDNS-Recursor] or [ICS Bind9+][ICS-Bind9],
 while unbound only have partial support of DNS RPZ, you will be excluded
@@ -63,8 +63,8 @@ from the benefits of the `wildcard.rpz-nsdname`.
 If you are stocked on the very weird and extremely outdated way of
 blocking DNS queries with a [hosts][wiki_DNS_host]
 file. You'll need to combine all the above files into a flat `hosts`
-file with the exception of `README.md`, `rpz-ip` and
-`wildcard.rpz-nsdname`, however, this _WILL_ gives you to many records,
+file except `README.md`, `rpz-ip` and `wildcard.rpz-nsdname`, 
+however, this _WILL_ gives you too many records,
 as not necessary all domains are served over both `www.$domain.tld` and
 `$domain.tld` equally, you will however be covered in full.
 
@@ -88,12 +88,12 @@ well as there are for Pi-Hole thanks to the
 ### Ad blockers
 This project should be supporting a variety of adblockers such as
 [uBlock Origin][uBlockOrigin], [AdGuard](#adguard) or less effective
-software such as `adblockplus.org` with there "Acceptable Ads", which
-means who pays them to be "accepted", This is not hidden information,
-it is just not listed on the frontpage :wink:.
+software such as `adblockplus.org` with their "Acceptable Ads", which
+means who pays them to be "accepted" - this is not hidden information,
+it is just not listed on the frontpage.
 
-The common for these software is you can include external list to there
-default setups. How this is done depends on the Software you have chosen.
+The common thing is you can include an external list to those default setups.
+How this is done depends on the Software you have chosen.
 
 
 ## Combining the Source Matrix
@@ -116,22 +116,22 @@ default setups. How this is done depends on the Software you have chosen.
 ## Classifications Definitions
 
 ### Porn
-The  ~"NSFW::Porn" is used for any domains for which the contents is
+The  ~"NSFW::Porn" are used for any domains for which the contents is
 pornographic (NSFW) concept. This means explicit nudity or sexual acts
-for pornographic entertainment purpose *only*
+for pornographic entertainment purposes *only*
 
 
 ### Strict Porn
-This lists serves two goals, blocking domains that ordinary might be
-considered as SFW but does in fact serves tremendous amount of porn like
+This list serve two goals, blocking domains that ordinary might be
+considered as SFW but does in fact serves a tremendous amount of porn like
 `*.bp.blogspot.com`, the other purpose is to also include the less NSFW
 content which as such should not be classified as NSFW.
 
-What is *NOT* strict- or porn is site that is or can be categorized as
+What is *NOT* strict- or porn is a site that is or can be categorized as
 [educational](#educational) or [art](#artistic---art)
 
 These files will contain domains which primary is used to host non-adult
-related contents and for that you might feel like experience a number of
+related contents and for that, you might feel like experiencing a number of
 [False Positive][FalsePositive]'s while they in fact are in there right
 blacklists.
 
@@ -140,44 +140,44 @@ updated information's about the Strict lists project.
 
 
 ### Educational
-Domains or sites that hosts any nude or explicit content used for a
+Domains or sites that host any nude or explicit content used for a
 educational purpose, like telling about `x` and/or teaching about `y`
 is to not be classified in this project.
 
-Any requests for block any of that kind of contents should probably be
+Any requests to block any of that kind of content should probably be
 redirected to the [Matrix][matrix] project instead.
 
 
 ### Artistic - Art
-What should be considered as artistic is content that could be found at
-a museum for arts
+What should be considered as art is content that could be found at
+a museum for arts.
 
 ### News- Articles -like
-Content that support a article based on facts or reporting an accident
-should have a wide range of acceptant for using NSFW contents.
+Content that supports an article based on facts or reporting an accident
+should have a wide range of acceptant for using NSFW content.
 
 ### Not to include in black- blocklist
 The following is examples of what [My Privacy DNS](https://mypdns.org/)
-projects will not be blocking access to domains who hosts contents for
+projects will not be blocking access to domains that host contents for
 which it isn't hard to find in the western public sphere and for which
-is NOT intended as Adult entertainment; such as girls in bikini's, go to
+is NOT intended as Adult entertainment; such as girls in bikinis, going to
 the beach a summer day and there are plenty of topless humans there as
 well.
 
-This kind of new religious and amish/mormons/muslim perception of
-acceptable behaviours or endangerments for which should be "parental"
+This kind of new religious and Amish/Mormons/Muslim perception of
+acceptable behaviors or endangerments for which should be "parental"
 blacklisted is falling outside of this project.
 
 ## Underage material (CSAM)
 If you find any underage material online and you thinking of committing
-it to our project, we will honoured and respectfully ask you to mention
-this in the very beginning of the issue with big letter, a single `#` at
-the beginning of the text and please do NOT posts any media as proofs.
+it to our project, we will be honored and respectfully ask you to mention
+this in the very beginning of the issue with a big letter, a single `#` at
+the beginning of the text and please do NOT post any media as proof.
 
 If you choose to report to all resources please do inform them about
 the issue here at [mypdns.org][mypdns] to keep track of the situation.
 
-Second you should report your found to any of the following projects.
+Second, you should report your found to any of the following projects.
 
 - Red Barnet (safe the children) online service at https://redbarnet.dk/anmelddet/
 - Arachnid Project at https://projectarachnid.ca/en/
@@ -188,20 +188,20 @@ Second you should report your found to any of the following projects.
 If you are so lucky that you have updated your system to use a DNS
 resolver rather than abusing your disk-IO with the `hosts` file, we also
 generate a few zone files for Unbound, dnsmasq and regular RPZ supported
-resolver's.
+resolvers.
 
 **Note**: If you will read more about why you should switch to a local
 DNS resolver, please read this [wiki][DNS-resolver]
 
 
 ### Safe search enabled
-Additionally, there is a source file which will enforce Safe Search in
-the safer and more privacy aware [duckduckgo](https://safe.duckduckgo.com).
+Additionally, there is a source file that will enforce Safe Search in
+the safer and more privacy-aware [duckduckgo](https://safe.duckduckgo.com).
 
 For unsafe search portals, we have added `Bing` and `Google` "safe search
 IP's".
 
-However it has not been tested yet as both are blocked privately for
+However, it has not been tested yet as both are blocked privately for
 [Spywares][SpyWare] issues with both domains in question. It can be found
 [here](https://mypdns.org/my-privacy-dns/matrix/-/tree/master/safesearch)
 
@@ -209,14 +209,14 @@ However it has not been tested yet as both are blocked privately for
 ## How to Contribute
 You can use the following quick links to open the proper domain report.
 
-Please do use our [Support board][support] for any non Blacklist rules
+Please do use our [Support board][support] for any non-Blacklist rules
 questions
 
-**NOTE**: When you first starts to commit issues, the [akismet][akismet]
+**NOTE**: When you first start to commit issues, the [Akismet][akismet]
 unfortunately very fast to mark you as a spammer, but don't this
 includes everyone even admin accounts.
 
-When this happens, please add this 'Ping @spirillen, i've got mark as spam`
+When this happens, please add this "`Ping @spirillen, I've got mark as spam`"
 to this [issue](https://mypdns.org/mypdns/support/-/issues/268) and we will
 get your account back on track.
 
@@ -231,12 +231,11 @@ get your account back on track.
 | Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                          |
 
 
-This is where you contributes with new domains matching any of these sub
-files.
+This is where you contribute with new domains matching any of these subfiles.
 
 ## Reporting tool
-You can also use our new [Porn Report Tool][PornReport], which is both
-a Browser based add-on and a CLI (Command LIne Interface), for which you
+You can also use our new [MyPDNS Reporter][PornReport], which is both
+a Browser-based add-on and a CLI (Command LIne Interface), for which you
 can choose between as you prefer.
 
 ## File structure explained
@@ -291,8 +290,8 @@ submit_here
 You should [contribute][CONTRIBUTING] to this list because it does matter for those who
 have to block this kind of content.
 
-Let's compare our work against Cloudflares <https://cloudflare-dns.com/family/>
-so called adult filter running on `1.1.1.3`
+Let's compare our work against Cloudflare's <https://cloudflare-dns.com/family/>
+so-called adult filter running on `1.1.1.3`
 
 ![Cloudflare-dns adult filtering](https://archive.mypdns.org/file/data/lethgvoookfqugdffqjk/PHID-FILE-fsnlpmklbe5rnalbjlip/preview-image.png)
 
