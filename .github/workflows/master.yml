@@ -87,4 +87,4 @@ jobs:
       - name: Availability test of porn records
         run: |
           echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
-          bash "${{ github.workspace }}/scripts/DataTesting.bash"
+          bash "${{ github.workspace }}/scripts/DataTesting.bash -ci"
