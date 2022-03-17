@@ -26,6 +26,9 @@ storing, and verifying the availability of the records.
   - [DNS zones](#dns-zones)
     - [Safe search enabled](#safe-search-enabled)
   - [How to Contribute](#how-to-contribute)
+  - [Support and comments](#support-and-comments)
+    - [Support](#support)
+    - [Rules](#rules)
   - [Reporting tool](#reporting-tool)
   - [File structure explained](#file-structure-explained)
   - [Why contributing](#why-contributing)
@@ -209,15 +212,22 @@ However, it has not been tested yet as both are blocked privately for
 ## How to Contribute
 You can use the following quick links to open the proper domain report.
 
+## Support and comments
+
+### Support
 Please do use our [Support board][support] for any non-Blacklist rules
-questions
+questions.
+
+### Rules
+For any rule based comments, edits or contribution, we only support that
+at https://mypdns.org/my-privacy-dns/porn-records
 
 **NOTE**: When you first start to commit issues, the [Akismet][akismet]
-unfortunately very fast to mark you as a spammer, but don't this
-includes everyone even admin accounts.
+,our antispam system, is unfortunately very fast to mark you as a spammer,
+but don't worry as this is happening for everyone even admin accounts.
 
-When this happens, please add this "`Ping @spirillen, I've got mark as spam`"
-to this [issue](https://mypdns.org/mypdns/support/-/issues/268) and we will
+When this happens, please message this text "`Ping @spirillen, I've got mark as spam`"
+to [issue](https://mypdns.org/mypdns/support/-/issues/268) and we will
 get your account back on track.
 
 | Category              | Commit issue                                                                                        |
