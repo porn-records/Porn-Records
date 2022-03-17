@@ -27,13 +27,14 @@ storing, and verifying the availability of the records.
     - [Safe search enabled](#safe-search-enabled)
   - [How to Contribute](#how-to-contribute)
   - [Support and comments](#support-and-comments)
-    - [Support](#support)
+    - [Common support](#common-support)
     - [Rules](#rules)
   - [Reporting tool](#reporting-tool)
   - [File structure explained](#file-structure-explained)
   - [Why contributing](#why-contributing)
   - [Test result](#test-result)
   - [Conclusion](#conclusion)
+  - [The most common name for porn domain-name](#the-most-common-name-for-porn-domain-name)
     - [Browser history](#browser-history)
   - [Buzz words and keyword](#buzz-words-and-keyword)
   - [Contact](#contact)
@@ -155,9 +156,11 @@ redirected to the [Matrix][matrix] project instead.
 What should be considered as art is content that could be found at
 a museum for arts.
 
+
 ### News- Articles -like
 Content that supports an article based on facts or reporting an accident
 should have a wide range of acceptant for using NSFW content.
+
 
 ### Not to include in black- blocklist
 The following is examples of what [My Privacy DNS](https://mypdns.org/)
@@ -170,6 +173,7 @@ well.
 This kind of new religious and Amish/Mormons/Muslim perception of
 acceptable behaviors or endangerments for which should be "parental"
 blacklisted is falling outside of this project.
+
 
 ## Underage material (CSAM)
 If you find any underage material online and you thinking of committing
@@ -186,6 +190,7 @@ Second, you should report your found to any of the following projects.
 - Arachnid Project at https://projectarachnid.ca/en/
 - Your local (uncorrupted) police authority if there is such thing in
   your country or region.
+
 
 ## DNS zones
 If you are so lucky that you have updated your system to use a DNS
@@ -212,9 +217,10 @@ However, it has not been tested yet as both are blocked privately for
 ## How to Contribute
 You can use the following quick links to open the proper domain report.
 
+
 ## Support and comments
 
-### Support
+### Common support
 Please do use our [Support board][support] for any non-Blacklist rules
 questions.
 
@@ -243,10 +249,12 @@ get your account back on track.
 
 This is where you contribute with new domains matching any of these subfiles.
 
+
 ## Reporting tool
 You can also use our new [MyPDNS Reporter][PornReport], which is both
 a Browser-based add-on and a CLI (Command LIne Interface), for which you
 can choose between as you prefer.
+
 
 ## File structure explained
 
@@ -322,6 +330,11 @@ why it matters you are contributing.
 We can hereby conclude this project have knowledge to 8615 domains, which
 CloudFlare-dns do not know about
 
+## The most common name for porn domain-name
+We have stated to extract the most common used tags within the domainnames
+and published the list hereL https://www.matrix.rocks/
+
+NoteL the url is target for changing later
 
 ### Browser history
 Don't forget to clear your browser history when you have bypassed these
