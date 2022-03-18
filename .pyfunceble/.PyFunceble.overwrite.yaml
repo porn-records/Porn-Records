@@ -24,8 +24,8 @@ cli_testing:
     hierarchical: true
   preload_file: true
   days_between:
-        db_clean: 1
-        db_retest: 1
+    db_clean: 1
+    db_retest: 1
 debug:
   active: false
   level: critical
@@ -43,19 +43,18 @@ user_agent:
   custom: null
   platform: linux
 dns:
-  follow_server_order: false
-  trust_server: false
+  follow_server_order: true
+  trust_server: true
   protocol: UDP
   server:
     - 130.226.161.34
     - 89.233.43.71
     - 185.121.177.177
     - 163.172.168.171
-    - "192.168.1.100:5302"
     - 192.168.1.6
     - 9.9.9.10
     - 149.112.112.10
 collection:
-   preferred_status_origin: recommended
-   push: true
-   url_base: https://collection.dead-hosts.funilrys.com
+  preferred_status_origin: recommended
+  push: true
+  url_base: https://collection.dead-hosts.funilrys.com

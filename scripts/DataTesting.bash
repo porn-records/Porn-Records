@@ -87,7 +87,6 @@ function pyf_basic () {
 		--delete-before "${GIT_DIR}/active_domains/" "${POL_LIBRARY}/"
 	
 	pyfunceble -w 40 \
-		--dns 192.168.1.6 9.9.9.10 \
 		--database-type csv \
 		-f "${DOMAINS}" \
 		"${HOSTS}" \
@@ -108,6 +107,7 @@ function pyf_basic () {
 		"${STRICT_WILDCARD}" \
 		"${STRICT_RPZNSDNAME}"
 
+# --dns 192.168.1.6 9.9.9.10 \
 	cd "$GIT_DIR"
 
 	rsync -avPq "${POL_LIBRARY}/" "${GIT_DIR}/active_domains/"
