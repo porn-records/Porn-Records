@@ -20,7 +20,7 @@ storing, and verifying the availability of the records.
     - [Strict Porn](#strict-porn)
     - [Educational](#educational)
     - [Artistic - Art](#artistic---art)
-    - [News- Articles -like](#news--articles--like)
+    - [News and Articles](#news-and-articles)
     - [Not to include in black- blocklist](#not-to-include-in-black--blocklist)
   - [Underage material (CSAM)](#underage-material-csam)
   - [DNS zones](#dns-zones)
@@ -157,9 +157,10 @@ What should be considered as art is content that could be found at
 a museum for arts.
 
 
-### News- Articles -like
-Content that supports an article based on facts or reporting an accident
-should have a wide range of acceptant for using NSFW content.
+### News and Articles
+News and Articles (-like) content that is an article or reporting an
+accident, based on facts should have a wider range of acceptant for
+usage of NSFW content as long it relate to the article(s).
 
 
 ### Not to include in black- blocklist

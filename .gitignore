@@ -10,6 +10,7 @@ local_scripts/
 active_domains/output/merged_results/**
 dir_structure.json
 ./output/**
+.bash_commit/**
 
 
 # Dev scripts
