@@ -19,7 +19,7 @@ storing, and verifying the availability of the records.
     - [Porn](#porn)
     - [Strict Porn](#strict-porn)
     - [Educational](#educational)
-    - [Artistic - Art](#artistic---art)
+    - [Artistic and Art](#artistic-and-art)
     - [News and Articles](#news-and-articles)
     - [Not to include in black- blocklist](#not-to-include-in-black--blocklist)
   - [Underage material (CSAM)](#underage-material-csam)
@@ -152,7 +152,7 @@ Any requests to block any of that kind of content should probably be
 redirected to the [Matrix][matrix] project instead.
 
 
-### Artistic - Art
+### Artistic and Art
 What should be considered as art is content that could be found at
 a museum for arts.
 
