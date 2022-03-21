@@ -433,3 +433,263 @@ sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2006, "MySQL se
 [SQL: DELETE FROM pyfunceble_continue WHERE pyfunceble_continue.session_id = %(session_id_1)s]
 [parameters: {'session_id_1': '7a86375ad4e0b934c4d2db27'}]
 (Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2022-03-18 17:40:51,042 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py:388@run | PPID9967:pyfunceble_tester_worker_13]:
+Error while running target
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py", line 373, in run
+    result = self.target(consumed)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/tester.py", line 292, in target
+    .query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain.py", line 168, in query_status
+    self.try_to_query_status_from_http_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/base.py", line 900, in try_to_query_status_from_http_status_code
+    lookup_result = self.http_status_code_query_tool.get_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 122, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 337, in get_status_code
+    req = PyFunceble.factory.Requester.get(
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/requester.py", line 213, in wrapper
+    req = getattr(self.session, verb.lower())(*args, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/http.py", line 99, in send
+    kwargs["proxies"] = self.fetch_proxy_from_pattern(parsed_url.hostname)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 177, in fetch_proxy_from_pattern
+    extension = self.extract_extension(subject)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 133, in extract_extension
+    last_point = subject.rindex(".")
+ValueError: substring not found
+[2022-03-18 17:43:09,623 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py:388@run | PPID9976:pyfunceble_tester_worker_20]:
+Error while running target
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py", line 373, in run
+    result = self.target(consumed)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/tester.py", line 292, in target
+    .query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain.py", line 168, in query_status
+    self.try_to_query_status_from_http_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/base.py", line 900, in try_to_query_status_from_http_status_code
+    lookup_result = self.http_status_code_query_tool.get_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 122, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 337, in get_status_code
+    req = PyFunceble.factory.Requester.get(
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/requester.py", line 213, in wrapper
+    req = getattr(self.session, verb.lower())(*args, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/http.py", line 99, in send
+    kwargs["proxies"] = self.fetch_proxy_from_pattern(parsed_url.hostname)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 177, in fetch_proxy_from_pattern
+    extension = self.extract_extension(subject)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 133, in extract_extension
+    last_point = subject.rindex(".")
+ValueError: substring not found
+[2022-03-18 19:28:24,372 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py:388@run | PPID9983:pyfunceble_tester_worker_24]:
+Error while running target
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py", line 373, in run
+    result = self.target(consumed)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/tester.py", line 292, in target
+    .query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain.py", line 168, in query_status
+    self.try_to_query_status_from_http_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/base.py", line 900, in try_to_query_status_from_http_status_code
+    lookup_result = self.http_status_code_query_tool.get_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 122, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 337, in get_status_code
+    req = PyFunceble.factory.Requester.get(
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/requester.py", line 213, in wrapper
+    req = getattr(self.session, verb.lower())(*args, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/http.py", line 99, in send
+    kwargs["proxies"] = self.fetch_proxy_from_pattern(parsed_url.hostname)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 177, in fetch_proxy_from_pattern
+    extension = self.extract_extension(subject)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 133, in extract_extension
+    last_point = subject.rindex(".")
+ValueError: substring not found
+[2022-03-19 15:10:10,044 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py:388@run | PPID9984:pyfunceble_tester_worker_25]:
+Error while running target
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py", line 373, in run
+    result = self.target(consumed)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/tester.py", line 292, in target
+    .query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain.py", line 168, in query_status
+    self.try_to_query_status_from_http_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/base.py", line 900, in try_to_query_status_from_http_status_code
+    lookup_result = self.http_status_code_query_tool.get_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 122, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 337, in get_status_code
+    req = PyFunceble.factory.Requester.get(
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/requester.py", line 213, in wrapper
+    req = getattr(self.session, verb.lower())(*args, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 667, in send
+    history = [resp for resp in gen]
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 667, in <listcomp>
+    history = [resp for resp in gen]
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 237, in resolve_redirects
+    resp = self.send(
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/https.py", line 99, in send
+    kwargs["proxies"] = self.fetch_proxy_from_pattern(parsed_url.hostname)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 172, in fetch_proxy_from_pattern
+    raise TypeError(f"<subject> should be {str}, type(subject) given.")
+TypeError: <subject> should be <class 'str'>, type(subject) given.
+[2022-03-20 20:38:15,561 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py:388@run | PPID9957:pyfunceble_tester_worker_6]:
+Error while running target
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py", line 373, in run
+    result = self.target(consumed)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/tester.py", line 292, in target
+    .query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain.py", line 168, in query_status
+    self.try_to_query_status_from_http_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/base.py", line 900, in try_to_query_status_from_http_status_code
+    lookup_result = self.http_status_code_query_tool.get_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 122, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 337, in get_status_code
+    req = PyFunceble.factory.Requester.get(
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/requester.py", line 213, in wrapper
+    req = getattr(self.session, verb.lower())(*args, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/http.py", line 99, in send
+    kwargs["proxies"] = self.fetch_proxy_from_pattern(parsed_url.hostname)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 177, in fetch_proxy_from_pattern
+    extension = self.extract_extension(subject)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 133, in extract_extension
+    last_point = subject.rindex(".")
+ValueError: substring not found
+[2022-03-21 01:13:13,313 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py:388@run | PPID9974:pyfunceble_tester_worker_19]:
+Error while running target
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/base.py", line 373, in run
+    result = self.target(consumed)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/workers/tester.py", line 292, in target
+    .query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain_and_ip.py", line 109, in query_status
+    result = query_object.query_status()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 157, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/base.py", line 182, in wrapper
+    result = func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/domain.py", line 168, in query_status
+    self.try_to_query_status_from_http_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/checker/availability/base.py", line 900, in try_to_query_status_from_http_status_code
+    lookup_result = self.http_status_code_query_tool.get_status_code()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 122, in wrapper
+    return func(self, *args, **kwargs)  # pylint: disable=not-callable
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/http_status_code.py", line 337, in get_status_code
+    req = PyFunceble.factory.Requester.get(
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/requester.py", line 213, in wrapper
+    req = getattr(self.session, verb.lower())(*args, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 667, in send
+    history = [resp for resp in gen]
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 667, in <listcomp>
+    history = [resp for resp in gen]
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 237, in resolve_redirects
+    resp = self.send(
+  File "/home/joakim/.local/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/http.py", line 99, in send
+    kwargs["proxies"] = self.fetch_proxy_from_pattern(parsed_url.hostname)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 177, in fetch_proxy_from_pattern
+    extension = self.extract_extension(subject)
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/query/requests/adapter/base.py", line 133, in extract_extension
+    last_point = subject.rindex(".")
+ValueError: substring not found
+[2022-03-21 02:01:01,204 | CRITICAL | ../../home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py:1004@start | PPID9834:MainProcess]:
+Fatal error.
+Traceback (most recent call last):
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py", line 990, in start
+    self.stop_and_wait_for_all_manager()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/system/launcher.py", line 927, in stop_and_wait_for_all_manager
+    self.tester_process_manager.wait()
+  File "/home/joakim/.local/lib/python3.10/site-packages/PyFunceble/cli/processes/base.py", line 330, in wait
+    raise worker_error
+ValueError: substring not found
