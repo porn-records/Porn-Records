@@ -89,6 +89,7 @@ function pyf_basic () {
 	pyfunceble -w 40 \
 		--database-type csv \
 		-f "${DOMAINS}" \
+		--dns 192.168.1.6 9.9.9.10 \
 		"${HOSTS}" \
 		"${MOBILE}" \
 		"${RPZIP}" \
