@@ -42,10 +42,13 @@ Another shortcut named /en is added, identical to /translate this.
 
 ## Sources
 The following snippets and issues was used for developing the features
+Newest first.
 
+- https://mypdns.org/infrastructure/mypdns-report/-/issues/61
 - https://mypdns.org/mypdns/support/-/issues/620 (Request for a approval (admin) script)
-- https://mypdns.org/-/snippets/61 (Deleted)
 - https://mypdns.org/-/snippets/62
+- https://mypdns.org/-/snippets/61 (Deleted)
+
 
 ## First issue
 - https://mypdns.org/my-privacy-dns/porn-records/-/issues/136498
