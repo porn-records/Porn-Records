@@ -135,7 +135,7 @@ conda env remove -n pyfunceble
 
 umount "${POL_LIBRARY}/"
 
-git commit -am "Latest availability test with @pyfunceble" && git push
+git commit -am "Latest availability test with @pyfunceble" # && git push
 
 exit ${?}
 
