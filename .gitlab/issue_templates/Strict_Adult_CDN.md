@@ -15,7 +15,13 @@ CDN See [Linked issues](#related-issues) for details
 ### Additional requirements for hosts and Pi-hole
 
 ```css
-www.
+null
+```
+
+```css
++ www
+- www
+www.?
 ```
 
 ## Relevant logs or comments

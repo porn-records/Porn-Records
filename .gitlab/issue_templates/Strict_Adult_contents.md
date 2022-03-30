@@ -15,7 +15,9 @@ domain   CNAME . ; Strict.Adult
 
 ```css
 null
+```
 
+```css
 + www
 - www
 www.?

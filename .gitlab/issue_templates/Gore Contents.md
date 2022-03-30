@@ -12,7 +12,9 @@ domain   CNAME . ; Gore
 
 ```css
 null
+```
 
+```css
 + www
 - www
 www.?

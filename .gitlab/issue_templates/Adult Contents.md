@@ -14,7 +14,9 @@ domain   CNAME . ; Adult
 
 ```css
 null
+```
 
+```css
 + www
 - www
 www.?

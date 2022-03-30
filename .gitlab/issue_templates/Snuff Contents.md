@@ -12,7 +12,12 @@ domain   CNAME . ; Snuff
 ### Additional requirements for hosts and Pi-hole
 
 ```css
+null
+```
 
+```css
++ www
+- www
 www.?
 ```
 
@@ -20,7 +25,7 @@ www.?
 <!-- comments like a specific url to see contents -->
 
 ## Relevant External sources
-<!-- If you found this domain on another issueboard -->
+<!-- If you found this domain on another issue board -->
 
 ## Screenshots
 Not for the faint hearten...
