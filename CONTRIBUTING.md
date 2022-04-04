@@ -93,6 +93,13 @@ Why @spirillen is so picky about the screenshots is due to the time
 available for him to handle this. You should also have read this
 [comment](#issue-comment)
 
+We prefer you upload your fresh screenshot directly to us, as
+hotlinking screenshots is bad in most ways, such as 3rd party tracking
+and other user data collection and tracking cookies. Minimize the number
+of hotlinks used, it's not forbidden as long this won't be abused.
+There are also cases where people simply block all 3rd party contents, 
+they are not able to see any hotlinked contents.
+
 ### New code
 If you feel like adding new code or modifying existing code to make it run
 better, faster, smarter, etc. You will be editing and contributing to the
