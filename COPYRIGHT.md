@@ -25,13 +25,11 @@ The following Project, website, domains are banned (prohibited) from
 using **any** of our work is:
 
 - `https://github.com/Sinfonietta/hostfiles`
-- `https://github.com/funilrys/PyFunceble`
-- `https://github.com/PyFunceble`
+
 
 ## Infringement
 Any known infringement should be reported to this issue:
 [Copyright infringement][infringement]
-
 
 
 [LICENSE]: /LICENSE
